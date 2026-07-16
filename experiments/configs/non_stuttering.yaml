@@ -1,0 +1,4 @@
+feedforward_gain: 0.85
+feedback_gain: 0.30
+learning_phase_runs: 4
+test_phase_runs: 500
