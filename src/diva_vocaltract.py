@@ -772,7 +772,8 @@ class VocalTract(sb.SignalBlock):
 
             art_transp = torch.transpose(art_idx, 0, 1)
 
-            aud[0] = 100 + 50 * art[11, 0]
+            # art[10:13] contains F0, pressure, and voicing, respectively.
+            aud[0] = 100 + 50 * art[10, 0]
             mu = torch.from_numpy(self.fmfit['mu']).to(torch.float64)
             dx = torch.sub(art_transp, mu)
 
@@ -814,15 +815,7 @@ class VocalTract(sb.SignalBlock):
 
     # outputs soundwave associated with sequence of articulatory states
     def diva_synth_sound(self, art):
-
-        fixed_sample_size = True
-        debug_no_rand = True
-
-        if debug_no_rand:
-            test_randn = diva_utils.read_file_parameter('rand_exports.mat', 'test_randn')
-            test_randn_multi = diva_utils.read_file_parameter('rand_exports.mat', 'test_randn_multi')
-            test_rand_single = diva_utils.read_file_parameter('rand_exports.mat', 'test_rand_single')
-
+        """Use MATLAB DIVA's variable periods and fresh noise for each synthesis step."""
         if self.vt is None:
             self.diva_vt()
 
@@ -941,21 +934,13 @@ class VocalTract(sb.SignalBlock):
                     af = np.maximum([k], af)
                     minaf = max(k, minaf)
                     minaf0 = max(k, minaf0)
-                    if debug_no_rand:
-                        rand = test_rand_single
-                        self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
-                    else:
-                        rand = np.random.uniform()
-                        self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
+                    rand = np.random.uniform()
+                    self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
                     synth.pressure = 0
                 else:
                     if self.vt['pressure0'] and not synth.pressure0:
-                        if debug_no_rand:
-                            rand = test_rand_single
-                            self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
-                        else:
-                            rand = np.random.uniform()
-                            self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
+                        rand = np.random.uniform()
+                        self.vt['f0'] = (0.95 + 0.1 * rand) * voices['F0'][opt_voices]
                         synth.pressure = self.vt['pressure']
                         synth.f0 = 1.25 * self.vt['f0']
                         synth.pressure = 1
@@ -964,10 +949,7 @@ class VocalTract(sb.SignalBlock):
                             synth.pressure = synth.pressure / 10
 
                 # compute glottal source
-                if fixed_sample_size:
-                    synth.samplesperperiod = 92
-                else:
-                    synth.samplesperperiod = math.ceil(synth.fs / synth.f0)
+                synth.samplesperperiod = math.ceil(synth.fs / synth.f0)
 
                 pp = [0.6, 0.2 - 0.1 * synth.voicing, 0.25]
 
@@ -994,26 +976,18 @@ class VocalTract(sb.SignalBlock):
                 w = torch.linspace(0, 1, synth.samplesperperiod)
                 w = w.unsqueeze(1)
                 if release > 0:
-                    # test_randn_again = np.random.normal(size=(synth.samplesperperiod, 1))
-                    if debug_no_rand:
-                        u = synth.voicing * 1 * 0.010 * \
-                            (synth.pressure + 20 * synth.pressurebuildup) * synth.glottalsource + (1 - synth.voicing) * \
-                            1 * 0.010 * (synth.pressure + 20 * synth.pressurebuildup) * \
-                            test_randn_multi
-                    else:
-                        u = synth.voicing * 1 * 0.010 * \
-                            (synth.pressure + 20 * synth.pressurebuildup) * synth.glottalsource + (1 - synth.voicing) * \
-                            1 * 0.010 * (synth.pressure + 20 * synth.pressurebuildup) * \
-                            np.random.normal(size=(synth.samplesperperiod, 1))
+                    u = synth.voicing * 1 * 0.010 * \
+                        (synth.pressure + 20 * synth.pressurebuildup) * synth.glottalsource + (1 - synth.voicing) * \
+                        1 * 0.010 * (synth.pressure + 20 * synth.pressurebuildup) * \
+                        np.random.normal(size=(synth.samplesperperiod, 1))
                     v0 = torch.real(torch.fft.ifft2(torch.fft.fft2(u) * synth.filt_closure))
                     numberofperiods = numberofperiods - 1
                     synth.pressure = synth.pressure / 10
                     vnew = v0[:synth.samplesperperiod]
                     t_numel = synth.sample.size()[0]
-                    test_size = (t_numel - 1) * (
-                        torch.tensor([i for i in range(synth.samplesperperiod)], dtype=torch.long))
-                    test_size = torch.ceil(test_size / synth.samplesperperiod)
-                    test_size = test_size.to(torch.long)
+                    # Convert MATLAB's ceil(old_length * (1:N) / N) to zero-based indices.
+                    test_size = torch.arange(1, synth.samplesperperiod + 1, dtype=torch.float64)
+                    test_size = torch.ceil(t_numel * test_size / synth.samplesperperiod).long() - 1
                     v0 = (1 - w) * synth.sample[test_size] + w * vnew
                     synth.sample = vnew
                 else:
@@ -1027,16 +1001,10 @@ class VocalTract(sb.SignalBlock):
                     # u = synth.voicing * u + (1 - synth.voicing) * 0.025 * synth.pressure * \
                     #    np.random.normal(size=(synth.samplesperperiod, 1))
 
-                    if debug_no_rand:
-                        u = 0.25 * synth.pressure * synth.glottalsource * \
-                            (1 + 0.1 * test_randn_multi)
-                        u = synth.voicing * u + (1 - synth.voicing) * 0.025 * synth.pressure * \
-                            test_randn_multi
-                    else:
-                        u = 0.25 * synth.pressure * synth.glottalsource * \
-                            (1 + np.multiply([0.1], np.random.normal(size=(synth.samplesperperiod, 1))))
-                        u = synth.voicing * u + (1 - synth.voicing) * 0.025 * synth.pressure * \
-                            np.random.normal(size=(synth.samplesperperiod, 1))
+                    u = 0.25 * synth.pressure * synth.glottalsource * \
+                        (1 + np.multiply([0.1], np.random.normal(size=(synth.samplesperperiod, 1))))
+                    u = synth.voicing * u + (1 - synth.voicing) * 0.025 * synth.pressure * \
+                        np.random.normal(size=(synth.samplesperperiod, 1))
 
                     if 0 < minaf0 <= k:
                         u = minaf / k * u + (1 - minaf / k) * 0.02 * synth.pressure * \
@@ -1050,10 +1018,8 @@ class VocalTract(sb.SignalBlock):
                     vnew = v[:synth.samplesperperiod]
 
                     t_numel = synth.sample.size()[0]
-                    test_size = (t_numel - 1) * (
-                        torch.tensor([i for i in range(synth.samplesperperiod)], dtype=torch.long))
-                    test_size = torch.ceil(test_size / synth.samplesperperiod)
-                    test_size = test_size.to(torch.long)
+                    test_size = torch.arange(1, synth.samplesperperiod + 1, dtype=torch.float64)
+                    test_size = torch.ceil(t_numel * test_size / synth.samplesperperiod).long() - 1
                     v = (1 - w) * synth.sample[test_size] + w * vnew
 
                     synth.sample = vnew
@@ -1063,20 +1029,13 @@ class VocalTract(sb.SignalBlock):
                 # v0 = torch.tensor(v0, dtype=torch.float64)
                 v = torch.cat((v0, v), 0)
 
-                randn_v = torch.randn(v.size()[0])
-                randn_v = randn_v.unsqueeze(1)
-
-                if debug_no_rand:
-                    v = v + np.multiply([0.0001], test_randn_multi)
-                else:
-                    v = v + np.multiply([0.0001], randn_v)
+                v = v + 0.0001 * np.random.normal(size=tuple(v.size()))
 
                 v = torch.divide((1 - torch.exp(-1 * v)), (1 + torch.exp(-1 * v)))
                 vsz_0 = v.size()[0]
                 start_out_idx = synth.samplesoutput
                 end_out_idx = synth.samplesoutput + vsz_0
-                if end_out_idx > s.size()[0]:
-                    end_out_idx = s.size()[0] - 1
+                end_out_idx = min(end_out_idx, s.size()[0])
                 # put the slice v of samples into the output set s
                 select_size = end_out_idx - start_out_idx
 
@@ -1101,18 +1060,12 @@ class VocalTract(sb.SignalBlock):
                 synth.pressure0 = self.vt['pressure0']
                 alpha = min(1, 0.1 * synth.numberofperiods)
                 beta = 100 / synth.numberofperiods
-                # test_randn = np.random.normal()
-
                 synth.pressure = synth.pressure + alpha * (
                         self.vt['pressure'] * (max(1, 1.5 - self.vt['opening_time'] / beta)) - synth.pressure)
                 alpha = min(1, 0.5 * synth.numberofperiods)
                 rand = (np.random.normal())
-                if debug_no_rand:
-                    synth.f0 = synth.f0 + 2 * math.sqrt(alpha) * test_randn + alpha * (
-                            self.vt['f0'] * max(1, 1.25 - self.vt['opening_time'] / beta) - synth.f0)
-                else:
-                    synth.f0 = synth.f0 + 2 * math.sqrt(alpha) * rand + alpha * (
-                            self.vt['f0'] * max(1, 1.25 - self.vt['opening_time'] / beta) - synth.f0)
+                synth.f0 = synth.f0 + 2 * math.sqrt(alpha) * rand + alpha * (
+                        self.vt['f0'] * max(1, 1.25 - self.vt['opening_time'] / beta) - synth.f0)
 
                 synth.voicing = max(0, min(1, synth.voicing + 0.5 * (self.vt['voicing'] - synth.voicing)))
                 alpha = min(1, 0.1 * synth.numberofperiods)
@@ -1121,7 +1074,7 @@ class VocalTract(sb.SignalBlock):
                 synth.numberofperiods = max(1, numberofperiods)
             else:
                 time += 1
-        return s
+        return s[:math.ceil(synth.fs * ndata * dt)]
 
     # Returns Aud,Som,Outline,af,filt
     def diva_synth(self, art, option):
