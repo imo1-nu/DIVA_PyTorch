@@ -154,7 +154,9 @@ def train(args):
             torch.save(checkpoint, output/'last.tmp')
             (output/'last.tmp').replace(output/'last.pt')
             result = dict(configuration=configuration, last_epoch=epoch, steps=steps,
-                          seconds=seconds, history=history)
+                          seconds=seconds, history=history,
+                          peak_cuda_allocated_bytes=torch.cuda.max_memory_allocated(device) if device.type=='cuda' else None,
+                          peak_cuda_reserved_bytes=torch.cuda.max_memory_reserved(device) if device.type=='cuda' else None)
             (output/'training.json').write_text(json.dumps(result, indent=2)+'\n')
     torch.save(dict(upsampler=model.state_dict(), epoch=args.epochs,
                     configuration=configuration), output/'final.pt')

@@ -69,3 +69,6 @@ tail -n 5 /tmp/torchdiva-diffwave/logs/train-corrected.log
 - 修正後の全492件はZIP内の492個の異なる録音メンバーへ対応し、ファイル重複0。
   正しいNSPの合計61,354,012 bytes、WAVの合計61,346,140 bytes。
   学習/評価で話者ID・録音ID 1と2を共有する。根拠は `results/data_mapping_check.json`。
+- 著者コードの声道幾何計算で `All-NaN axis encountered` のRuntimeWarningが一部の入力に発生した。
+  警告だけでサンプルを除外せず、生成音声が有限かつ非無音であることを全件検査する。
+  数式の追加修正や代替音声への置換は行わない。失敗時はマニフェストへ記録して全体を失敗扱いにする。
