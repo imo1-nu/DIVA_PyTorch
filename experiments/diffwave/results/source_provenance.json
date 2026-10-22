@@ -1,0 +1,27 @@
+{
+  "collected_utc": "2026-10-22T18:14:01.400117+00:00",
+  "git_commit": "b5b3f4eb304d58e07b531163b21c34ac8678504f",
+  "sources_sha256": {
+    "hyperparams.yaml": "8c71371e4e513e8f81b9d896d6c3c0b04170d0547373abb65cf0c6e9c891f084",
+    "speechbrain-train.yaml": "473195ba6f562014b8cb77202c9d3097057700d314680ca4215f9c936e1d7793",
+    "model-card.md": "c27e93b3a3f686863d9b070364f27d943bb51dd1e22556b16c6f87da81b43467",
+    "vendor/model.py": "a2ea98ba44f23ee61605ad508e7185f26bd3ee653bbc08a14fcb8c8ea352c8ba",
+    "vendor/params.py": "f7569a05635f594faadcf392dd36cd81d9a1c394406b2a0bb9d54d6e533c8b15",
+    "assets.py": "e4fcb5160c51748047715c9cf506208d3e0cef76fffee8b918834859aa961de6",
+    "conditions.py": "74cf5ccbfc81b3b5f739f7e95a383ecd5a8d08924dbe862b98e9a994376a6974",
+    "data.py": "98879506f2209660e47a4443a177850a1dd98ae11c0387999c93750dda3a33de",
+    "model.py": "0bde5bdc217c5b16327bd6c1c08ff41e79ced224c7008d9cbc25a8a404cfd822",
+    "train.py": "da284e2852960f26598eda7d3b93d1bb3ab9658b7d14be9f91e2fff69b7547b4",
+    "evaluate.py": "bb06f40b507f06682cb676abd1e592c4beb03f40071eb0f6f7fa510c47b1e58a",
+    "run_study.py": "6459ae1944bf8c885e49c538e7bbb4270591ffc58cb42be1d287bc1ad8a9a697",
+    "collect.py": "ac3eec886d7b03d90b39d7d9a6efb9ee0f332f27c9ea4706ae4c82b313434bb8",
+    "../diva_setup.py": "640a8febbd9ad16cd743414b816a0e4de766ea08ef3be709585d2c0be19750de"
+  },
+  "final_checkpoints_sha256": {
+    "author": "41aca0cf131c23c2886fc21d29a60ad6989ff436591cb20e62450eb370c02d44",
+    "corrected": "058bde5523d434f96bb2ba5c7da78c7fd3f7605aa19591dc6fc069de9342f9da"
+  },
+  "temporary_run_directory": "/tmp/torchdiva-diffwave",
+  "persistent_artifact_directory": "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/torchdiva-diffwave/experiments/diffwave/artifacts",
+  "evaluation_audio_directory": "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/torchdiva-diffwave/experiments/diffwave/artifacts/evaluation/audio"
+}

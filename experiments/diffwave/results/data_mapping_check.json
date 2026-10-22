@@ -1,0 +1,22 @@
+{
+  "files": 492,
+  "train_files": 482,
+  "test_files": 10,
+  "speakers": 52,
+  "recordings": 56,
+  "unique_archive_members": 492,
+  "overlapping_files": [],
+  "overlapping_speakers": [
+    "1",
+    "2"
+  ],
+  "overlapping_recordings": [
+    "1",
+    "2"
+  ],
+  "official_metadata_url": "https://stimmdb.coli.uni-saarland.de/data/voice_data.csv",
+  "official_metadata_sha256": "1f53ea50e3217d318294940158eba09090ecb0ae560c4d705d4a7144c968aee4",
+  "validated_fields": "recording ID, speaker ID, sex, health type, age",
+  "nsp_bytes": 61354012,
+  "wav_bytes": 61346140
+}

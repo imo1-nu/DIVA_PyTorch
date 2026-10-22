@@ -106,3 +106,8 @@ experiments/
 - Scripts change `os.chdir` to `src/` internally so DIVA's `.mat` files are found.
 - CIFS filesystem (`/home/futagami26/mrnas06home/`) does not support symlinks;
   the uv virtual environment lives in `/tmp/diva_venv`.
+
+## TorchDIVA + DiffWave
+
+著者公開版と修正版を比較する追試は [diffwave/README.md](diffwave/README.md) を参照。
+実行記録、固定条件、ソースとデータのSHA、学習・音質評価結果を同ディレクトリに保存する。

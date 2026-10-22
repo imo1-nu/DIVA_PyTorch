@@ -1,0 +1,34 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/tmp/torchdiva-diffwave/venv/bin/python",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "dependencies": {
+    "torch": "2.13.0",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "praat-parselmouth": "0.4.7",
+    "pesq": "0.0.4",
+    "pystoi": "0.4.1",
+    "pysepm": "0.1",
+    "numba": "0.66.0",
+    "pytest": "9.1.1",
+    "scikit-learn": "1.9.0",
+    "ipython": "9.15.0",
+    "matplotlib": "3.11.0",
+    "sounddevice": "0.5.5"
+  },
+  "hardware": {
+    "cpu": "Intel Core Ultra 7 265K (20 CPUs)",
+    "ram": "62 GiB",
+    "gpu": "NVIDIA RTX 5090 32GB"
+  },
+  "bootstrap_note": "Dedicated /tmp/torchdiva-diffwave/venv imports shared audit environment through a .pth; no system packages were changed.",
+  "pysepm_source": "https://github.com/schmiph2/pysepm/archive/7ef88aff2c56201a2d0470aaeb58e77e47a914d2.zip",
+  "torch_version": "2.13.0+cu130",
+  "cuda_runtime": "13.0",
+  "gpu_driver": "595.71.05",
+  "cudnn_version": 92000,
+  "gpu_reported_memory": "32607 MiB"
+}
