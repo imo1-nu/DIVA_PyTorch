@@ -1,0 +1,101 @@
+{
+  "all_12_audio_sources_exist": true,
+  "pcm16_11025_nonzero": true,
+  "pairs": [
+    {
+      "file": "happy_AB_04_ff_only.wav",
+      "a_samples": 6119,
+      "b_samples": 6119,
+      "silence_samples": 5512,
+      "pair_exact": true
+    },
+    {
+      "file": "happy_AB_04_ff_fb.wav",
+      "a_samples": 6119,
+      "b_samples": 6119,
+      "silence_samples": 5512,
+      "pair_exact": true
+    },
+    {
+      "file": "happy_AB_20_ff_only.wav",
+      "a_samples": 6119,
+      "b_samples": 6119,
+      "silence_samples": 5512,
+      "pair_exact": true
+    },
+    {
+      "file": "happy_AB_20_ff_fb.wav",
+      "a_samples": 6119,
+      "b_samples": 6119,
+      "silence_samples": 5512,
+      "pair_exact": true
+    }
+  ],
+  "frozen_measurement_reasons": [
+    {
+      "mode": "fmfit",
+      "file": "frozen_04_ff_fb.npz",
+      "reasons": {
+        "ok": 330,
+        "closure": 3
+      }
+    },
+    {
+      "mode": "fmfit",
+      "file": "frozen_04_ff_only.npz",
+      "reasons": {
+        "ok": 318,
+        "closure": 15
+      }
+    },
+    {
+      "mode": "fmfit",
+      "file": "frozen_20_ff_fb.npz",
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "mode": "fmfit",
+      "file": "frozen_20_ff_only.npz",
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "mode": "transfer_peaks",
+      "file": "frozen_04_ff_fb.npz",
+      "reasons": {
+        "ok": 282,
+        "closure": 51
+      }
+    },
+    {
+      "mode": "transfer_peaks",
+      "file": "frozen_04_ff_only.npz",
+      "reasons": {
+        "ok": 282,
+        "closure": 51
+      }
+    },
+    {
+      "mode": "transfer_peaks",
+      "file": "frozen_20_ff_fb.npz",
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "mode": "transfer_peaks",
+      "file": "frozen_20_ff_only.npz",
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    }
+  ],
+  "seed0_fresh_synth_replay_byte_exact": "happy_transfer_peaks_20_ff_fb.wav"
+}

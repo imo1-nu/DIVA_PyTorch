@@ -1,0 +1,15 @@
+{
+  "resumed_vs_uninterrupted_exact_equal": true,
+  "unequal_tensors": [],
+  "tensors": 112,
+  "epochs": 3,
+  "training_files": 16,
+  "official_svd_mapping_validated": true,
+  "training_input_sha256": "95eee85f0f85cd7e843b232f6ac8155c5c5bb57cd1ad1052260d18044934cdec",
+  "completed_resume_leaves_model_unchanged": true,
+  "training_code_sha256": {
+    "train.py": "da284e2852960f26598eda7d3b93d1bb3ab9658b7d14be9f91e2fff69b7547b4",
+    "model.py": "0bde5bdc217c5b16327bd6c1c08ff41e79ced224c7008d9cbc25a8a404cfd822",
+    "data.py": "98879506f2209660e47a4443a177850a1dd98ae11c0387999c93750dda3a33de"
+  }
+}

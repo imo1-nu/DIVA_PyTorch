@@ -1,0 +1,29 @@
+{
+  "equal_training_settings": {
+    "seed": true,
+    "epochs": true,
+    "learning_rate": true,
+    "batch_size": true,
+    "crop_frames": true,
+    "precision": true,
+    "gradient_clip": true,
+    "memory_format": true,
+    "deterministic_algorithms": true,
+    "cublas_workspace_config": true,
+    "train_files": true,
+    "test_files": true,
+    "pretrained_sha256": true,
+    "code_sha256": true,
+    "architecture": true,
+    "parameters": true,
+    "torch": true,
+    "gpu": true
+  },
+  "paired_files": 492,
+  "all_pair_seeds_equal": true,
+  "all_human_inputs_equal": true,
+  "heldout_file_overlap": [],
+  "author_training_input_sha256": "fc63e847a3b84844bcf039de5dac7c988c6fbc8cfb8cc4ef2a710e413103397a",
+  "corrected_training_input_sha256": "9c87959d472dd8d3df56e8c606c185a0505167be25981d7c487eb7aa03714cd8",
+  "human_equality_scope": "Original SVD WAV checksums; DIVA inputs and length-dependent central crops are condition-specific."
+}

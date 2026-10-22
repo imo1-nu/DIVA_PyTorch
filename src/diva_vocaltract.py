@@ -413,8 +413,11 @@ class VocalTract(sb.SignalBlock):
         Pytorch implementation of the vocal tract model block used in the Matlab DIVA implementation
     """
 
-    def __init__(self):
+    def __init__(self, observation_mode="fmfit"):
         sb.SignalBlock.__init__(self)
+        self.observation_mode = observation_mode
+        self.peak_observer = None
+        self.last_observation = None
         self.vt = None
         self.set_inputs(1)
         self.set_outputs(2)
@@ -739,7 +742,7 @@ class VocalTract(sb.SignalBlock):
         af = None
 
         # Compute vocal tract configuration
-        cuda0 = torch.device('cuda:0')
+        cuda0 = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
         idx = torch.tensor([i for i in range(10)])
         scale_tens = torch.from_numpy(self.vt['Scale']).to(torch.float64)
         scale_tens = scale_tens[:10]
@@ -747,11 +750,11 @@ class VocalTract(sb.SignalBlock):
         avg_tens = torch.from_numpy(self.vt['Average']).to(torch.complex64)
         base_tens = torch.from_numpy(self.vt['Base']).to(torch.complex64)
         base_tens = torch.narrow(base_tens, 1, 0, 10)
-        base_tens = base_tens.to(torch.complex64).cuda()
+        base_tens = base_tens.to(torch.complex64).to(cuda0)
         # base_tens = torch.tensor(base_tens, dtype=torch.complex64, device=cuda0)
-        x = x.to(torch.complex64).cuda()
+        x = x.to(torch.complex64).to(cuda0)
         # x = torch.tensor(x, dtype=torch.complex64, device=cuda0)
-        avg_tens = avg_tens.to(torch.complex64).cuda()
+        avg_tens = avg_tens.to(torch.complex64).to(cuda0)
         # avg_tens = torch.tensor(avg_tens, dtype=torch.complex64, device=cuda0)
         outline = torch.matmul(base_tens, x)
         outline = avg_tens + outline
@@ -1103,7 +1106,7 @@ class VocalTract(sb.SignalBlock):
                 outl_out = []
                 af_out = []
                 d_out = []
-                cuda0 = torch.device('cuda:0')
+                cuda0 = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
                 aud_out = torch.tensor([], dtype=torch.float64)
                 som_out = torch.tensor([], dtype=torch.float64)
                 outl_out = torch.tensor([], dtype=torch.float64, device=cuda0)
@@ -1195,7 +1198,42 @@ class VocalTract(sb.SignalBlock):
             sd.play(self.last_prod.flatten(), 11025)
             sd.wait()
 
+    @property
+    def observation_mode(self):
+        return self._observation_mode
+
+    @observation_mode.setter
+    def observation_mode(self, mode):
+        if mode not in ('fmfit', 'transfer_peaks'):
+            raise ValueError(f"Unknown auditory observation mode: {mode}")
+        self._observation_mode = mode
+
+    def observe(self, raw, step=0):
+        """Actual sensory observation; diva_vocaltract remains the fmfit model."""
+        from diva_transfer_peaks import AuditoryObservation, TransferPeakObserver
+        if not torch.isfinite(raw).all():
+            raise ValueError("Nonfinite raw articulatory command")
+        auditory, somatic = self.vocal_tract_compute(raw, True)
+        values = auditory.clone()
+        valid = torch.ones_like(values, dtype=torch.bool)
+        reasons = ('ok',) * 4
+        peaks = None
+        if self.observation_mode == 'transfer_peaks':
+            if self.peak_observer is None:
+                self.peak_observer = TransferPeakObserver(VocalTract())
+            peaks = self.peak_observer.measure(raw, self.params.Input.Scale)
+            valid[1:, 0] = torch.from_numpy(peaks.valid)
+            # Zero is a transport placeholder only; the mask removes its error.
+            scale = np.asarray(self.params.Output.AuditoryArgs.Scale).reshape(-1)[1:]
+            values[1:, 0] = torch.from_numpy(np.where(peaks.valid, peaks.hz / scale, 0.))
+            reasons = ('ok',) + peaks.reasons
+        observation = AuditoryObservation(values, valid, reasons, step, auditory.clone(), peaks)
+        self.last_observation = observation
+        return observation, somatic
+
     def reset(self):
+        self.t = 0
+        self.last_observation = None
         self.OutputPorts[0] = torch.zeros(self.OutputPortDimensions[0], dtype=torch.float64)
         self.OutputPorts[1] = torch.zeros(self.OutputPortDimensions[1], dtype=torch.float64)
 
@@ -1203,7 +1241,8 @@ class VocalTract(sb.SignalBlock):
         self.t = self.t + 1
         input1 = self.InputPorts[0]
         rem = ~(self.t % 2)
-        y, z = self.vocal_tract_compute(input1, rem)
+        observation, z = self.observe(input1, self.t - 1)
+        y = observation.values
         self.OutputPorts[0] = y
         if self.OutputPortDimensions[0] != y.size():
             self.OutputPortDimensions[0] = y.size()

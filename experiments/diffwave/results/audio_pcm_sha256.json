@@ -1,0 +1,4922 @@
+{
+  "corrected/1_n_w_20_1_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "23dfd841ab927e523434f7280bea072c7341fa61a696aac595fa902c38e694ca"
+  },
+  "corrected/1_n_w_20_1_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "029f432bd9f92e2486f88e211600e49f845fd11164ca672c29cd307c1d38712a"
+  },
+  "author/1_n_w_20_1_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d9dc21d8816a942e739fe2433ef17575889895bb4282b5b9d53b1d5d931f85a1"
+  },
+  "author/1_n_w_20_1_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7098a9b63a9938458e7a1529104bcdc29f667e917f3d339da6577766d972478e"
+  },
+  "author/1_n_w_20_1_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2e9716f0e40d662df649f33b6347aa3335e58075ace1064c01a51c906c092153"
+  },
+  "corrected/1_n_w_20_1_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "867ea47859e998c7d30d279a0895ab153f7595363d2424aadbe8aece4d50e701"
+  },
+  "corrected/2_n_w_22_2_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f89cd4b4613a905331e438c6bab792f45f5a2541cd954fd013bdd8d16b565d62"
+  },
+  "corrected/1_n_w_20_1_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "452f4b5e14ee2d866ba386c0a7bd8935458664a83c0bcab7a48f5d9b6ae8fd8f"
+  },
+  "author/1_n_w_20_1_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cbecbc0a9855615da6442713d46cc2d3f571935a6b7325218837b84e83bf74f9"
+  },
+  "author/1_n_w_20_1_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "75929a0150038644cff0044e18869e6cc1bb456bb6cb8cb5db3c55c0291efa16"
+  },
+  "author/1_n_w_20_1_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6e84ff40f2b4936d13dced3abe15a77c526d940dee95afbcdf3e767f6267ed52"
+  },
+  "corrected/2_n_w_22_2_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4f8dcc7f899d43ff919f065fe9fb8750536d42ba70137fc05d6a89e0c84cc1d6"
+  },
+  "author/1_n_w_20_1_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a4f7f5f002a622c13deca2c2a50d2f0bf73c26d34cd9b74c7f50476194111a9c"
+  },
+  "corrected/1_n_w_20_1_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "39fb1eea89704c8ce9c85b09bfec9928a5948183b55a50bcdea22b0ddd10b7f7"
+  },
+  "author/2_n_w_22_2_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "58c6512db52c25d1f3053caeb9ffa2265a2435f3f0d66cf25af3e93e6df47c58"
+  },
+  "author/2_n_w_22_2_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6f5673c1a290ebd8bb3ce064a3d5f79466fbcfd6bac09a8e33d33ae9d4d43a64"
+  },
+  "corrected/1_n_w_20_1_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "27a0e09385950cfa4d13c7f7e54b5e019958f372e9dc1170300a7b54a71eb3be"
+  },
+  "corrected/1_n_w_20_1_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "555adbd676ef0fdaa3e8e9211912e5beda43ee9db6274d420a7d6fd64062db72"
+  },
+  "author/2_n_w_22_2_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b5c41a520bdf19f0b2e66ed00adce905a49bc8cfa99638de2572499d13c43971"
+  },
+  "corrected/2_n_w_22_2_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ff77798cf403a7bd990d3722a46af7de25df1b441c140b2fd69f75e827d3bba4"
+  },
+  "author/10_n_w_19_8_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "095507d253017240c4771feab401c1686fd7dded0c52e2e152a6031391c1dd24"
+  },
+  "corrected/10_n_w_19_8_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dbbf54663e3098275ea3f8148b358d04e49fb5d4ca2efac816e21e8c74ff061d"
+  },
+  "author/10_n_w_19_8_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a100561decdf21d1e79c2a3b66d85ba5d7067f1a8df170617a4630938648b49a"
+  },
+  "corrected/10_n_w_19_8_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "77862c0b8d9430a9482693345465e66e22c8ad2e0788238eb0e86c44c47c627d"
+  },
+  "corrected/10_n_w_19_8_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ee159ce3e31fe4910ef99af8453cbb922c767562c4a08786462736a40cc823be"
+  },
+  "author/10_n_w_19_8_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c03195898bbbaa154f9070c1d21044f77825671f06cacf9a90b26444e182f34e"
+  },
+  "corrected/10_n_w_19_8_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1f407c504f202497f5208e3cf083b9e7c0a95dcea00b7326c9640f1c9e405c35"
+  },
+  "corrected/10_n_w_19_8_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3951a8c4387006dea82320bbf9f6b58be30867de6433d1ad9854a01df68d58b3"
+  },
+  "author/10_n_w_19_8_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f2ade1e6fec95a5d6b022cfdd872c7eb3e0b3da3e9b9324e786c04e061b6faf0"
+  },
+  "corrected/10_n_w_19_8_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dc92dfb86fb38f29fc9b12aa7cd9f79e3212b4b56fb3c7c2a23496c2d86ea066"
+  },
+  "author/10_n_w_19_8_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "86beb45301afb95657337ad89a0e5ac37c6314e9f80d3ea0c242d49826a9f1ac"
+  },
+  "author/10_n_w_19_8_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "28b355e58b1084e5e2e6865dfedac0be0fbef6d38f57371e715f4b51dd1d5129"
+  },
+  "corrected/10_n_w_19_8_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5dc24f04ba1894c6328bab99cb98de4e7c10f2da220c74f632e097e7b4419e29"
+  },
+  "author/10_n_w_19_8_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "caac1cdb2f0d5c140f267dcd3da05e91bdbdae0cfe8b65386712187763702d21"
+  },
+  "corrected/10_n_w_19_8_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c3cd546536e075239c1821cfd59c4cd5a8426bf0993a41f7eb3840534041a2f8"
+  },
+  "author/10_n_w_19_8_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b9aadc869123963207f0eef630734540389d12d73749795cae08f9322d5a34ce"
+  },
+  "author/1135_n_w_20_2043_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c4a5750476043469cbc6ff3556f9ed8899b8d30593060079f3265b91e63529ba"
+  },
+  "corrected/10_n_w_19_8_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c873a77c2073e81e2132d95281212b405d3d215cbaf9e6f7e6220ba4ccf4263f"
+  },
+  "author/10_n_w_19_8_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c1f0934f3d6fef3cf0b540724118f7376156d85ae50f24faa36b5ff41cd4a099"
+  },
+  "corrected/1135_n_w_20_2043_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "da1cfbc57e0c65de4a2be5fa866eff62e06d002c75277fd16093785140cbfa05"
+  },
+  "corrected/1135_n_w_20_2043_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0c1de1308f52baa390dfcd16078318afe52495bc496b46fb8e9dcb450a41df77"
+  },
+  "author/1135_n_w_20_2043_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3e05835d0ef75133b3fd143878d0dc47d978c3266d057d1be0cec687b67665ea"
+  },
+  "corrected/1135_n_w_20_2043_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1c778090784166f570ec5e61571f451d0014720c331b2487a87133fb8dc01e43"
+  },
+  "author/1135_n_w_20_2043_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3e05835d0ef75133b3fd143878d0dc47d978c3266d057d1be0cec687b67665ea"
+  },
+  "corrected/1135_n_w_20_2043_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "59227428ce81fc7dd67acf0179c4550aa2e63ce2a07684566d97b791de42f882"
+  },
+  "corrected/1135_n_w_20_2043_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "04f69f341b3342166eb24ffd78fb2def75f19e5718a20b83bd3aa291b6698c8c"
+  },
+  "author/1135_n_w_20_2043_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bc34a39a98cc8673333d6539a36b8b2c8856ab79321feb3848c57939dade4686"
+  },
+  "author/1135_n_w_20_2043_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6681ca6fd0310408fbcb43ae0646cefc78c9ec88870e507cb45deff4a63e10a3"
+  },
+  "corrected/1135_n_w_20_2043_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3541758c401019c80205a12d9a53627c153d542443709062b61723dcc01159fc"
+  },
+  "corrected/1135_n_w_20_2043_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6c3844b3a364a946c16a7421551f2cce94dd5a427de3128bbf15991735882de7"
+  },
+  "author/1135_n_w_20_2043_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3cfbc5ea713bee0da8f61ee3de557d7f56f89d4a5a610803dd2c4648fc7e9ae7"
+  },
+  "corrected/1135_n_w_20_2043_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ef736c8dc0395f6076c1ec27de783f87f1bbde868ee8a5f496a5606c0c61b878"
+  },
+  "author/1135_n_w_20_2043_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9c4d66a64520b096d7495f2ba4102460660b893d51bd0b263a35a4494c7cc6bd"
+  },
+  "author/1135_n_w_20_2043_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "26e6e1914b598150f8fb5ae7e815ecb6c8136d693a216fa489e9f9b687c9c437"
+  },
+  "author/1135_n_w_20_2043_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9ccbed5dac2b9e157161bc9cf8faf846dfe66c6d3af406584bb7ff1737c6c6cb"
+  },
+  "corrected/1135_n_w_20_2043_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "313e72b75592822a15c93dceab53ff03fbedea3531b294dde5653768ac13389c"
+  },
+  "author/11_n_m_25_9_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7c904c51343b195d89cff2961efb347d38078b7b9863f135e0f010134470831a"
+  },
+  "author/11_n_m_25_9_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7c904c51343b195d89cff2961efb347d38078b7b9863f135e0f010134470831a"
+  },
+  "corrected/11_n_m_25_9_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "63b125873ae6ca3ad0909f4a0855ad241e20b3e98e7dd87ac74b9d409181dcd3"
+  },
+  "author/11_n_m_25_9_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "aaec8f3f384f96768ac757f166d0680cafafe8a5277f16c67685e1230674d9a1"
+  },
+  "corrected/11_n_m_25_9_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "90fc1010b0731a44617c4c12f3812179ddf9f29943362d55d9e6a0d45bb0aedb"
+  },
+  "author/11_n_m_25_9_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b6b2717d370fe5689a725af3e30d8ca9c66b90ff404bbaddc498197e307af3b9"
+  },
+  "author/11_n_m_25_9_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "382355f5eb2fd599924cacb1f0d753f440888a7bb8a52977294ece782c37dec3"
+  },
+  "corrected/11_n_m_25_9_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dc49cf9a86f8d5afde4d4e8efc9ee42de9d13f2ab8535c1787d0edac694cf54a"
+  },
+  "corrected/11_n_m_25_9_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "983da7e5cd8601871af10dcde6230f9754142f18117f3858b569f19cecd30ba8"
+  },
+  "corrected/11_n_m_25_9_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "21548d4608dcdb9541a5f7c2cc17cee002432f7d024b2ba5848564e904e33a63"
+  },
+  "corrected/11_n_m_25_9_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d38897d46cd4968cd497e29abdd7ddf8cf5febe9a03f08f7641136a04af06332"
+  },
+  "corrected/11_n_m_25_9_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ac23993a2cebfcc807ae6dd2993e1dab8c5eaffc9549ec64a2122901392a3eae"
+  },
+  "author/11_n_m_25_9_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a11dec12902f3f9a1334d0f718585c61c03d21450f9d89f7b6c76bf406059b88"
+  },
+  "corrected/11_n_m_25_9_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "90de02c6f82d57c00b0c1a01f11a1cc9517a6f2314f525c2dad879e5b7c39cc7"
+  },
+  "author/11_n_m_25_9_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "db7af3c2a271c1ae2bdfae83bffa0add5dda5ef4608aac5e48e15533bc94c43d"
+  },
+  "corrected/12_n_w_22_10_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0898d070a13431500c60f5370d9d3a44dbfd90523a6ee7a5cae7b253ae037a38"
+  },
+  "author/11_n_m_25_9_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "96bec8d4fc5b9a4a0548b92a27241e32781ae402b68944a84902214bef869352"
+  },
+  "author/11_n_m_25_9_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fb4b3c7c2ed8f39983e7ddd90cb740a7351eec60fe8bb288aa1e4a01a5ee0282"
+  },
+  "corrected/11_n_m_25_9_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1eb4cf5c3ca1655a4215afec5e1c9d22e8e5085870bbba726bd37a863c47cebd"
+  },
+  "author/12_n_w_22_10_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cd445f75ffaaf0764fe703e705623066f429d438623428b527847302005ec0ab"
+  },
+  "author/12_n_w_22_10_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0f93cdb5369ebb90a43b5e27d4b253d87c09658fa7065b93f600f628c330972c"
+  },
+  "corrected/12_n_w_22_10_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "45990c6f7b071accd846fa3a60475554c918c5bbb2a7b85ebd0d14d484467644"
+  },
+  "corrected/12_n_w_22_10_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "25fa9a4a82c6ce01996b74084e3c78ec31047b084f7558e04bb7cb40db4cda1e"
+  },
+  "corrected/12_n_w_22_10_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b85a035ae012e3c32f44012adcee60c3aa543227794fe9f8fe51e88c4b0ae700"
+  },
+  "author/12_n_w_22_10_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "836489492c921e2d5c4b723dd4edd1f15c064fa66f38d80e2a141a5223fbd25c"
+  },
+  "author/12_n_w_22_10_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8867cf9785e0101b6b714841ed9e7808dc3951c74ab9a45117d39cdf5b0b32b7"
+  },
+  "author/12_n_w_22_10_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c2cfafdcbf6170353b5a869fa6a765fd57856c6c00e8154cb7c3a5990c84bbda"
+  },
+  "corrected/12_n_w_22_10_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ebdd431c82dd52d0d450dae5c254c51ecdacb18caded05ac6e66a15bd8386dc2"
+  },
+  "corrected/12_n_w_22_10_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a0ba14052e2d8aac272161f9574489647f67c6a906d09ff50931de0d0ba072e4"
+  },
+  "author/12_n_w_22_10_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "083378a6c1eafd7fbc5c6a30938a873ad0a5da92999f17b448f4e17f7dbf2742"
+  },
+  "author/12_n_w_22_10_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bac18bdc1f138738acb95f15915a962cfe44fe400e7e365fdd386633c14343fa"
+  },
+  "author/12_n_w_22_10_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a6df6987be04ab732da361ae472f2cf7ed7cd383e01aee46c202582c44ee333c"
+  },
+  "author/12_n_w_22_10_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "86deb3902ea0b50366c09df65b70c56f68fb41c499a36be1afda186332e9f77d"
+  },
+  "corrected/12_n_w_22_10_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "703df48e0f0f8ddb29826f4a2248d62222753598ccd0dd171e5fb4a420435b83"
+  },
+  "corrected/12_n_w_22_10_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2c536635e6e9d5af806ee0970d1ff819779e35381f5040df03d02086b31e48bc"
+  },
+  "corrected/12_n_w_22_10_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9751efb6954fe8c2868a122d666f12b147070cdaded6685aad6e0f6c02e7669d"
+  },
+  "author/12_n_w_26_2200_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d3bd4e7fa8b3f8d35f06e80f2523d941b19afe5c3eacfe6acd910abb8b006322"
+  },
+  "corrected/12_n_w_26_2200_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a30b6f7787b1c6463944f91aaa0cfeb51cd9aee939d1e001dd4b327f5d63da38"
+  },
+  "corrected/12_n_w_26_2200_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0a7787cb1d63d3e0d23083f17c5eed978063c589469637ed9b3a51aa180aecb4"
+  },
+  "author/12_n_w_26_2200_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "49a28d9a4b55c2b71ca03b210ff68b57eef962d8b312362be4a925c07dca6bb9"
+  },
+  "author/12_n_w_26_2200_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "91005042827599728f316e99ca9a814f4eb6fdff303e86088b9c3d18e29fe490"
+  },
+  "corrected/12_n_w_26_2200_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8c2118850fedabc820e7b69e71f8641f7b2c7c92307feee71ba95a9cad289455"
+  },
+  "corrected/12_n_w_26_2200_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "18d59d3eee5bdb7fc29e5d44841ab174f1d80a1fbd72890d154cfc7d4db74013"
+  },
+  "corrected/12_n_w_26_2200_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "24ca03ec65b60db65e751e87de6ff727da8ae5bcd97d77b83161ef77c189decb"
+  },
+  "author/12_n_w_26_2200_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5d2f6b06b763062976b8c8b12021035eba54396b089eb5344bc4fd139735d3a7"
+  },
+  "author/12_n_w_26_2200_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3450a6f86c60f6f575b2619efb30ecab1111eb3f2a145d0574b7fe0fd413597b"
+  },
+  "author/12_n_w_26_2200_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2087e19da166e814ade069219ec015c16fbc15474335c553d5d75ea4a878aa92"
+  },
+  "author/12_n_w_26_2200_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "81766c634349feec5df1a7f1d94d1d63b0417d0cc42b6cb9281c1c28f4d3ecc9"
+  },
+  "corrected/12_n_w_26_2200_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "033804cb2877a403b66102c1273128329cc88c333f4bc46c83330610d5e7ca32"
+  },
+  "author/12_n_w_26_2200_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7d016990093b325f67c1b8deb71895eeb896a9c84dceae2076711a2a304f7270"
+  },
+  "author/12_n_w_26_2200_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4dcc060ce5c8900774f85388f1b108fd2e8e6781b9691547bae8819a64599fc0"
+  },
+  "corrected/12_n_w_26_2200_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c8087aab242afc1f59576774bbd604eaee9388c2e9acd31e28aab678ba59620b"
+  },
+  "corrected/12_n_w_26_2200_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d06010fb56c435f165eebc1a20b730f12600416c04caf2de6662b94a9df0a520"
+  },
+  "corrected/13_n_m_23_11_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1bc3d00c52a5f45a60d37a6f22ee9865de5aadbe1352b891accacb755c8a1234"
+  },
+  "author/13_n_m_23_11_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "58945eded97fd2c937a0fc023be005ae459d155b51ab28032305afb6dabd10dd"
+  },
+  "corrected/12_n_w_26_2200_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c4d92a666c137202b0aa55255afc28f6c89640ad140004335ed1c0e5de55ae65"
+  },
+  "corrected/13_n_m_23_11_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4f523804cfa8151ac278e3a6575595926a0259b4ebb597313ac26b0ac5fdf348"
+  },
+  "corrected/13_n_m_23_11_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d1a2134e5bc8138d737c8fd4e11bc9af2cdd0a2569375a39387a5ae8ac0434dc"
+  },
+  "author/13_n_m_23_11_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4037ba71e7ac2718fc1fa0a02f2a5b3eef565d33fef8c2c50a21d46469285de4"
+  },
+  "author/13_n_m_23_11_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c788332e7939b3a9b0f1172db5e2afc0cbb1dc6f172672e5a412631a73f48603"
+  },
+  "author/13_n_m_23_11_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2b8ce83a535f141c4037c1b71c8a97aa83cb06c5995e6c0325e69ffbeaacc53e"
+  },
+  "corrected/13_n_m_23_11_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "064f7505ab0b0ccc001e56defa19a0efe8f4bfcf94dcef11af38ee0dd3892d3b"
+  },
+  "author/13_n_m_23_11_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f51e4c56823dbe5297d4902541e656d1cf2efbfadbc1fafe11926e015a365eca"
+  },
+  "author/13_n_m_23_11_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4b456ecb55061a2cc091f77091bbabb6f3e00dc7f88991ac8b63cae521e1c445"
+  },
+  "corrected/13_n_m_23_11_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "839a69633ab625d6a85ceee13cce6bb44f143c9b27a2a08612f0fc24204d1843"
+  },
+  "author/13_n_m_23_11_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0569e7ab18c763a76837d827aaaeb2252f7528b84a10e0bb654e4322a9075f80"
+  },
+  "corrected/13_n_m_23_11_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0e3932c85e3bc289959b3f69b8c34bebc1c820fb3bd4591bd56027d5757a065f"
+  },
+  "author/13_n_m_23_11_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1e3fd585a21f32358e0d6acb6579d9f04c0b86e26aba69f5cac5ffc773889077"
+  },
+  "corrected/13_n_m_23_11_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9bad0d4ea43dc554a8b46d52c126844924d0c23bdb1c063fdef20f3f1a1e94f8"
+  },
+  "corrected/13_n_m_23_11_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bb76820b68dcd4b22330512cfb5af01a54f67ff9c84ef15ec20defa959282e72"
+  },
+  "corrected/14_n_w_22_12_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "024364473a101f8c8c67e63a13962e07603168ee5f7502609c2c31c59baf3fff"
+  },
+  "author/14_n_w_22_12_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "eff3e593fc03353843d660bb788cde850b87adabe859d10c5f5ba93acacb2577"
+  },
+  "author/14_n_w_22_12_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "17bf399a8adf317cfffcfaceab9142da2fa949e11bef061b18e77c8f48347682"
+  },
+  "corrected/14_n_w_22_12_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2f727c69799868e7619aa73a44f5c3446a3986c0608d1aac3870db36a30d063f"
+  },
+  "author/14_n_w_22_12_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "17bf399a8adf317cfffcfaceab9142da2fa949e11bef061b18e77c8f48347682"
+  },
+  "author/14_n_w_22_12_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "03b75987e9b81e2a7413003b3a869aa1c0935751489b2159acec926344961f15"
+  },
+  "corrected/14_n_w_22_12_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a8d859230fdc120d8c6877a966706c651dfa8fbf785d88e06d0dcdee0b639656"
+  },
+  "author/14_n_w_22_12_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "307adf69db80b8db1457787021a1b3539e970370fd3aa0524008bdc60572c977"
+  },
+  "corrected/14_n_w_22_12_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "84af1b06bb1571fc7df7049d4df36f70daade1876212d305a7fce6d9b3026b4a"
+  },
+  "corrected/14_n_w_22_12_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "67cb421592a8dab18326ce66c332f70ac24d218d93dd7c7465a82e557f915b1b"
+  },
+  "corrected/14_n_w_22_12_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2ee602505b9f6171c35c9617958dc8ded2e041c6753253fd070aa0104908d245"
+  },
+  "corrected/14_n_w_22_12_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "eff95494c3e2535effb49158809ca7476779911125b41641952b89f4d3faa500"
+  },
+  "author/15_n_w_21_13_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8c609b37d67275429a9b53b3018720bb46b1981d94e8e72d6e344ffe8da54816"
+  },
+  "corrected/14_n_w_22_12_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1242086963b647baf5b2f907a2a9982ff29b8f930d1e34c312f41403c45528fc"
+  },
+  "author/14_n_w_22_12_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4b838ad362351071396a3a3a86059fb44ffd6d46de1a366a88d7fc92a1441e2e"
+  },
+  "author/14_n_w_22_12_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d4fa49877ecf947f212581b10017532db36b496ee14eca7d44369cb4f12a612a"
+  },
+  "corrected/15_n_w_21_13_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a139ce64462f2351ff85655e71a9554dd4228369ea958b00822eaf3099842894"
+  },
+  "corrected/15_n_w_21_13_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7b579c1488f454d41009e31d075adb04b3f6c6b4a9c8fe2219d8e669ff1d7a14"
+  },
+  "author/14_n_w_22_12_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "358346740789e2443000ca2a44212763ed4036338f3c7c8110e4ea34649748fe"
+  },
+  "corrected/15_n_w_21_13_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "08ec2ea4d0e2789c09d2184b1181080e65794c7bc7f4c719936fc7d2299bcc35"
+  },
+  "author/15_n_w_21_13_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fedd753374a361f7d7fbb0fda057c42ae6f008c72dce35b9f815511efcd82675"
+  },
+  "author/15_n_w_21_13_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "31d6b5d4899622888bbda4b31cea57541cc0e4e449d1122660604e2d5dbcfb0b"
+  },
+  "corrected/15_n_w_21_13_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f530cac1b4d6e4baf78d66e4d6d5153b287af82c6bac6e99510f65361f6e71dc"
+  },
+  "corrected/15_n_w_21_13_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8b94d18c5f396ffeee3c40b5b8d0ec0d6bc9fd2284dbba284b06cc15333ac82e"
+  },
+  "author/15_n_w_21_13_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "323ea31f1d1ddfed17e1960e3eb754f2fb42534311b1bfcee6c1cb797cfb87f1"
+  },
+  "corrected/15_n_w_21_13_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ca3efbb36325aa7e6056b06b4378e9cf1fca076c7f03a1a90201d3bf9d489ad5"
+  },
+  "author/15_n_w_21_13_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "64f8be3a7b8ee4579005c9f692cea9ea7d4504fe1ae0f6914102bfc1ed0538f5"
+  },
+  "author/15_n_w_21_13_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "07f0e34deb8554ca314e0e1007bcbf8bebcaf532ed817f4f069bbe8b9dcad297"
+  },
+  "corrected/15_n_w_21_13_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f4681e9f215c632ceced8040297fda400d9862f32b1617d53efba55c45584c2e"
+  },
+  "author/15_n_w_21_13_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ed58d98aee6170b8a59d6dd59817b61636186e71fe9e8928d3769f55e9fa6555"
+  },
+  "author/15_n_w_21_13_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b8ace711a56e78a8b3bb6257288e4f53bbfb86f9844cb160a64ab87a5fa70cef"
+  },
+  "author/15_n_w_21_13_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "088e1cc31bad3d3d5689ae7660ac8a750dafc3ffa76b2d4307df1064b0bc6093"
+  },
+  "corrected/16_n_w_20_14_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6227986a2114347d740a5adb35c6a5a864cbdcd6e20387798dc3332eda03accc"
+  },
+  "author/16_n_w_20_14_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "734c4f48994e2cc9ea36ea835619f440eb87564087ce5239c306c2fa4da00446"
+  },
+  "corrected/15_n_w_21_13_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "148ce7fc088d312e91e784efd1bd1ed151596f8fb56d8ec1b3dee4ae85558784"
+  },
+  "corrected/15_n_w_21_13_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c10cd75924ae25265b1e941f310d778b979359f9c9bbe46808002960938895d9"
+  },
+  "author/16_n_w_20_14_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d23812fb7dfb43d581afd381b9bae54d8d92002c1363c74fb8136e8f01a0f26b"
+  },
+  "corrected/16_n_w_20_14_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bc3ba753b36fb0f09ea35cd84b061facbc04b9b43388022444c10a8d0f3c33fe"
+  },
+  "author/16_n_w_20_14_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0c95dc1bcb3fa7db98d72ad8b47c8513353de30efa1978e84366dd3950bf2482"
+  },
+  "corrected/16_n_w_20_14_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a34b8dbf722b980dd76507d4b6eb03c10526ab2d79a955036d066429490f10a1"
+  },
+  "author/16_n_w_20_14_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7ff1492dc1e83c9c7acee1d84ee316b57b509597e3f95d3836bdc2f0e94e3fa3"
+  },
+  "corrected/16_n_w_20_14_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e18dc18bc0c712728e7cbd5ff347bee868ce573a5f14a1eefae1a4a2d6eff3a0"
+  },
+  "author/16_n_w_20_14_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b982b968714ddc1cbea96745f3e715ae2ed5779db3162f314e57b925b8f47ab4"
+  },
+  "corrected/16_n_w_20_14_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "822ca831e261ac8f9858f6d406b26d0df1d1ad8a1404c845e0b9e81b0a632847"
+  },
+  "corrected/16_n_w_20_14_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "80894821cf107f8fc19524214b8db54294bdfeac266498929287263c662724e4"
+  },
+  "author/16_n_w_20_14_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f01a006d62ac7a662286a5e02862d3f0f632317fc0e0cff26fbdd3557c1bed7d"
+  },
+  "corrected/16_n_w_20_14_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "51f3c4b00f8ebf92c2877f83d311ad7f5035c67ed3309af560321d9cdd3d710b"
+  },
+  "corrected/16_n_w_20_14_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5814dffb0c0cc7ef2157ffdaa8b2083729d73478ebf35334262f226846378e70"
+  },
+  "author/16_n_w_20_14_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a1df5118edaec7e6ec8aa9fc862fb23b1e6a0f3bc8a8d4c837fdff9a6c6befa9"
+  },
+  "author/16_n_w_20_14_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "aa6d4fa27357b088edbafd2f328e1e003747393411763eb348962c4491ae1b72"
+  },
+  "corrected/16_n_w_20_14_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3a75733c96fab4b5261ab18721d4af7180d88957ae77cb6e3fc0524c094bbaa8"
+  },
+  "corrected/17_n_m_24_15_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "beb84b93f46a302bfb7f4a4c34ba076b5406c366bb146063b1ccb8d0d093f835"
+  },
+  "author/16_n_w_20_14_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d23812fb7dfb43d581afd381b9bae54d8d92002c1363c74fb8136e8f01a0f26b"
+  },
+  "author/17_n_m_24_15_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d9a62646874b90e9a7c954c9887c49f265aab7e3c6dc468c71568947f3296ed7"
+  },
+  "author/17_n_m_24_15_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d5d246a9cabb40974cb1c28adadf9cb86e87aa1e2e0560f90868003928e6b594"
+  },
+  "corrected/17_n_m_24_15_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9aff528a7091d117c1261a7e2820fed4d2abc6f4057557d48645be9b981a9f28"
+  },
+  "author/17_n_m_24_15_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f0e0c4d63e4b16a73b609faa611e81593dd0ec0be953ad125694d5a1b6f77c76"
+  },
+  "corrected/17_n_m_24_15_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c21879ff86f1c3202311196ae31944fa1db0641190c4b486b2873358c2c5df23"
+  },
+  "author/17_n_m_24_15_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4f0e68351549e89a1dd2673b5204fedc237710cc66d98fad569ecbb6c37e8dab"
+  },
+  "corrected/17_n_m_24_15_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7a99518efaa74cfe455a99542c0b6a09ffcd38361207954c275ab4d24f90cec7"
+  },
+  "corrected/17_n_m_24_15_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "57bf8ef21a525af1c01e2836f951e8f9120ae72d26d97b396581001fc1b054c0"
+  },
+  "author/17_n_m_24_15_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c9fc36c607c860779f4ace2bcc97e3be39abc6602315d37d29002ff6063ee113"
+  },
+  "corrected/17_n_m_24_15_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e2d3f88e4b5b23ef66d1550b7e93be63b53dd6c0bbad4a244c2111f720ff8b65"
+  },
+  "author/17_n_m_24_15_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "59194d566e1e0b94cf53e05ab16a0315a51dd687f7fb53c4354b82200b9f2bd6"
+  },
+  "corrected/17_n_m_24_15_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "efed65d8d784bf58f174e5c6f74f21368f61a719588982139ad2475bb9e66d55"
+  },
+  "author/18_n_w_19_16_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9e3b7ae882114922e6c84850970468297226b1f8397180ed40eda5f78bb3a5a0"
+  },
+  "corrected/18_n_w_19_16_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "159a49e435f4573ecc5d99ecad3bd2bc1b35e3e021c0661b6f8cf7636da24834"
+  },
+  "author/17_n_m_24_15_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cae0c5d7bfd5b07654a9ef227b0f74bcb0db79728622ed808239081acc3d7b89"
+  },
+  "corrected/18_n_w_19_16_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7288c83c9c0a8a972bc5c4a8b3c1fdb3aadf47c62557dbd5f6ad5bf4a1d4d3d3"
+  },
+  "corrected/18_n_w_19_16_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "95dc78fb75a2737a2b04007a954f60e71ff3ff1b701584857fc0034d5227de4b"
+  },
+  "author/18_n_w_19_16_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "96ae4d7f7f01059d8a33ec1632dc09d3d6b1c8a2878af1c02369868d4b17536f"
+  },
+  "author/18_n_w_19_16_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "50910311ae6b4478571f72f12e899c0dbc24a4d08263cc2ac9a808e865d66558"
+  },
+  "corrected/17_n_m_24_15_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5dd6adca6f2a386224f52333ca57f28aca88cd64cd58613c6fae7dc9822c13b7"
+  },
+  "author/17_n_m_24_15_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9bb5317d045a4f006841fe00834efbc04c7a9e6598c4d864bd30a8dc830fcca6"
+  },
+  "corrected/18_n_w_19_16_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f3cdac4ba01b47ccf4c1ae8c9edd1626b9da2875e6020b60f058b8ecd643df53"
+  },
+  "author/18_n_w_19_16_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4e95c81dd98d1762171d591b90fa4c40065c25a56f3e3a6276548928a767a5bd"
+  },
+  "corrected/18_n_w_19_16_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "22662622a05191e9fd791efe8aa1e1923464c70b4cdc9f867fe42ccaf542f7ab"
+  },
+  "author/18_n_w_19_16_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "46a60897617ccbed144f59455372bd0d0f162dca6c513529f6d32fb12b4de13b"
+  },
+  "author/18_n_w_19_16_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a188bddffebe90767b6d03bf496721af8094e244a4a53b0b6b850ab506931ec0"
+  },
+  "corrected/18_n_w_19_16_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "13a937dece0b4c2397b6208bac25804dc2f8211a0932b0d72488af036aa6c63b"
+  },
+  "author/18_n_w_19_16_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "864bf62fba3402dce66280b91d863cdb96c16b18805f2af0c50ddd17c499f1e5"
+  },
+  "author/18_n_w_19_16_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a84d982eb7b61e40051391dcbd12d172f482a4c37ccebc6f1833408b80c9a51c"
+  },
+  "author/19_n_w_26_26_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "68a81212610224f42ce1723a51cde7eb6adacaa6bf4101e4c1101507b8c467ec"
+  },
+  "corrected/18_n_w_19_16_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d44a127a95562291a749847e55c5cef494d61310a834860d07b28cb094b95bee"
+  },
+  "author/19_n_w_26_26_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "68a81212610224f42ce1723a51cde7eb6adacaa6bf4101e4c1101507b8c467ec"
+  },
+  "corrected/19_n_w_26_26_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "35f54b83678b76e017a3280d3145f8ac172c8c5933d45e42852d767475a97f28"
+  },
+  "author/19_n_w_26_26_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b518c222c317eef9d85027d2c00a1eb3de579c24897d092db6b679303c4e699f"
+  },
+  "corrected/18_n_w_19_16_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "869068214531ad938891df6bad62a29ed3006330363de9bea2c7c3d48e4bbd6b"
+  },
+  "corrected/19_n_w_26_26_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ae2656958c2d761724858e4e3f32c79a94d2f0bdd393bb322c8398be9b4cf70c"
+  },
+  "corrected/19_n_w_26_26_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7f99803dbd4b63cc7c5567df63c8f4e25ced2a973ca0387238d5709ce68187a8"
+  },
+  "corrected/19_n_w_26_26_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6eab8e0737181a402849e99ed27be47bf547cdb14fede0a4a0c4fed70b9296d2"
+  },
+  "author/19_n_w_26_26_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "68a81212610224f42ce1723a51cde7eb6adacaa6bf4101e4c1101507b8c467ec"
+  },
+  "author/19_n_w_26_26_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b518c222c317eef9d85027d2c00a1eb3de579c24897d092db6b679303c4e699f"
+  },
+  "corrected/19_n_w_26_26_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5bb1c8becccbf5b76a4de5cbb9ac344ac8d4670d86090aa432c9abab548949c8"
+  },
+  "author/19_n_w_26_26_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b518c222c317eef9d85027d2c00a1eb3de579c24897d092db6b679303c4e699f"
+  },
+  "corrected/19_n_w_26_26_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "23646aa3b36d9bd8c2657cd242879a032c6b556dd715fb00fc68c6d267e033f8"
+  },
+  "corrected/19_n_w_26_26_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d4400d5424c2d0c3a8390262be77bb33995dc7e547d611369301f4a6026a7380"
+  },
+  "corrected/19_n_w_26_26_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "837320e50a1e6fa99395e4e6b4e9c997914c3aaf8fa98e7938440d7673539949"
+  },
+  "author/19_n_w_26_26_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fbb84dd267da627142870a411173ddcd6c040df347bf92089508ef9439131917"
+  },
+  "author/19_n_w_26_26_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fbb84dd267da627142870a411173ddcd6c040df347bf92089508ef9439131917"
+  },
+  "author/19_n_w_26_26_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fbb84dd267da627142870a411173ddcd6c040df347bf92089508ef9439131917"
+  },
+  "corrected/19_n_w_26_26_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ce95454e2db370d5a63397c8fb0dbb6a567e5acc699b3b64cec85c3369567ee4"
+  },
+  "author/1_n_w_20_1_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "798d409a763eda268a61a74cbdf376faaac96d222c0a7fdd5cde4b5865fef52e"
+  },
+  "author/1_n_w_20_1_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "39b95f7386b2c7f73541a963a513123294299a38eaddbf82f20293bde8ee3b2d"
+  },
+  "corrected/20_n_w_23_19_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "18191f738ce9f59fa316257e51a361bafb5fa7b6ba265afd7608ed92072ea5b7"
+  },
+  "corrected/1_n_w_20_1_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0bcbc26507e918c289d371c52d43014090c4934677b6863303bc79adbd386ba2"
+  },
+  "corrected/1_n_w_20_1_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fb442b8aedc72786c320addf7436b2fb652910f652193b666f7ec04a909a8f23"
+  },
+  "author/20_n_w_23_19_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "646c3e9dc0b3bde4814654591019b3466fcf9e09f64495fee470e73b8fe32a75"
+  },
+  "author/20_n_w_23_19_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5ce2aeb69070142b2774198e05e59d6f7a663c5491a374eed44ec0855e36e1b8"
+  },
+  "corrected/20_n_w_23_19_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e00202481c145036ea437236ba8f9d5f1ca956cb0eef957fa230a352401a75bd"
+  },
+  "author/20_n_w_23_19_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a60fbe7a892563c00b3a2c1b057c2fb19ea7551f840a6ae0e055f9f1c4e567ea"
+  },
+  "corrected/20_n_w_23_19_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a1a7e6eeac35e47b57fe667c39b8d7ff3f42191bd513486a756742ee89d71ac5"
+  },
+  "author/20_n_w_23_19_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6ac048c835b9e419642db17dcfaf26c1b47856b329166860fcf0d5a1d551ac99"
+  },
+  "author/20_n_w_23_19_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5a556ab5103080440119eed4d2bcc0568fdc19bb1c479de4f2b3363f96c64030"
+  },
+  "author/20_n_w_23_19_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b844f1b8b10611556b80f51d2c1d3c75539dcf6803b6b58fec816d14e41aeac7"
+  },
+  "corrected/20_n_w_23_19_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "90f404ece873b36b3771ceeb726d0d463f80e1e9e0af443eb6c9fd8e3301a6ef"
+  },
+  "corrected/20_n_w_23_19_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "191d1de4ff259eff91335f45c75a2da58097c5a438a8a6ee20b5e55653a55170"
+  },
+  "corrected/20_n_w_23_19_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4180748365fcb32ff558a3161c177a566e57987f92fbfb7e85a3422b2c31920b"
+  },
+  "corrected/20_n_w_23_19_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b59407abe68a9b1bf3dbb06add6f96fb027e6531135bddee158212b75df61e1f"
+  },
+  "author/20_n_w_23_19_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7f36e9e02cec1df8a51860c55954668fdb108ae56110f8cdc51157ebd7272878"
+  },
+  "author/20_n_w_23_19_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d543d5bb9ce66e5ce4e15a6b49084ebeae66f8130f833a30b58cf2672d9c7c87"
+  },
+  "corrected/20_n_w_23_19_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ecb172bbe6fbb9d480f861e19051ad9d8fb54fb88c09d1a5e0ed5b0a98d004a0"
+  },
+  "author/20_n_w_23_19_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "23e42a6984fef49b0bce3a0df7175d403cf3083af86c9db26de39275b148d745"
+  },
+  "corrected/21_n_w_21_20_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b27a40a180688385e81f2c1119a143092414e4eb681901a7bc1cca42a1f3245d"
+  },
+  "author/21_n_w_21_20_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b134c7774b87b14f7a95b2a08a9e356a77ec75fd54dc3b9e41517c39f03db8f7"
+  },
+  "corrected/21_n_w_21_20_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3aeb57a0e85558d25be7155b3157e21f33130dda527d4f4dc0f5e3bed56e6bea"
+  },
+  "author/21_n_w_21_20_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c66ac077dd5a651a89e2859e1cb2fd8fd50785b1af7dc68b4bf39ad175dbb566"
+  },
+  "author/21_n_w_21_20_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dbe131266fed45fad4034300bb3fbdf82e7cdf6620b1b8dafa1a71bafe99d085"
+  },
+  "corrected/21_n_w_21_20_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6f3e93763d98dec69ba2f8bde08b10e15cf803d01ffb69ce8b729b787cdd8f7d"
+  },
+  "author/21_n_w_21_20_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "336f270f7115c4b7dc000c9388b83d37411fadcbf6b1bfeb4e2c7c3564f717b0"
+  },
+  "corrected/20_n_w_23_19_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a2f126b2b8abba08a9017e2483bbb122111c4aec85a45ab3536fe2f1d4725ad4"
+  },
+  "author/21_n_w_21_20_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "489c317756a123927b998902506011989c7822342003064d12a8c5d5a8aad1bc"
+  },
+  "corrected/21_n_w_21_20_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3bb87df04540a4580fe6fbdc348b543cd0bdb31eac22219b69974ea97037676f"
+  },
+  "corrected/21_n_w_21_20_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d07a4bc165a014b03f38d1d6edeac346954f3a663bcbc8729e7dbfb48a0f0c08"
+  },
+  "corrected/21_n_w_21_20_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a72ab27c26a576618bb48a114109e50f9623e70cb83a9c6c2504f075a2e7ebaf"
+  },
+  "author/21_n_w_21_20_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e58d5b758987c8e5eef77e39e6e2b222cd1db6665381c6ae84da4bb54dca63b5"
+  },
+  "corrected/21_n_w_21_20_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1167a3faf28879a0b1351b874c2f4d385c506fe1b43c4a3d2804a80bcac90263"
+  },
+  "author/21_n_w_21_20_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e358046ab758573358ccf48c262b15ea821b9b900b0187d97fcbf49bcf5e44ae"
+  },
+  "corrected/21_n_w_21_20_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "67fcaa4d6ddf11df516a034146424f23b0abfc34b6cf6edb93e94533db8db7c7"
+  },
+  "author/21_n_w_21_20_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b55c96aada595b4aed6c29cb223fc415d93e20aa95d15d3dd4d242d4bddbdc57"
+  },
+  "corrected/21_n_w_21_20_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "40de4c1dc55c42b760d244b02d29c3865d0a25e0d81b3b1ff4764a853152f857"
+  },
+  "author/21_n_w_21_20_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1d61dc37c8871173500beccc3c47240b8d214c913374fac08e58dfa0f626f450"
+  },
+  "author/22_n_w_20_21_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "50358befaa63a49ab0ef666daed10bdab7cf917f828483f4f04644686af3d670"
+  },
+  "author/22_n_w_20_21_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f04afaf6abf3364a8c356aeb017958ea0ad19373867626766c944716cfa5176e"
+  },
+  "corrected/22_n_w_20_21_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0dd6da7c38a2c8334d0de7a6720fe2cb4a53e0a399dbefb5e53f696ee7116519"
+  },
+  "corrected/22_n_w_20_21_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ca3d25b9aa066781f14e9c21467e4720579b9a6dd4a5df3b012aefa037f84a94"
+  },
+  "author/22_n_w_20_21_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7385869cee0d64c84b986c18e35b84f87040a2f4b361f28706f1a7cd8fe796ef"
+  },
+  "author/22_n_w_20_21_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "de5177191f9360bea887c3e7b41ab6a5a52c8cc2fc3b68a8bb58efab9b8c7cad"
+  },
+  "corrected/22_n_w_20_21_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ceeaa4079c69c135571e16b4ef497e1814dc22ae13c1026b46c459853577fcf2"
+  },
+  "author/22_n_w_20_21_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5549a6cc9e52cfc3a97ba1e77396b50a5c8de7677bd3a98f7bdf9d852c658344"
+  },
+  "author/22_n_w_20_21_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7ae162deacb01bde4589699d1b977941520a47e32ef07b5c49bd653a1c0cc5b5"
+  },
+  "corrected/22_n_w_20_21_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f838e1d964be356ab0929759a3ce3e8e02d11cf1e4026b64648984efb9aed0db"
+  },
+  "corrected/22_n_w_20_21_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b0a4f6f903b7d04b6226beabf1a66b06da8589ec9f931421a7e0f8ba0902b789"
+  },
+  "author/22_n_w_20_21_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b6844eed9b8c5195d0d878565fe238e9509c2d3fa0776c9059581874c355c29b"
+  },
+  "corrected/22_n_w_20_21_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0eeb809270d4cca536a47690abe8fa401c13c5ab7a29719025731c0d19cab01f"
+  },
+  "corrected/22_n_w_20_21_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "80256afacf803893c630cd686b40e4354b02f1db355e0ecea0fb66449160f2e6"
+  },
+  "corrected/22_n_w_20_21_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e149ecf6e5f6a32f4620cfa62ab5a3ade7b847f4db694596697919a79dbec345"
+  },
+  "author/22_n_w_20_21_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7d02a7f9dd50de0899360d09a3560412ac74190321d9704503bd7fc6e29111fd"
+  },
+  "author/22_n_w_20_21_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2279ef58d5f3fb9c89d375c63d34dd396bde65d73d27773d8d6fb34470ea82eb"
+  },
+  "corrected/22_n_w_20_21_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "47e9318eeac21916a34782c3a7cc50f3f83fcb9392de833008662fa483aae537"
+  },
+  "corrected/23_n_w_21_22_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "23b8dd872849d1221d6113b2dd8653980609371d9a7a7b54e0570c4055e822b4"
+  },
+  "author/23_n_w_21_22_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "49446a1ff15e6a65e2cc80d4cb402bd53f1e20c50010e295569e806cb647a65f"
+  },
+  "corrected/23_n_w_21_22_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b3f47714cb4012f78304d687d4e85142c26f409e1c8bcdcf1001606a036a8005"
+  },
+  "author/23_n_w_21_22_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "44782e863483c81ded13bb801f66ef2353f15e22de898a62009a7728caf917ad"
+  },
+  "corrected/23_n_w_21_22_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dc97aa45b5354ea0d18f14e7b9e5a3c18d1282fd9dc1655e61896cf4ec774e45"
+  },
+  "author/23_n_w_21_22_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bdfb0bda251b38b43b6321445d1fc6d3c4f6a04c0f96c3fbff7626fc4a928ea7"
+  },
+  "author/23_n_w_21_22_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "76fac9c51cdf7ae843c304b169167ba077b8255cd365016eeeb0fabcbe60aa7b"
+  },
+  "corrected/23_n_w_21_22_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e576c93dd67ccccdb79c77c6b2f53ca03c3070a2ee4e81a7711cd315daf122c3"
+  },
+  "corrected/23_n_w_21_22_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d72460609b200317ced2b13937831a24d2a1d7a3dac9a829fb0f58541cd59328"
+  },
+  "author/23_n_w_21_22_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e22d975e008669c2ec06fa21614b631ecf8f95d71fae822263ebd799b4b4c04a"
+  },
+  "corrected/23_n_w_21_22_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e94cc3703e880b76fc9d0259a0602c49e81045ff92f280cffdd936c8d3fa5091"
+  },
+  "corrected/23_n_w_21_22_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2b4eba466bc22da67f08a9c4d5dd9b57270b0b64ef01f46e6ba3a082e8b50f69"
+  },
+  "corrected/23_n_w_21_22_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "afd970532edf481507518b1ccff8c41b29c2c76eba649805557d6c43c0e0df42"
+  },
+  "author/23_n_w_21_22_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f130f61b48d666a58edfe6a3e9e944098aa45bb0200818a259b8a54cc27f45f1"
+  },
+  "corrected/23_n_w_21_22_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d90f9465787d681375557af221ee158f4a7ed2e3a01108fa3895324f31848808"
+  },
+  "author/23_n_w_21_22_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dd670f98da80ee70b35b289ab93cef93f7699d0553d8fe3f8d82f507da5e62b3"
+  },
+  "author/23_n_w_23_1359_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4e9bf12bad80db3e6b0fbbbe505cc04256168ba15c16fe8269aff14ea1a1255a"
+  },
+  "corrected/23_n_w_23_1359_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6b066572a9a7a2848e617fcf796b5c16c41521b4e7b4708d8d413e3da889ca36"
+  },
+  "author/23_n_w_21_22_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "173fcae47803075de41821ca7adc23819ee5f1524e766fb54a3fd785407aabdd"
+  },
+  "author/23_n_w_21_22_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3278070243d4edbd8862000c2cbc74f60d8b35cfec59a26217f5a3230be4b0c6"
+  },
+  "author/23_n_w_23_1359_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1250ddff37f1afec1448c3835acee9c140d944cd2ecc2598a77453c502f52442"
+  },
+  "corrected/23_n_w_23_1359_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "97ffb6d47f2c868894e8abfa535cec8e5e70942c39a7fe018c0e4436621bdeda"
+  },
+  "corrected/23_n_w_23_1359_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "645ad122cb5b59b258e9be289aa799e268fb9cda7172d80c2b4e84cb05063716"
+  },
+  "author/23_n_w_23_1359_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "33915fa46e8c8970248105a1a0d0db2b6691e69d2c125f3527eb7ed07553b474"
+  },
+  "corrected/23_n_w_23_1359_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "950b656d6d2edf822e90176e26fdc30cafafa677c93c4cbb3ba00be32f991b97"
+  },
+  "corrected/23_n_w_23_1359_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6f7c797e3e666cfca6dd2515528d02c81f47569cac4c3170b9e9d0e617985dd5"
+  },
+  "author/23_n_w_23_1359_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cf0ceb4e7f4769d76f5b6899033ed65e2d6c9f2d5706589dcdd14d3cc59ce20b"
+  },
+  "author/23_n_w_23_1359_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0e91de6b653069e1461aa47b2c39ae5fa00a75dba34b5021784c50267e1ce26b"
+  },
+  "author/23_n_w_23_1359_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "625a00d79207620e0da80888695210fd0315298973a5e405ffc329038daa8d77"
+  },
+  "author/23_n_w_23_1359_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4ff33f1f9efa4e66ab14cb7594f4aa70f100c85e235d6966e5b50e5faf49473c"
+  },
+  "corrected/23_n_w_23_1359_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2d1156709146f2199f587c95fdc66fe721bb79ce51d0213a6fc2eddb4a1ca04c"
+  },
+  "author/23_n_w_23_1359_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "230db781b46a2cbb4c66ae672f1781960f95327316f359b9161523ca7b2c18c3"
+  },
+  "corrected/23_n_w_23_1359_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "29af5677f60497a2bdeab2c27aee36f6a70595b1f98dfe765cabbbb69987e171"
+  },
+  "corrected/23_n_w_23_1359_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0c343361180104f7627f8f8beccab3456fa337063a681fa0f0c04ffc974b7782"
+  },
+  "corrected/23_n_w_23_1359_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2c0b98f1c96ebbf6d93a812adef4ca9a63b2f2d76945389c9aacc84e42e52f58"
+  },
+  "author/23_n_w_23_1359_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a528cba8ae23d6489299266303b9cecccf79d162a60abc7f4c8c9fece556394a"
+  },
+  "author/24_n_w_26_23_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "29dd69cea8189c3dc7a2865855f48e939a7a39b39968186313dac0f24b14f556"
+  },
+  "corrected/24_n_w_26_23_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "36b797e50ae2979984e5d586aa64ce68831a7170e619917e8c91ebe93b8b0e79"
+  },
+  "author/24_n_w_26_23_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "656bf52dab7c605c088ac2b02588759c68b185025ca5338a0a6bece73d81e310"
+  },
+  "corrected/24_n_w_26_23_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6b8d9baee51d7eaa8e8b6b6861d8a0a9587ee9eb7f9cd12e5f1632e8eca8fcb8"
+  },
+  "author/24_n_w_26_23_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8641db0ed747cd267c1939ca077e8f7efa7f9d3d1111b9b740fedb357ed8617f"
+  },
+  "author/24_n_w_26_23_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c8d2bf26d273e49e55668ce976de163ae4b63555511544584b1b2112354b01db"
+  },
+  "corrected/24_n_w_26_23_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e0f7b1fc5f9fb486b1d0bef0e7daea47a1abd3688d68977b10fd5f5502ae5e0a"
+  },
+  "corrected/24_n_w_26_23_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8f569a2206771031ebd37b753530f62840721bebe2534a7a5362f78b35e19dd7"
+  },
+  "corrected/24_n_w_26_23_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "37be50f2d6d9193e50e0622185ba0ec98b932a838b151fc6a704de94b67d64dc"
+  },
+  "author/24_n_w_26_23_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5a35460403d08fcfde2c79ae74c7c5ef17c5f45fb48c911493e1541550c567fb"
+  },
+  "author/24_n_w_26_23_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8ee8eb83a388ee55cddb5ac5e268811bdbbbbb3d93bdfbb98fb9b45f6de18e59"
+  },
+  "corrected/24_n_w_26_23_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "77c7e141de863cb96512b3d0ba60bf4b5b89d8d79c5af25a60d16052431f816a"
+  },
+  "author/24_n_w_26_23_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "83c2c3fe19436ad44eced4ef3451653f4b24c61a9347c6c4c70cc86663904d57"
+  },
+  "author/24_n_w_26_23_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b46830491734e6184bf64f0a46003d0b2c8d6136964909e39812e5046ac223cb"
+  },
+  "corrected/24_n_w_26_23_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1ade7a88c5b86edea79374309d3ebab408cf23a1e5b24865e5f77e6333035c16"
+  },
+  "corrected/24_n_w_26_23_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "71ff43814dd36fdba9a20b85b413e6f933954502c74feb555a07402e1a06eab1"
+  },
+  "author/24_n_w_26_23_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "af890dcaa5164a23c1bd67095ee79982b0d1adf6dd8f0b412a38f48121a14d3f"
+  },
+  "author/25_n_w_20_24_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "657fda6ce614cfe3e54e211d3f4f9facc3bc32343d3e97b9a51efb7861b74ecc"
+  },
+  "corrected/24_n_w_26_23_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4cf93a9f2383190b0130c7f1d0ad958c6fe501799cc3b8282cbf961383189391"
+  },
+  "author/25_n_w_20_24_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "958bdacda125364782110c4475e0deae0ff52a605d14428ae2b6e9803b5dec28"
+  },
+  "corrected/25_n_w_20_24_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4101eb29224cd304cdd8cd481399983cb764472e72133e496963cc5cdf65ecfc"
+  },
+  "corrected/25_n_w_20_24_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ebaf61e3d3882ca0320d243f02dc6932905e8e57ec0c53b2d3f7d01d2328f255"
+  },
+  "author/25_n_w_20_24_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6c08e936184c1dd6eb06ca970af9ffcb5a377f98a1c9e3383292bbfdd0fbe804"
+  },
+  "corrected/25_n_w_20_24_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4bd4a7a014de6d432e51af9a5b753d83f9fb1a8ce1c0aac392f724e5cf26d593"
+  },
+  "corrected/25_n_w_20_24_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "86ee4e943405e924035f52f58a34ae053a538d0dd49ce59a387923458caa8ca6"
+  },
+  "author/25_n_w_20_24_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d5b4007de157f6b7f2d75926e4c2a0639776272f48fa9627c6bf1d3823a618ee"
+  },
+  "author/25_n_w_20_24_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6b4dce79179683fe17895cb03d37e67434ed41cda733268abc329e07f98b6403"
+  },
+  "corrected/25_n_w_20_24_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7098eb8fb7c220a54ea9716cc4fd597931f9d7a9054fe8df6163c7c502063e5f"
+  },
+  "corrected/25_n_w_20_24_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b59056cae4439450ec75ae1591942945a3fc0c55d2556c50951f342174023a1b"
+  },
+  "author/25_n_w_20_24_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dc3d3e43c2a4af2a0963ff29587ab75c4977c76f32b3fbb83768c520e89e2b2b"
+  },
+  "author/25_n_w_20_24_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "347503eebd725c31662395dfc792f62213a5301de96a924a0d692a1d8f5bfd90"
+  },
+  "corrected/25_n_w_20_24_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3a043e0a2c2715e71a6f91f45a1238085ce19df6ae9cdce4db98083bf625944b"
+  },
+  "corrected/25_n_w_20_24_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1a01c6775db09b460c03664fbba9c0ea4699ad6694d76c42358834c7e3e5d985"
+  },
+  "author/25_n_w_20_24_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "844feb23af872d26a0a6065006a28aa10c1a0655c8a77155c8e9044d4b9e91da"
+  },
+  "corrected/25_n_w_20_24_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c7a6566a3cc5112cf8b60dd0afaa903653728844217d7e8345cf884945f7328d"
+  },
+  "author/26_n_w_20_18_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f116136ef85e4401542fdc92c5571b2a145b7b1c61cd85d979f2e040c1e2b17a"
+  },
+  "corrected/26_n_w_20_18_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f15c45deea5488919a5f178f67e5c11d6372ee99fbd662ea144bb114891f062d"
+  },
+  "author/26_n_w_20_18_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "42ac3d91302b7f8fc1a18dfce5da13bce0fffd8cb3d10380322e06cbaa7443b2"
+  },
+  "author/26_n_w_20_18_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "56e31ba4f8fdee3e666314c52ef508039c42f023324c0aab690d681ceae6649c"
+  },
+  "author/25_n_w_20_24_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9a93a5a72464b7bc8b05b6387c86ea0dd69fa42842bb9775d241c8011de5a7ba"
+  },
+  "corrected/26_n_w_20_18_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "eed00a58dbe67e9a4ebc47089df5a230004504f24a5b26dcbd2c079375e9c231"
+  },
+  "corrected/26_n_w_20_18_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "321212809fe02931ea228b9e7c0a66f6f676a3adcbe4010ae45ab0c2f3cefb62"
+  },
+  "author/26_n_w_20_18_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7a871d848d6155cda4c853dc360aeffc2240e2ad4c2019e23d387380e42f77ef"
+  },
+  "corrected/26_n_w_20_18_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "730b4e0781147d93643e801badb42abf024f4f5a6256bd8a213333dd5b465525"
+  },
+  "corrected/26_n_w_20_18_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "806b04ba0c39248441b9ba5090a2e87843d1cc1ddadeb2f5894c187b7523669b"
+  },
+  "corrected/26_n_w_20_18_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "20de7c3852e64bd900c7252d35ad02aec6981120b428dd6a7733da715a1d8cf2"
+  },
+  "corrected/26_n_w_20_18_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a2936287e24223006398d288b4e9c45c4076d3f6119b26b3ff0c58de5b36e2b1"
+  },
+  "author/26_n_w_20_18_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6e5a22b1e31e4a70229129547f31b3b1f0e56b052e131f995eabf0d62813cc04"
+  },
+  "author/26_n_w_20_18_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8655cacc612e80586a3b75928483c7cfdde8c233dbbd1b5723a9def24ea36c13"
+  },
+  "author/26_n_w_20_18_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "557e4f32f844f04df94bd2e5111d33593c210ea477deed1b87194a8e81e08270"
+  },
+  "corrected/26_n_w_20_18_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4e3dfdcbac58bd0f9521e4bdc2bd18d0909c375ef04591947dc6b453cfd6bab2"
+  },
+  "corrected/26_n_w_20_18_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "384b6b2aa838292433d4abee7faf791a81ad5626aafd19f4385e26ceb9012309"
+  },
+  "author/26_n_w_20_18_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "752a87e4d2ef3c669966eadf23f7a2090aaf4fd6394b3045df0c3831de86d299"
+  },
+  "author/26_n_w_20_18_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "00ecba2ce543f9315927117040696cae0de5826b04f4943efc365515fc33d5a2"
+  },
+  "author/27_n_w_27_25_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2a43fd14006cef52295e27643446546d39d03b3195ed32f0734a0bf49ac23721"
+  },
+  "corrected/27_n_w_27_25_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a9048564303b30b1e2421c1f9c00d4251433aaf0113da8600dcae24c0e54a9f0"
+  },
+  "author/27_n_w_27_25_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4072535c46427aa91d9ee420ee71074141976a25d354df397fc9defda463862b"
+  },
+  "author/27_n_w_27_25_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8237d9b26d218d51071022da284ac6cd58fb75bb0ed690032016fc26b9d63702"
+  },
+  "corrected/27_n_w_27_25_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "92f5eefef095ebe6da45bae52c2f6e21fa07729cd6411d416fc3db1f65e80ee9"
+  },
+  "corrected/27_n_w_27_25_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e800efe68e99087ec516e0fb9204eeef2a97c0d92cc65ed3b7525d8225d1fcf1"
+  },
+  "author/27_n_w_27_25_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "70d3a46ce03da82a7485977ae8ffb5ebd915e4e3d247efe4064c23a43a3e8258"
+  },
+  "corrected/27_n_w_27_25_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a23a3b7c7ec08bbd12f5e71ccbad2835f7c6e555d940ac0faa646406da45b4a2"
+  },
+  "author/27_n_w_27_25_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "80e792a142432a024513f6727159b5cbd01a1fcb9304f999df93f90ccc40205d"
+  },
+  "corrected/27_n_w_27_25_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cbf0b89dce9791fb969fae867260fc61315e97f8469f91a6ee14c945434b9746"
+  },
+  "corrected/27_n_w_27_25_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "042290e1068a53ebdaef3cdb254f2ce833da0e45ec48d7dc1fbb632aa773a148"
+  },
+  "author/27_n_w_27_25_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "552bf7f5db3a2af316f5c0cad58c17db9e9282c7240b120396ebf0092802ac4d"
+  },
+  "corrected/27_n_w_27_25_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "731cd32b9df1c2964ebcbeb978cee5dbfc9abe1bc9a1c6ea5448df8b8e5c11c9"
+  },
+  "author/28_n_m_58_29_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "96c4bfe4b22fc7962274ef750e7c7f98db4340560da36a135515aaf3b6100fb1"
+  },
+  "corrected/27_n_w_27_25_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d8cf685d24277a53ec23c399acf80ea32f3d13a93b57ad885b92d768ecaa5a25"
+  },
+  "author/27_n_w_27_25_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3407740fbd7edecdf43abc5760053705789616efcc32fdde5a686fd61e06d602"
+  },
+  "author/27_n_w_27_25_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5ce2aeb69070142b2774198e05e59d6f7a663c5491a374eed44ec0855e36e1b8"
+  },
+  "author/28_n_m_58_29_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4bb8b56a273b126e4be2c1fed872dc20bd3b91c34e899f6a8fda770e60203264"
+  },
+  "corrected/28_n_m_58_29_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "927ef688fcff83276ba4729a0a72fbb556804901087e3e80d0cbe2a958f42ba3"
+  },
+  "author/27_n_w_27_25_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "94b326a38e4d3766d10370c4f22addd80578ac22179519c983f1e763f97277e8"
+  },
+  "author/28_n_m_58_29_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "01a54ea8a2fc100f85142e01045fa31db8909330156ce634fb62cb3f17f1fdf6"
+  },
+  "corrected/27_n_w_27_25_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e2ea99a334d1336fe6039b3cd96bcde580e9ad313b3ffa05789e293b9c60f43c"
+  },
+  "author/28_n_m_58_29_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dcf27ffbc9e43e233d550bb6211af25b6366f06cfeceae20436bda0bd25a3da2"
+  },
+  "corrected/28_n_m_58_29_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f1c628ef9033e9b706138992f317abff71507716092b58aeafe77ecd90b27dcc"
+  },
+  "corrected/28_n_m_58_29_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ac70081354ae14cb8f236d6ae87b355dab9db6781bab5aee0ce3879bb490ceb7"
+  },
+  "author/28_n_m_58_29_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "71f03eae8f0d63d35501f441b75318fc32c58e03d69d67865d4e9a2181ec25bb"
+  },
+  "author/28_n_m_58_29_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dcf27ffbc9e43e233d550bb6211af25b6366f06cfeceae20436bda0bd25a3da2"
+  },
+  "corrected/28_n_m_58_29_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "caa1dbdb7d435d57754474d2ed7ccfaf70794368964b732f9d3cd79336d18717"
+  },
+  "corrected/28_n_m_58_29_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f0b6a587d5ac7274b6a7d43003917015f1059d74e7191c76c3b7b8a24530da8b"
+  },
+  "author/28_n_m_58_29_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2b9386d6b26bdb61ff65755dd6c2ec32ade59b0a68e9cd8fd76c52785bb4cf20"
+  },
+  "author/28_n_m_58_29_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4b6aee5aa7178e37cf990bb9cc539480e311f0e4d33b0f376a1e4a8343c0acd8"
+  },
+  "corrected/28_n_m_58_29_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b80bb5bc577baafe9fde4d804028bb6d6ec7575dfd94bb5a8e8cbd590e2faf11"
+  },
+  "corrected/28_n_m_58_29_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "52d860b7d254d52f48b7d00bbb81d217720b48e9485020eaf5aed5edbc1c5df1"
+  },
+  "author/29_n_w_56_30_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "02e5be9410835479b7893b96843c535e2f747a135dbe38e06b6a3d74c01e2f68"
+  },
+  "author/29_n_w_56_30_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3c8c87df36cf46687198bab52d495a86654d85ef432adc36c2c8d6e88aa2b8db"
+  },
+  "corrected/29_n_w_56_30_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5bd198a81e028ac4880b4274e096fec4c90c977742572f155116f80a46c97cfc"
+  },
+  "author/28_n_m_58_29_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2cf50b5dec3e2dba4474d1784d68639af76f8b3036aca13daf5d7aab3bacfcc1"
+  },
+  "corrected/28_n_m_58_29_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7e4a4ba93f86a735c39144f1f7e01d1e94acf39278a2988f976deeceaa1c76c5"
+  },
+  "corrected/29_n_w_56_30_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3b3877a1fd6e9ff3ee4f3e75dec1ff75b205b58c886d5b6b9e0c8e94ad51972b"
+  },
+  "corrected/28_n_m_58_29_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "78ba8212869246832cd9fe75aae69a08da5e66a9d375ef3245354c17f798a94d"
+  },
+  "author/29_n_w_56_30_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2de835b5c7979da3a9042e50fc61bfba9e73604d48f1894ac93178fc5f5f3a1b"
+  },
+  "author/29_n_w_56_30_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c84b761fba4f33e816f95dbc7c72748d4cd38a8f09f858f2f528852b71009aac"
+  },
+  "corrected/29_n_w_56_30_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "393675916a266db77d5df23244ae6f011abe4e4ae56a3bb4432c0d16f3d9115c"
+  },
+  "corrected/29_n_w_56_30_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5015f7868351f95b86f187655a05d9c4c8c1bc9a18e19794a99656a2c0f9d09c"
+  },
+  "corrected/29_n_w_56_30_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9d1c5cc0aa88174db6bc95c547066f1e1c0954dce1043fec0bbce7f00d521293"
+  },
+  "author/29_n_w_56_30_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cf7bff1913155a7fa7f8f383172d2037de4f4249a225ac4bd2720286cf98da5a"
+  },
+  "author/29_n_w_56_30_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0206ed3c281890da307238df4e76fd70754ed8c8e21b49c448e343f42e493aa9"
+  },
+  "corrected/29_n_w_56_30_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "57a45be0b8c4ea3d06c1bf9d6418b57d8087b0b57201a05cca55f43d3ef5aace"
+  },
+  "author/29_n_w_56_30_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "baa528db62cc0c3ec224442b5920c334097ed3610327ee51b30c98803d082401"
+  },
+  "corrected/29_n_w_56_30_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b25cb845eb4395a7e89f61bb19813019a8a5311315f25215705559be4982411a"
+  },
+  "corrected/29_n_w_56_30_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "11a1ffcd8e0417f63dffb3b8b1ddb5a7fcf296431b7444aa1e5efc14e1592c0d"
+  },
+  "corrected/29_n_w_56_30_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "04bcc29235456e4e880132d860002ac876f43f90f5a2af1b9e772ea28ebbda7a"
+  },
+  "author/29_n_w_56_30_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2de835b5c7979da3a9042e50fc61bfba9e73604d48f1894ac93178fc5f5f3a1b"
+  },
+  "corrected/2_n_w_22_2_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fbb2725e847804f3a3bc60076683a1a92f5427f180000a3232d6a56ccbec08c6"
+  },
+  "author/2_n_w_22_2_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "582be9388f1d3dd9343ee5885be77666fea598339aab8485fba09b189395f1ee"
+  },
+  "author/2_n_w_22_2_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "804e7ff778f7a6670589c47d2b49e718044694c999e1447d497f563fa994fb0d"
+  },
+  "author/2_n_w_22_2_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5f3db5dc1717b3a2f22565f32611312811fe806e36268343cff0e60ff900ea21"
+  },
+  "author/2_n_w_22_2_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a21ac92d240d8462806666d172993fbb66663498f69663292f17a83a36f7a7d5"
+  },
+  "author/29_n_w_56_30_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3657b070d9ca3578934781dbea0185bea8604d4706113340527938e1907403e7"
+  },
+  "corrected/2_n_w_22_2_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4247bf29700e08d5b713796f390d14b74df70b066c38c717a1178547a5ac271d"
+  },
+  "corrected/2_n_w_22_2_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "970f8d2c43e675cd39114f78e2cab605a03c8713a9ddb7ffcaf5a69427f1cd74"
+  },
+  "corrected/2_n_w_22_2_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d05b8a95d6a3f73bc4bad2682e7d4fde54539dd8c7c3f9848b9bc68bc62e0116"
+  },
+  "author/30_n_w_40_31_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "60abc52f16c488202b68afa60f5588ff04a73409246f8e7fc00d0bca467dfd21"
+  },
+  "corrected/2_n_w_22_2_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8d756c69f587af9e11d23db89f3044b50ce9fade007d3c03e907144044b4a70e"
+  },
+  "author/30_n_w_40_31_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "566b03e788cdb2e6edddae8e735dff50e759c5503ddadeae21ec4bf9c6e4d105"
+  },
+  "author/2_n_w_22_2_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f0ded355778a55bf8f37800341500c3725203b66961a7250e43c300dfd66ae2f"
+  },
+  "corrected/30_n_w_40_31_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b69257727113ecc7f61747ba5b92e96544dc616a616914f70d0735a6f21fe308"
+  },
+  "author/2_n_w_22_2_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e450bb0b6307c8a78edcba90267ffa9bd1b455a3739678aea27f58428b55339a"
+  },
+  "corrected/30_n_w_40_31_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "496f5b3cfa09f8004f9db0456dcdc45969490b9074574b8941245f80b3fefc3c"
+  },
+  "author/30_n_w_40_31_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c00911ae4345214726c73d16d6081423dd71956e96d0e7284e4311cecf4d167c"
+  },
+  "corrected/2_n_w_22_2_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "88593362024bf45139ad84a9f0276e26921d9bea9e3f6d2b1bd06ab2b5fb1f44"
+  },
+  "corrected/30_n_w_40_31_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "618961186622d93e4b8b394e52a9005c9f804e1e36aab3cfe8ac325627e0c3ed"
+  },
+  "corrected/30_n_w_40_31_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dd402b79e8d04e986f7c8d911ed5381436da38b27d1ab670f88ace895813acbd"
+  },
+  "author/30_n_w_40_31_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "179e51f86517ac0f0afa3f71d7ad62a49c4509b61c5c41ca91f6df9632b52237"
+  },
+  "author/30_n_w_40_31_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "345d38767a81a17f02b1955beb104f2cb15ec0096489dc40a7f921be08988379"
+  },
+  "corrected/30_n_w_40_31_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "26706a9be50b61231617b5f7d847efaa9388eaf17e23a5c72269741056a2094d"
+  },
+  "author/30_n_w_40_31_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "404403975f81f8cede389f029f54beef3de2562321ef8206b2e141262df7bef3"
+  },
+  "corrected/30_n_w_40_31_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ffcec1137360bfe412d5feb7871e78dc696d00e82334b08976a4e9c8851d1b6b"
+  },
+  "author/30_n_w_40_31_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1376713db4892e5c82f7d8d281baeffcc5f45de282d7bedba0df6b8dd7e04ee9"
+  },
+  "author/30_n_w_40_31_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9ab324243336ded068acd986ceaa68a3434d13d0697ed7e225d2c05dc074d3a9"
+  },
+  "corrected/31_n_m_45_32_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5142bfeba19f73d967fd216e6ba381f91edc8a3cc7002e459c9eafe9dc2348f4"
+  },
+  "author/31_n_m_45_32_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fb77e669358c8a306ec806db32bcf6b1ae9ca8a3e5f7c5265f4ea907826dd6b7"
+  },
+  "corrected/30_n_w_40_31_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "54ec4ddca453068a65df6975f3b51aa6296ee5ff58f29bbddd781ef437181ca9"
+  },
+  "author/31_n_m_45_32_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "319a9a6572fecac2d9d77655a5aefe982b884e2ad52f9ca74a4953796673a8d4"
+  },
+  "corrected/30_n_w_40_31_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fcea73c97106b85b53878f242e3175d34c5519974b2f8ef8652fd4464782c679"
+  },
+  "corrected/31_n_m_45_32_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "98f66eec01b0f5533ebd1751bd0aa18a51c8088062828404625d24468e4d607b"
+  },
+  "author/31_n_m_45_32_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a99394625eef5477efb5452de9c69939da147e68bafabf046845e26689e5faec"
+  },
+  "author/31_n_m_45_32_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3f6c725e94c5fb85d21c697a4bb76c1d711648996c91fb571b81bc9a5a7fa907"
+  },
+  "author/31_n_m_45_32_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "642bec7e7655eba112062f96399026f687ed6b69eadfdcb5275cc065b44ac6ea"
+  },
+  "corrected/31_n_m_45_32_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9b1a8482b66e611664daba9298ea1b5bb7b20a4f88fa180a1d9e6cd5faf16365"
+  },
+  "author/31_n_m_45_32_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "56cfe6d91cc3b284b0b955a3243024730408dc050c6a4a06efb1b37a15750851"
+  },
+  "corrected/31_n_m_45_32_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3ed67756477f6ee34ec981d19348932909799417208c01f4a938327a3b03545f"
+  },
+  "author/31_n_m_45_32_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "742d9d617d0fefd7baefa578dfabf03b1cf1f3165b3a877b0e2e81ef36683bfb"
+  },
+  "corrected/31_n_m_45_32_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b11730563bca407e285d46aae643570614b66a4e97ad58429ca5a42e38dee351"
+  },
+  "corrected/31_n_m_45_32_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8cbc6f765efe51279a3508749a20b917a1f5ed69772926994c3f71fa541b95c2"
+  },
+  "corrected/31_n_m_45_32_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "31f3eab70685447650e04bd0da8b1e3fbd188a80e8527c63cfee6a03282664b4"
+  },
+  "corrected/32_n_w_38_28_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b7a2533b128619c14efb8cdfd9f61030c62c95e4fd6f6e07953da4684410750f"
+  },
+  "author/32_n_w_38_28_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "27d19da908e28d319587ea93c6a7475fc887684823f230136b32f619a3a6a6ee"
+  },
+  "corrected/32_n_w_38_28_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "37bad28fc53925d99642fe5f1cd90f0fe4bee4b9e48064fac082e5d02df0e4f6"
+  },
+  "author/31_n_m_45_32_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e2fa8eea1472f4ec42a7023270e63747c149a56211ae5444522cfb505a62c50c"
+  },
+  "corrected/32_n_w_38_28_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7ca87d9e794885c822bb61a49e1c526ba3b3d2fdceaf695f22d59be3dbff3d3b"
+  },
+  "author/32_n_w_38_28_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ed013c0e55613cf69cb844912358e2059fbbf4ee70f7a7d91d2ae02d1e425faf"
+  },
+  "author/32_n_w_38_28_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2f403c893043c1ff21d52ae23c6465ed74b58c35f635bcacc560ccfbb7b0602c"
+  },
+  "author/31_n_m_45_32_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "df6c489e76f7c63c7519147884f0870336b0225cb7630f5643f1ce1b62e6d091"
+  },
+  "corrected/31_n_m_45_32_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "50b113d647eef0402988e4f08e9442ffaea151ab41bf387780e934669f76de0f"
+  },
+  "corrected/31_n_m_45_32_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "874cc00d2bc0b273573c8f50d94b8cda2b4da3b1b4664590be2c6dd19142070d"
+  },
+  "author/32_n_w_38_28_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e2599f3da36b668a40ec7c4045aea6857fd4ff0d154880efb4d6966d844372b7"
+  },
+  "author/32_n_w_38_28_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "666dba20ac15bae51001382654a0c4103000b94cd537a0e9647aa0f4ce74d821"
+  },
+  "corrected/32_n_w_38_28_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "030bbf37eebe433a8ae85a69c8a09d03306dd022d8f7473dab3ecd131c4e3ee0"
+  },
+  "corrected/32_n_w_38_28_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6662e4afae93f4c059efe177c96b7feca90af458c5bd7725b30c342ba73db77c"
+  },
+  "author/32_n_w_38_28_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "678b189de7fb9395cf2f5aa54a19499fc7882fd28ecfbf9f9a4973a3e68463d8"
+  },
+  "corrected/32_n_w_38_28_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5c0ef0b19cb36221118d53f560015f6cb9a5874d9e0e96a6dc6dc12c6a5d84ac"
+  },
+  "corrected/32_n_w_38_28_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5a23827ee79baf01e609d63bc2044db62d476e198f2c80f68e4027ba4ec9ef39"
+  },
+  "corrected/32_n_w_38_28_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1010ca14658730a3e323363f37ce25e164197dee0d65dc195dd0d1c4eee8dcfe"
+  },
+  "corrected/33_n_w_27_33_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a1843d120de3ce82c1c64d4fa28e21951b13c47649cd0bc8bce953a2dd890522"
+  },
+  "author/32_n_w_38_28_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "01b667ad06f7d1adea341373371863d3a985078c07c52eb60776176dfb457308"
+  },
+  "author/32_n_w_38_28_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ccac68459d0d401faa96fe3c9be31a115ffb08cf9abd7d1d6c15129ea550c34e"
+  },
+  "author/33_n_w_27_33_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fd4ec8716369e230a8e20a0369820d8bdf67bdd1351175a8b4baae60936d0c0c"
+  },
+  "author/33_n_w_27_33_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e5f107db152aa28e2c3dfcc3d7a83497a8ce30af862241188691dfb53100ee2a"
+  },
+  "corrected/33_n_w_27_33_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ccec8b904416dbd271aa47647a7376ecea83d857c0e94a2b0b1142f12b515782"
+  },
+  "author/32_n_w_38_28_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2afc8ebb0c17830897a8342a5015e0afd2de134bfa113704cbadc38995b7eb1d"
+  },
+  "corrected/32_n_w_38_28_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "393340637a8e067fcdaaab8c1d6ac0416656d30c30e834d2f1b697cef9835403"
+  },
+  "author/33_n_w_27_33_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0214aeea9051f9ef1990d93efcc678ca4e03412b89ed027a5c172e42fa17fec7"
+  },
+  "author/33_n_w_27_33_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9e88036098d6e7478a0ee3fe0ce5bb8665749b8d26e448e9a6c83952ff2f6267"
+  },
+  "corrected/33_n_w_27_33_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5d9b20bb326e0246645a91719e14454ec52276566f0a5b9607c800036e954e16"
+  },
+  "corrected/33_n_w_27_33_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cd0b18fe1944ff13e19f0e6d5c0941d378013bf70e99fb63e3a24cff7abcb3b6"
+  },
+  "author/33_n_w_27_33_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "eedca946a0ab90f34944a57b858d77328782a53d3e58650856ff2a241a27da54"
+  },
+  "author/33_n_w_27_33_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "94f44f1bb5a50dd6927010d6565891fe4220b247785d7bc48649f2029e774fe9"
+  },
+  "corrected/33_n_w_27_33_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c4d1b2eb796a78d383c9c878aff1912e48d528330c2ab425012cbf110a8e7e7e"
+  },
+  "corrected/33_n_w_27_33_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e03086257ffcbf7d7eda37295a48a5a1bf17d0ff86bc5eaf3b45b5fb5ce66455"
+  },
+  "author/33_n_w_27_33_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a13db72e6d50b4ada0f8f5b0dffcccd7647b5b0497e2e034cbdfbeaa3d020ee3"
+  },
+  "corrected/33_n_w_27_33_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "825822ef179920453382b12d2bde3b7408fa1c7a9f2c92fd72a010aaa16722f0"
+  },
+  "corrected/33_n_w_27_33_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "58abc058262c9ca0f0cd0135e89d20081b90a8bdae6012715730f057734d86aa"
+  },
+  "author/33_n_w_27_33_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "41aa750775336e9008a9d190fa2c252c6b95146316625747723a058546cd5620"
+  },
+  "author/33_n_w_27_33_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0f3aece66af23ef643efdfe1ccc9488f79149356da4e00bb9fc697906558113c"
+  },
+  "author/34_n_w_20_34_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3e5c2f4085092460252a965036b6b412b725e0b946945c9ab21a2aad0aaf6d73"
+  },
+  "corrected/34_n_w_20_34_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5bf028cdd3fdb5db7015641fcb4e1798aa4affb1997acbbfbcda0c615e6b2e9e"
+  },
+  "corrected/34_n_w_20_34_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d20f0726b2e6d8e1a1d623b1374f0a92608ff50b9c1da17db691d786f78de9a6"
+  },
+  "corrected/34_n_w_20_34_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "78c465806625e0e7c1cc6c6d3a38a2f67e725b9353de65e3bae6530d3d926d84"
+  },
+  "corrected/33_n_w_27_33_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3def9e873c01f8f7388c06a7be96a2b8ed48aa643e1b8cd9b47ebb857ad12aff"
+  },
+  "corrected/34_n_w_20_34_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cb84d0347d9affe73f002554f7f007327effb741c2c3ae551d027630c73ed940"
+  },
+  "author/34_n_w_20_34_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3c31f52c5b376f72d3b339fb4c0fbc28e4b5430483a7d77f3d33a975e7e97826"
+  },
+  "author/34_n_w_20_34_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "810d592d4659e150214e732b4e3e4cf52a42fa865c8f330021c3f7275724fac9"
+  },
+  "author/34_n_w_20_34_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "99ef04f8a9085b6576e69b6ad6aa2f21785939f0817f196740700061d571313e"
+  },
+  "corrected/34_n_w_20_34_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7a12778a160b655c483680acc4def86c4e81c291cd011baa7a7a578c6eb19fc8"
+  },
+  "author/34_n_w_20_34_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4fc5755746dfd04d76c9023b41b8e2604f0ecd19e057af21478e8c153e020b8e"
+  },
+  "author/34_n_w_20_34_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1c426f6dda807b0dd395ad9ee5649ea0b5905c53794aa73149b3ccdd5a6014d9"
+  },
+  "author/34_n_w_20_34_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bf3c9ca08a49a8aea996c9397c0202ecf4a92fdcc06f069ef6304735369398d8"
+  },
+  "corrected/34_n_w_20_34_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d736774d024f4b40c889ebb8a6a021cee05c97e761c21f260d22efc9fef3ee7e"
+  },
+  "corrected/34_n_w_20_34_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a50d890f760609a82b52ef85c661f1d0e756809e0c75641d2b06895796349384"
+  },
+  "corrected/34_n_w_20_34_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e0b8e5028aba3a6dec7ffe33df23e7ebbb4e4f58f3342c092aeaaf78d6f1136b"
+  },
+  "author/34_n_w_20_34_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "618b936b10ea1deba1e58f6eeaf6252fcb66e5fad70f5b8020c3599e8489c2bb"
+  },
+  "corrected/35_n_w_22_35_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "53a76b832acc643324fd1be6477aaba347a1b39e356c5d047f6b907d70e7f791"
+  },
+  "author/35_n_w_22_35_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9b0828fed2dce8cc51f94771e0c4a90f996c8e2ffd4de53b944c1255b68983c7"
+  },
+  "corrected/34_n_w_20_34_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4b015d5d0b4a4a8148a44824673da7d11b7befd6be0ff8b74d36db5ab0a5c8d4"
+  },
+  "author/35_n_w_22_35_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b270547702f83f207cfedabc3cf5ba5047c3ae714fd164a9f3d83a4a5f395fb4"
+  },
+  "author/34_n_w_20_34_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "597bf7e5e19bd987e03905b5bea9dd52c0e84435d2cf504a8480c27eae7b84f7"
+  },
+  "corrected/35_n_w_22_35_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "577df8c6b05fd2b99bdf478fad08a31e8f9fa3e94efec3e6032f3592bafc9c51"
+  },
+  "author/35_n_w_22_35_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "385853604d77a20e6b7770d4ad5039d5437a24f9728acc042ee097913bf9669e"
+  },
+  "corrected/35_n_w_22_35_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6cf270c3bb6ef3ce0dae16419578b09354b862a5dd3f02dcc7c36ddf5a289546"
+  },
+  "author/35_n_w_22_35_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0dcfe10adc7f5c5232e2f7e586531cad9312c1088e1a2fcb9bca40cbbf4e4a09"
+  },
+  "corrected/35_n_w_22_35_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a90e02cee48bdda6bca1c05b186bc65d5fa5c5049f22ea8d0d7b2a483b6cdbf6"
+  },
+  "author/35_n_w_22_35_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "242e1a75e8b14689b69fa15ddbad4c99509eb804a51eec2e065f301ae81d690f"
+  },
+  "author/35_n_w_22_35_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0b16483495cee080a517d4dcedbcf907d0aea93520022a91384a76595ea3ce7b"
+  },
+  "corrected/35_n_w_22_35_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f3871e37caa95a937496ee424dae25585cfa9a267aeed203aa5526fd1450153a"
+  },
+  "corrected/35_n_w_22_35_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c48aea3f8bf69e2b74ae03c1695a653bba2defbb049a3c123c3b36b76329c649"
+  },
+  "author/35_n_w_22_35_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2e1358762cf4d4bbde83a0240ab13e0646b9f88eb4e9ce8baa1f681e1ad4a24e"
+  },
+  "author/35_n_w_22_35_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fbdf080a628fb84943f94cae6596c8dd7b356471c9d3b1ae84d34fcc63cf7c95"
+  },
+  "corrected/35_n_w_22_35_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3be0fd6c6e19531de3024b61d7122b1a633501c518e6655041060236d7101316"
+  },
+  "corrected/35_n_w_22_35_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "13249f4ed8aa6677f472f62d85b8070ad2c847171c08cebe2f69b79da50af652"
+  },
+  "author/36_n_w_21_36_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fea4a652a1e8f66ab7f081c63636860d6771ff835176339b225e2726093622a0"
+  },
+  "author/36_n_w_21_36_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9bd668779e1dddb58c461ba1657b35e6272947fdab42cdd4807343a882885163"
+  },
+  "corrected/36_n_w_21_36_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a659280df23e9fc83cf1fc258f7a10ce8fa1491c503d0fd79575fcd3a751ec7d"
+  },
+  "corrected/35_n_w_22_35_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "946c15c1a0cbaa0070127a3b4c7a18f60ef6e96d6197e14e696a54ebc9321a0b"
+  },
+  "corrected/36_n_w_21_36_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "52f7af041a6c1eb0dd5cb79d849af0d85bf1e1e8a64d3fb77587bbe7505e4094"
+  },
+  "author/35_n_w_22_35_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e357910ca128eaa1f5ce2aa727fa156349865eb18c11dc040f6d3f760a430e5d"
+  },
+  "corrected/36_n_w_21_36_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9847da222a9e683ab13b8947b50eb5f71d4edfa1189112a8138eb6284e113b90"
+  },
+  "author/36_n_w_21_36_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6daaf29c57a34dcccce2c9cd69fac1ca1991ab7dfcc382ce9bac7bbd152f560b"
+  },
+  "corrected/36_n_w_21_36_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "81c2ada6983bfa204919126e9940e39507322904f0274d38fa9a5dbfc166e683"
+  },
+  "author/36_n_w_21_36_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "26e1e99ebd29a5eddf7462f106ee253ed28fbb2fe427e9b34fbe71a368653b37"
+  },
+  "corrected/36_n_w_21_36_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "91805ef0a53d9082e28e487d60624dbee2b5a6abf671b431c07638ada3493c02"
+  },
+  "author/36_n_w_21_36_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0d4e798ba9f63b09b40f9284618e8d6751645ddf572ff37efcb1c361d5dede40"
+  },
+  "author/36_n_w_21_36_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "85aaba86f7fc9e277bcda6ccf81a24c40bad1f1bd918e6dc263af6c33218a93f"
+  },
+  "author/36_n_w_21_36_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "18f97067d749c1feb5fcb86de8c24d92ff8de07bdffbfa04172475132a79887d"
+  },
+  "corrected/36_n_w_21_36_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3a9871e63f1f1daf840df5a1ec0f3a2bf0a5713158a874a0c2f5143567651b16"
+  },
+  "corrected/36_n_w_21_36_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "aebda1c2df01797f6aa02c3a93749b76c465df42409b8edae1c5e05434d9a45a"
+  },
+  "corrected/36_n_w_21_36_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "411c09a2fc2830f29311b84c9ccfbdce2c995a1cfb2db8fd202f50e73a714866"
+  },
+  "corrected/36_n_w_21_36_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fa8d51487d943d07358fbedf20a1b6e0bc7fb467d6c6ea32161fc74c4923c484"
+  },
+  "author/36_n_w_21_36_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "731c66234965a1bc056e1e72694dbd8c4419c15e15e2380c0e0e5d954fc73063"
+  },
+  "corrected/37_n_w_20_37_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2fd039a7978d33be60844e8e46b94279107826c77564e9f6a8e0411458984343"
+  },
+  "author/37_n_w_20_37_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fe63664cc4bd0101a67843b54a0abbffbd4b1a884a448f4546e90e1d6534dcb7"
+  },
+  "corrected/37_n_w_20_37_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2adf084fb50a927b221191e64f69693ebfd0b3df95f2ba39ce2cccb5acf13706"
+  },
+  "author/36_n_w_21_36_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4d2ac5ce7a07c3151ebf7dc8a8a03c8a472590d6fe2f9c8c3905015056b65598"
+  },
+  "author/37_n_w_20_37_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f941c2586a65f0c7325e700055d3bb8e59f4f0ce8b4ab01120eaed5947311a96"
+  },
+  "author/37_n_w_20_37_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c577c6ae154de479eb9f471cec0b12ea7a1be406f2bde95a9fdc943f53900579"
+  },
+  "corrected/37_n_w_20_37_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6a66ec6d6d4360aefbe098ea6d887f6829a9c15677a6746be8df1ac3cdd94f4f"
+  },
+  "corrected/37_n_w_20_37_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7f77db26d6c5441125edb4355adfd568453c80880eaf29165f3e42c4dbdadbc9"
+  },
+  "author/37_n_w_20_37_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "626c35aba0e56b1f6238690a08f5f53664d85bf3bf07ee97962ea0f08b489f40"
+  },
+  "author/37_n_w_20_37_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6f6c7e16265e492af3b08b39c0a82f9360055f59e6b94f77e0ab64eb2f533e26"
+  },
+  "corrected/37_n_w_20_37_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cb3102352a0f3c190b967ef9800cb424e32fd4828688780ae8c90ccf4595dbae"
+  },
+  "corrected/37_n_w_20_37_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4f7e8e7962bac2abb22056b573f9bd89b8008efbe0c690b91ada35e56b6e2040"
+  },
+  "author/37_n_w_20_37_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fe1d1d896e3d72afec53963e3576efbc573aeb2359916e0690f4a5cc45874cd1"
+  },
+  "author/37_n_w_20_37_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "609012589608e03926b77d0eab3755f289b60da8eda40042b8664e12b5a56310"
+  },
+  "author/37_n_w_20_37_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2228fa935b1937f6f3dd56a465c0be05667af34282ac8e79b83465c98e175d68"
+  },
+  "corrected/37_n_w_20_37_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7b1fd91b2ec86b241e9dcdabdabcd04c889ed6a52f5a72e4221b30b96b712a0a"
+  },
+  "corrected/37_n_w_20_37_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5ed616aff1a6f89b4a1ad7a3091b372ddee32db8b4e378ed51af2f9932f9f2f7"
+  },
+  "author/37_n_w_20_37_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fd4d3e5ad3ff43d6243e0cef89900da8dcf4212a8affa075262f5e15b2861de5"
+  },
+  "corrected/37_n_w_20_37_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9b45ebf868081664c4a655d6d09a76bd02df1e61f2c4451e4e0e8581488dbd5d"
+  },
+  "author/38_n_w_23_38_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "63d7916178155f3836b6afbcfbd2c7be6d9dab33883f91c853c88cff58b12b1c"
+  },
+  "corrected/38_n_w_23_38_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e828d7216561a35192b6c48e9236cbb0a745947af4f1d11281d5226960345095"
+  },
+  "author/38_n_w_23_38_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "51545e3e92dc803d2639474932ffbf032d98afaf6015d3a895255d45afe67db3"
+  },
+  "corrected/38_n_w_23_38_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "66852291634750bd7d2b6ffcbe5fc95b09c433bfa221c437a1414d2c175823a8"
+  },
+  "corrected/38_n_w_23_38_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "71a4b1a56b29e8f9afe30d9fb7ebb1450993f7b438aa564784028852daa69cde"
+  },
+  "corrected/38_n_w_23_38_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "92dd4e6e3ed662d99e49333b8ccd27aa5f22cb573a388cf6ad5a9d939df9ae78"
+  },
+  "corrected/38_n_w_23_38_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dfc734b5df44423b6979819e016efbe814310ba3aa836748fe380682e6fb59b6"
+  },
+  "author/38_n_w_23_38_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9ca35256a6252feebb234c6ec472d3420bcdfaa906c07564daa52496d8c4cb78"
+  },
+  "corrected/38_n_w_23_38_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "36fa5d056eb2a15ddfb96f644340fa711d66d9f90b16bfdbb2f7871bd274479f"
+  },
+  "author/38_n_w_23_38_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "71964d834845d126d13f4084bbea4642c1fdf390a6f7726240b7ba0226e690b1"
+  },
+  "author/38_n_w_23_38_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e615bb550d94e5e9f72e4ab7959e6cf8b31ac2b4a4b7b9be8719c77c39d32f2f"
+  },
+  "author/38_n_w_23_38_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2fd3c5ef7e89c887d165b21b5a9baa0d23371940bbeca52a1e4e375484220a38"
+  },
+  "corrected/38_n_w_23_38_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "308d0f45a5b2ea1cc3badc1a034b0602409c1af16b230f38975389489d0c486e"
+  },
+  "author/38_n_w_23_38_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0d2b96cc7a3875c13d7484839031fbb32328c59a34623b6bdd9ba71b78090b2c"
+  },
+  "corrected/38_n_w_23_38_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6fa0d8e57f4f08cdf216b5e5c6482c9da587aa368ddb446f9213af035fbe3ac1"
+  },
+  "author/38_n_w_23_38_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "24823422785147830380a03b963ff4c166bfabfdf9be5cb832227ec2d32d4275"
+  },
+  "author/38_n_w_23_38_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a892b0519c1de8dbdb4a77f707b1f75e2d799f8a65d938a13e35af9377b80701"
+  },
+  "corrected/39_n_w_22_39_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "01038bf399bcf8e320ff518cdf49711bb79506c24e43385cd2bd76143b5e22dd"
+  },
+  "author/39_n_w_22_39_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5f814fff0285dbbca54a31154660d63f2b1dae21ba72ccb1e0fa64945d42ead3"
+  },
+  "corrected/39_n_w_22_39_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a9775300df9197e8ae3d9b88f22621231b8023d0e1aa13d1ae85d0fa24c4b07b"
+  },
+  "corrected/38_n_w_23_38_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "db74f1867b81b6d8710bb48a188b7fde0974b29a1b6fa655ecc86b9b3bb47684"
+  },
+  "corrected/39_n_w_22_39_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1e8ede8500ebbaef25dc20cf245e9cc0894b983b2522d492ca87d1c20d11b509"
+  },
+  "author/39_n_w_22_39_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "820114f6388bf79785105f30c92a8c08bb78d17bc16e3ecf705462a5d70136ce"
+  },
+  "corrected/39_n_w_22_39_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5c8f9962c02ea75b26160a2d3796712bcbb2e67dd6fd697ac9aebdf385286505"
+  },
+  "author/39_n_w_22_39_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1c18373902e099e8f6dc3d04845d2e9a9dd665eb98ece3349a6804feea620c2a"
+  },
+  "author/39_n_w_22_39_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6752bdf625e795ac37374290e57daffe36026db6614a35e31fc7b11758d16b3d"
+  },
+  "author/39_n_w_22_39_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e0535311b9ae021522b632d01e5ee34ac356ee202c55eac5a1e4eea6449b006d"
+  },
+  "author/39_n_w_22_39_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fcdd0940f894eda1b99d33b644116cd943abc00a7c7392185365ea1d883584d7"
+  },
+  "author/39_n_w_22_39_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b8ed319897ddaf4c2b9c33e57f94d316cec8ab3ef9fd2ec5b0259a33030d0d67"
+  },
+  "corrected/39_n_w_22_39_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7eecaf53f8e7560fc57e144f05b67d441a70b9ba7eef3ba2b5169d6b428833e9"
+  },
+  "corrected/39_n_w_22_39_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d65053ed1b0fab686b3048bce44a24e66b5c55697cd5d1aef7c3cf585e3380da"
+  },
+  "corrected/39_n_w_22_39_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "af36849f7f98d03c0ade09e8a3e67e1904e2cbd1a0c73fe5413238061967352f"
+  },
+  "author/39_n_w_22_39_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e0535311b9ae021522b632d01e5ee34ac356ee202c55eac5a1e4eea6449b006d"
+  },
+  "author/39_n_w_22_39_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "84ff04c8491811499156438f4349a7328615c81d8f084d0a848cd67d68b080c0"
+  },
+  "author/3_n_w_23_3_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1f81b25650c5125b2e8fb3f69614603ccc4f76b7486bf29f428a35e90b200ced"
+  },
+  "corrected/39_n_w_22_39_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fe810799ae4918795303f56f79e5e60356d27cba187a91218e5b0d502c390dc7"
+  },
+  "author/3_n_w_23_3_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b7ad8882bf82239f8111473bc1d330d2809e8a49445ddad184ebdf9cd65bdabe"
+  },
+  "corrected/3_n_w_23_3_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c84dfe2c08132a064c7e1f2df0b4d95b9b63bea88c6b488780529cbbf652d864"
+  },
+  "corrected/39_n_w_22_39_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0633435d0df9f8cd8777758ddad788ca0896f0572ce51d9cb81c246077108bc5"
+  },
+  "corrected/3_n_w_23_3_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "70fde4336494f8d0287a8d3cec398ed361c932e4177407113002753358c93253"
+  },
+  "author/3_n_w_23_3_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9b7520b7e58fd25dbb49d8883eb8971306d3ac14fb2f0d369a5cf04eb45c71ca"
+  },
+  "corrected/3_n_w_23_3_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ab8bf3166201080269f344359a6b04d41a1697575ad841baec5ed480bb1cdb94"
+  },
+  "corrected/3_n_w_23_3_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "631940299ffa813b892ef1bfb72ce79449b86ba401222cc696715db385aceb04"
+  },
+  "author/3_n_w_23_3_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8cf227570d7cc247235f50111e39cc2aff3fdc0c9115b7d8513002111b5fefe2"
+  },
+  "author/3_n_w_23_3_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5c4e2acd86a075603e208f1cd899747a43f2c5bede1c9c33fdbfca157a77cd8c"
+  },
+  "author/3_n_w_23_3_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b7ad8882bf82239f8111473bc1d330d2809e8a49445ddad184ebdf9cd65bdabe"
+  },
+  "corrected/3_n_w_23_3_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5e03101a5c5e5f7ba11e0b5881ca1c82de787143791adaed2384d60e052454f9"
+  },
+  "author/3_n_w_23_3_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ba8c9d56c14ac9459a39de3447a4f39e06672208765aca878fd30ea9112ad022"
+  },
+  "author/3_n_w_23_3_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a97b73e5a1b4167b41d2d0b05421dc0017a04c9d0daead698b8fe30c75fbbda6"
+  },
+  "corrected/3_n_w_23_3_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9caa5c689caad2971aff3417cfa88c9f60a956ee76d42acdfcb4dfcad56b8946"
+  },
+  "corrected/3_n_w_23_3_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f08dd81a85b24d8ebb6507ed77eda875bc8816630eded9542691fd7151c0f2ec"
+  },
+  "author/40_n_m_20_40_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3d77ae6b5a30f502594dcdedb5f82bd2bccf0ba9352b673c78c21f4caef52e60"
+  },
+  "corrected/3_n_w_23_3_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "74a92219981f95f61033b98ee812f8c180b28ee73cc6940234f08d8b014cf967"
+  },
+  "corrected/40_n_m_20_40_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1cd7564ccaf685f7655cc697b6b75b42636b8632fec924c943a0c82b3ae5eb4c"
+  },
+  "corrected/40_n_m_20_40_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "92515ff8c19e3424214c65fc1575b0ce84ea77c5684c5857710a41c3538c604c"
+  },
+  "author/40_n_m_20_40_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "562656dda335d25d8afb8236a8d82a31b167e08451fb15f452ce745b6470082b"
+  },
+  "author/40_n_m_20_40_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "266597239d1d6b4e2d147fc4e1d84e212b5ef9ffd24088bf60ea314fe5411a49"
+  },
+  "author/3_n_w_23_3_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "495744fd90abe420375be84526ca7219199988486059696411ab9b0e496fe63b"
+  },
+  "corrected/3_n_w_23_3_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e9e7c3d96369f2328dec41632437b3b3ac4a4fc72c149c1a3b16094036ccbaf6"
+  },
+  "author/40_n_m_20_40_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d49a6246b6f13b4a1f493ede0b897c2c7f111ec738184bc651898f61ffe25e16"
+  },
+  "corrected/40_n_m_20_40_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "31e982ddff6afdc14c5988f8377083ca53e5a07334b9bd9697daad4924cda9f7"
+  },
+  "author/40_n_m_20_40_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "322324dd7bc3a6c57b6cf340cb9e2649f8a683a99cb5eef599ff372efcc40a48"
+  },
+  "corrected/40_n_m_20_40_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b3f96765b35c1b7ce9cdbc702e29c19f4fc9542324e6504694e8fd487fc88a6e"
+  },
+  "author/40_n_m_20_40_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6c876e7766a8a51629476eb9535171ac2714c3d4a8b40c46d4635eb02538e7a1"
+  },
+  "corrected/40_n_m_20_40_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4b918a4781e25f4e4b40d3e30ee7f3c73c9d9e852706b63091ffc125cb0e160f"
+  },
+  "corrected/40_n_m_20_40_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "17d292a171a658bb2af7aaecb931560b85c0f0771a7ee3fe4fb7df11aadbf69f"
+  },
+  "author/40_n_m_20_40_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bc479b22a9311731cfc9912d34195f5b7adc2576bfd2ed0c9914d5a701806eb4"
+  },
+  "corrected/40_n_m_20_40_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0e7da35f86070033ddb297341f8d93dca55ab6bbc730cd8b01adfeb1eeb3c38a"
+  },
+  "author/41_n_m_20_41_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dd3c061446c77a5f54e3b5cae66101ad078390fa6179d233635d6f1fd1868e4f"
+  },
+  "corrected/41_n_m_20_41_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f6083237ee5f901c22c8ffcd94c9b1a2cf2cf18e686339e0a25a6ffa05a472dd"
+  },
+  "corrected/40_n_m_20_40_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3234506d658a88177e77e36101196f754bf7072825ee42506a7139b2243ead7c"
+  },
+  "author/40_n_m_20_40_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "676d2962628044a1d2abf5dad6b300a9177d0b3cc22d147013d161ef3135d2e6"
+  },
+  "corrected/41_n_m_20_41_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b5f4b9dd1fd2eb0e802df9d249394ab64aab9614bae68b2bb272f59cfa12cf73"
+  },
+  "author/41_n_m_20_41_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "12c3667c693340dda773751e5ae3391be0462b4ca6b8e6deb726686fd0311c88"
+  },
+  "corrected/41_n_m_20_41_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7acaedce9435270d91cac8df8a75553d3d0933dae9e080881c662984b7c68578"
+  },
+  "corrected/41_n_m_20_41_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2fa8b4ff61cc64bc66d23a45cb782b76c1e89ef5293c6cc3178f8f800c869193"
+  },
+  "corrected/41_n_m_20_41_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "794eb04935c9962843abde43117677774d38e3cb9aca9e62c474d9b9f429b3be"
+  },
+  "author/41_n_m_20_41_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "28267a30c2af2aff074d66afba6612443b3c2c58fb39f56615333ebf12561121"
+  },
+  "author/41_n_m_20_41_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fc85b4dd0f77d527db30f5176d207ea9afbfa52906b1e2329ab3a8fd37556529"
+  },
+  "corrected/41_n_m_20_41_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5ddb672d843c20cf2c31bc6aa391aaa1fef83847ac7f025988b6f0151242112e"
+  },
+  "author/41_n_m_20_41_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c972969583c9461f9661ce7789b1ed7f5b7323e6933a179074c695466d4dfdcf"
+  },
+  "author/41_n_m_20_41_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "41ac78c803b488efe7be40b636156066f1a70a3048757db1dc598c1d5505d24f"
+  },
+  "author/41_n_m_20_41_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8e1282990c3174b7956e532dbbf062e1001b8663376398a85614673193270f1c"
+  },
+  "author/41_n_m_20_41_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1f0ebdd2cefeef7df97b5fc0061bfd5bb0b08a4ef1c4d77e7de1f69856c9f4cf"
+  },
+  "corrected/41_n_m_20_41_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "72839f44171853afdbfb42082b57ead3f3b105a68f0f14801a1e81995d7b49fa"
+  },
+  "author/41_n_m_20_41_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "591d9ad634603969293e64117f374c61f84d2a6aacf20e84942bc8fc7f751f42"
+  },
+  "corrected/42_n_w_20_42_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "15016a26afba62e38a7052e2c16e8d43fc3ba370efb928a8246b128ca428144b"
+  },
+  "author/42_n_w_20_42_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d0e1e7d2142fcd5e7b213982f53e7648658f45603de28fe0b21ff2ea921be1aa"
+  },
+  "corrected/41_n_m_20_41_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "63b22a850e1a8318ce82197103468e523bd11f845f2bb3cba1ad57f4a2d31b6e"
+  },
+  "corrected/42_n_w_20_42_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "20c6273079119085e5fb45dc1ecb3352ec02cf2b7be66cb18089f324a2f2ec22"
+  },
+  "corrected/41_n_m_20_41_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "18d6d12a3f668fd2529c35896d5ca9fee3d2bb779e45d2270d8be0433c54f047"
+  },
+  "corrected/42_n_w_20_42_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8642eee440093322f1ab446bcc320504b71bd448572d3f01daeff365a6b31218"
+  },
+  "author/42_n_w_20_42_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b9869815cb37f570b71e3368745a1a47990b6eb196d5a2c43406898bce02d409"
+  },
+  "author/42_n_w_20_42_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "df333f66d01cdfc62b48e414ea040d482d56c7017f261332f6f998db08e62d8e"
+  },
+  "author/42_n_w_20_42_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fc1fc9a61d51cecdf628711a80d9c28d5f3de901184b6fad0ebe5ad3025e7282"
+  },
+  "corrected/42_n_w_20_42_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "76127d745ddacb63d2fb044deafb581930cdf2a13a754f94dd665330f0e1ab42"
+  },
+  "corrected/42_n_w_20_42_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "85936e230928259caa06848bba5225917bea1d015b306255e913f6dadbda1f4a"
+  },
+  "author/42_n_w_20_42_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d989d2f4b206981d91fed6e7dd5fe0d8a57c6bfae7e070af89d5846a536c3ca2"
+  },
+  "author/42_n_w_20_42_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "31c6d4ce3bab3d085d440fb03f7acc8d27e2d1229b84d21cb4995dcf0aebe0cb"
+  },
+  "corrected/42_n_w_20_42_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "6a403896159567c9d330705b677ab0616905b55ec8b5ac55e4ea60095c6c8639"
+  },
+  "author/42_n_w_20_42_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d8654b42fa600bf2f36257faa83912783ac1b9b71dc28603acc4dbe4b7528bc4"
+  },
+  "corrected/43_n_m_32_43_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "edab5e0d02f60d49a4b9b6a3ccaccb4c1d3f3ef94719541ecdef5e1010ae6c4c"
+  },
+  "corrected/42_n_w_20_42_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d3fa51d10646e99f5d5771cf9c86077be975414d5b387e15bbf306df326044f0"
+  },
+  "author/42_n_w_20_42_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bfcae92690740b7e5c306b340794991636dc68bdccabc731f25c2e00abcd64ea"
+  },
+  "author/43_n_m_32_43_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3d57fd6fd7ce8384572caf4a81e239065541aec6a762e49a3fcb177a7c0e9889"
+  },
+  "corrected/42_n_w_20_42_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a4987c788bd22a140e1421e68e8ad1911fa4dfb7c0ce7a246eb9db08a6f6a27f"
+  },
+  "author/42_n_w_20_42_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8581c114b20d8e01b41b2e7694222fcb4bbfb3dcb8d77c3f91b2a32e3bfd6166"
+  },
+  "corrected/43_n_m_32_43_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0cad483417a6be8a506500ea4485ebccda2a14b2b06f3585dc5ce0ccee22ec9c"
+  },
+  "corrected/42_n_w_20_42_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5b222469204e985016ebc52343e7bbbd5a2809b277235affa65dc34d8a3a2907"
+  },
+  "author/43_n_m_32_43_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0a3faae0b9c18706a05e4cdacad98805c37010cf6e6512273d6661d3bd15043b"
+  },
+  "author/43_n_m_32_43_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "93340f1a0bfd9db581039b76d32e9d86f821bb4fdf37ecf48b4a5b826f610a09"
+  },
+  "corrected/43_n_m_32_43_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bac5fff2ba1f642300f41c6fc417d3bcb1256a2af3d66af530d6c40110e23f97"
+  },
+  "corrected/43_n_m_32_43_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fd1ac23571bb233ebee4ddadd60b12f507398a9982c31d5083f31043ac72dac2"
+  },
+  "author/43_n_m_32_43_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ebbc34e6fd62e952a3ec3962b13dbc18bf0dbb2bece67cd2f8903b8eb011006e"
+  },
+  "author/43_n_m_32_43_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8102a81e5c5b1c5b70cca80867f7299e4d8824f403e97a7bbbdeec43bac5707b"
+  },
+  "author/43_n_m_32_43_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "71afe124e38d246d64078cc51d845efc6fdd7b1b57eaff90d5f7c3d702df6422"
+  },
+  "corrected/43_n_m_32_43_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a5af30c847031fcbdd7121829cd448e6f653811aafaa3692ee53f076b1040457"
+  },
+  "corrected/43_n_m_32_43_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0bd66f6cd79845af601b0fea18fdf3c0fe6cdb40b16feda1fdb9c14e5113a6ce"
+  },
+  "author/43_n_m_32_43_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8f5563afa58cdc9432984cddb4f6b3d8b82c0cd4eabccb8c64abe60ccd902cdb"
+  },
+  "author/44_n_w_23_44_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1030103a9c4898df2240c5cb42a36f62bd6a3c5a606f3f5f300fecc017af75fd"
+  },
+  "corrected/43_n_m_32_43_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a9dd1bccb84214980498eeee0f1560ebdc6edb64b0af519d3d0c6eeff9b0ea26"
+  },
+  "corrected/44_n_w_23_44_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bd43a07b29e961d7aa79c1f64debc598c2a07d5d315c4833612ffd09c7bcc308"
+  },
+  "author/44_n_w_23_44_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0a39fc41dfd6ecd83db3d0b6c1ed1fccf2a67c0133c93afce9abe6246f5b07ce"
+  },
+  "author/43_n_m_32_43_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "5fc0cae19c5df35ecd2b88aa44ba8bbf0c1aaa7f74b941bd40f86c75d8f81e49"
+  },
+  "author/43_n_m_32_43_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d9b86613c5b0f09878fd478f5f084d2bc1d0acee5722180a78cc27530201f6f4"
+  },
+  "author/44_n_w_23_44_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b555ff385d303ebab959be1f74f4f2f7a34e3b87273f68f2fa3dd9034cd6d87e"
+  },
+  "author/44_n_w_23_44_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6dec4d65e3076ef8dae0a87927361c7d2f299ba7b0ea1b42822f55ddd52df69c"
+  },
+  "corrected/43_n_m_32_43_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "40e77585f18c47e5447b9a7f9a85aa040e5ec6c545aeb1e506ba0efa3e62bc96"
+  },
+  "corrected/43_n_m_32_43_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b16c976dd0cc82c13e7f3db2bf44773f1e0fca61f017dfdc70e828863c115bf7"
+  },
+  "corrected/44_n_w_23_44_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "02548bc438639cb4c75e2b699846de7c0c57411f64d6971a89361f85f8383e41"
+  },
+  "corrected/44_n_w_23_44_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2067ad15cf74b285fab3d71c19496ba09faa7e09a539119105e8d7c795ffbf4f"
+  },
+  "author/44_n_w_23_44_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e1b6bd2b965bc6a26ee22fa8293a3ef76e5405aa402c6e86536e8aa4f0dd10fd"
+  },
+  "author/44_n_w_23_44_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3e0114c2ed9f4178b3c43af88e852ca5b4ffc030f364d80632559338f8b5a6f8"
+  },
+  "corrected/44_n_w_23_44_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "487751326a10a3279308a3cc25f72c6ad9ad5a7fca9277553c94bd083eb3daae"
+  },
+  "corrected/44_n_w_23_44_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "db245af3d3c91777e960fdb88bd837e8ba1000e8ccaaa78a3924bd95fd04399f"
+  },
+  "author/44_n_w_23_44_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8f0a476d8d473602e504ceb51094aa1e62ce68b9df1880f51ae0522338cc8200"
+  },
+  "corrected/44_n_w_23_44_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f156fbbe4be9afabb0620fedb9363b421bfc0a40d82f3e1d9eac93382fabe9d6"
+  },
+  "corrected/44_n_w_23_44_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d4acff8a6c2c17e7a867e6294c748389945eb72670581b1e0ab0010d89ca167d"
+  },
+  "corrected/44_n_w_23_44_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "14e466e6ec49552518c2ac1c10ac8272fcf8a86e0ef0634e0083edbb9654380f"
+  },
+  "corrected/45_n_w_37_45_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8cc6109599b37284a5cf21c04068a5e567a0f81484a4fca98eadf9b4632da09b"
+  },
+  "corrected/44_n_w_23_44_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bfe67a40bbf8411ae18b1ac366ce5471ef8518b5f0283d17a78498e090ce6292"
+  },
+  "author/44_n_w_23_44_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "774746a9685c77f0a6c727de0f24fd0c4b639523360eb6ac3c459acdf859807c"
+  },
+  "corrected/45_n_w_37_45_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0f18cdbdc9587ef76838d8586364a182f70ee840120bda210f753301c169c688"
+  },
+  "author/45_n_w_37_45_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "68041db4989e6689b832eca301ba88df50cd855ef0e1f2685c89397e4180a4bf"
+  },
+  "author/45_n_w_37_45_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "31fe1f3eaacc002603e8eee116fd94d523892cc677bfde3c4856bf32a3914eaa"
+  },
+  "corrected/45_n_w_37_45_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d0f6274b9e0f1059b910590603dec8021dcfe97a51e14883d11a7defc36ce674"
+  },
+  "author/44_n_w_23_44_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dffd1f760f60defa88a4a59aaba384c587e424bd517b633f5435e02af2cb9dae"
+  },
+  "author/45_n_w_37_45_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "56d3731db18489731290d39b4dcddb74e44b99dadf0b7142fb263897bbcbc1b9"
+  },
+  "corrected/45_n_w_37_45_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "564a8783f4774043bcf8d440fadd6235c6c2db18bb662d1699559f8b567e2acb"
+  },
+  "author/45_n_w_37_45_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "83525c2bafc689b48a06f6799154ed810b00d17672fad68e029d3f6078682645"
+  },
+  "corrected/45_n_w_37_45_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b1d6f5da071f3ac860058dfcaf4ccd676a45cf36f1dd9c0e28c0f658525bd7e6"
+  },
+  "author/45_n_w_37_45_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e6cb150029abd519869b38d11ebdf60966507609adb795637d9a574f3e3f2902"
+  },
+  "corrected/45_n_w_37_45_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f7d89dce5b8e4ba8e96be56a6c123181162f559bc34dec0e2b931897d1c90578"
+  },
+  "author/45_n_w_37_45_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "116398f1b05b4778faa0abaeaa87d3ff16595ef364afd46c7a729dfbc7ba2f2d"
+  },
+  "author/45_n_w_37_45_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f4b7a4337d33548f13a45bed651dc6be0bb418600b861223b377f92bd37928c5"
+  },
+  "corrected/45_n_w_37_45_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ec44ffd07480f24a5c64308e1e338cca39230dff49702a39cdfb8fc0b57588b1"
+  },
+  "author/45_n_w_37_45_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7bee7297bf0a665103740686c872cd741d8b450d13ff338fcf9f07887a967815"
+  },
+  "corrected/45_n_w_37_45_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "527521c0dd1059f49e2f5a7fd461899406c67433924f799819eabe4d580f3baf"
+  },
+  "corrected/46_n_w_28_46_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "19cd0e98e14e2e1083b3f4ee194491cd201426f0312c80563f3b4cc4b8f155bc"
+  },
+  "corrected/46_n_w_28_46_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7004311c89d02dee88048ef7e069531df6cb1687c6019d9abb911b2676319eef"
+  },
+  "author/45_n_w_37_45_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a6a0f909bd51e448c86e5474475f0cacde5ee3e5ec27b8a3adf037f22211a1ee"
+  },
+  "corrected/45_n_w_37_45_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "251cb5e05c15d1d0f98b6843775abfc9c44b67765b60ee25698e4a1ddb4f3f11"
+  },
+  "author/46_n_w_28_46_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dbf852c65736f053cf1db654a09471393b2666166f5c39137249558ed1145b3d"
+  },
+  "author/46_n_w_28_46_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1853571e6a48ee93337f092be69e309490d838b92a06db68f5be470d09a31a4b"
+  },
+  "author/46_n_w_28_46_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ce0cd0a7c08b51f485731a6d1f6417c85dd412101dc14f020819869b1f626c33"
+  },
+  "author/46_n_w_28_46_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0f0c8b15c35bbe9b4b6dbfb81d5d6b3cce6126f7b1778a51f6c187ba42e2376a"
+  },
+  "corrected/46_n_w_28_46_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fb85696cf96d24fa1ce21669481d021e3375238432fcdb19daa04aa2af8b2e9c"
+  },
+  "author/46_n_w_28_46_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "62923f691a58bcab1ff0c89b91bac93f78e2c003d83e2c8939563ad4ef7f980f"
+  },
+  "corrected/46_n_w_28_46_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "026d35d7cac285112925c47b0df621664d30a500fd448d76c4bf009085ea14d3"
+  },
+  "corrected/46_n_w_28_46_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ea3540e6f03ab5409adafbcfd2acf360be51eec0252108041c82ee4740dd66ef"
+  },
+  "author/46_n_w_28_46_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f31348a0ec835fb6e239f6cfb31145b21b38cbc85d502b2c3f82efb0d3f11b15"
+  },
+  "corrected/46_n_w_28_46_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2cd9be06254fb9f671f7d978923509109e98b9297d1a389819d2d807bbe32334"
+  },
+  "author/46_n_w_28_46_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "15e0ee6e635113c095768281048fbf0edc950b88a2cfbe4d3de1334172e72cb8"
+  },
+  "author/46_n_w_28_46_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1c160107797ba4734877554bd22c59533511d66b05f6d7162c9aa8a2fb751c37"
+  },
+  "author/46_n_w_28_46_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b49e4b18e8955b0be16d536fb0837bca9133761a41f1721025470d326a6206b7"
+  },
+  "corrected/46_n_w_28_46_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e62efa0745ec0be80bd35ec9b6287c0e049a43df64d5e0a3e8e70119620d7d86"
+  },
+  "corrected/46_n_w_30_1579_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "74e3835db7d940f6f18d68ef4a02e62c6cd733f5e4c4ef695cce01d309f7de91"
+  },
+  "corrected/46_n_w_28_46_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e0ab48fa736a4241bc1669e19a07f723c2764da3b3671a298251a542cf41641c"
+  },
+  "corrected/46_n_w_28_46_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0f04daf51d6925ebbba07d75fef7909e0384fd64c5dfc9169dc0bdf5c3a3214b"
+  },
+  "author/46_n_w_30_1579_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e2c856d2422636e4f4bdaf81b1a4e537dd8f6213f5f8d30fea03f46f6779066d"
+  },
+  "author/46_n_w_30_1579_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8c4f93f8f74f2a8eeb560e99ae330ed84f45417ee05aba361fda880d6c644116"
+  },
+  "author/46_n_w_30_1579_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "af99c1cee3a6ce72ff217d54a985ff24c78d6ecc381432c9f58a72c217121633"
+  },
+  "corrected/46_n_w_30_1579_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0e8f6cdd841974ccbe39af8be407082a5b4b64c5c418dcb5d8653b7eccbf018f"
+  },
+  "corrected/46_n_w_30_1579_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ca5f93873a72f44f763e7c410756eaa39f5f09a7cb456cdea35a99c7a0b94a77"
+  },
+  "author/46_n_w_30_1579_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "65f325ad387efa1e1b4150840ea36e8111c42b5ca9e262ef62c7e5f71051baf9"
+  },
+  "author/46_n_w_30_1579_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fbd4cdd75390be6b5584a7d3480ce711f2b3e1ed29f6016e02f2f6d8450ab454"
+  },
+  "corrected/46_n_w_30_1579_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "22df706bfb4c176794ad1adeaf8c66de79e1e7c13c0676da16de0601a7335d82"
+  },
+  "corrected/46_n_w_30_1579_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "60c9217f0e4ccb6320cee9ea0abbddcbc597fc466735bc0c483ccb81ba911af7"
+  },
+  "corrected/46_n_w_30_1579_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "402d72364220d6bdd45f072009d287a9db8651a3054b7fda0917c9897f06e91e"
+  },
+  "corrected/46_n_w_30_1579_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3b2389ad0480ed59c228171c9dfedfdc7f8b3ec7b6fbae4830b7444a1641f13c"
+  },
+  "author/46_n_w_30_1579_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e04c6b281c3b7595196af8988dc8397fc6e812a109a1faafe11babc787e59363"
+  },
+  "corrected/46_n_w_30_1579_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fbc1fee572d4aca67ab2a0e793860ea371c5de51fe3549e0bc688b0e760beba9"
+  },
+  "author/46_n_w_30_1579_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "10faea1810147c8dbfac5cfc6fadb80cb5aa33a5622a4cf111daa81042a6ce2c"
+  },
+  "corrected/46_n_w_30_1605_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c82d4295c9e404e263593c5cd874d71e586bf64d48259d9ca30c597bd07624e5"
+  },
+  "corrected/46_n_w_30_1579_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "18adb79c1391c1c9d094004e17efd65b8e7fcc08a468ab9ffccf35f755c1f98e"
+  },
+  "author/46_n_w_30_1579_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "65f325ad387efa1e1b4150840ea36e8111c42b5ca9e262ef62c7e5f71051baf9"
+  },
+  "corrected/46_n_w_30_1605_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "db459b3baf8f397580bc78f03d22a2aa5592c2abbaa8841ba1fbb9ecc5a45c91"
+  },
+  "author/46_n_w_30_1605_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c6133c0ead1b9f7786d47f1f383dae00bfe71098873e088a26f69bd880f57d37"
+  },
+  "author/46_n_w_30_1605_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "be4ec3d53dff5f55c6f0bf32f969decfa85ca09bc39d65fb4cd3d5ec2295f89c"
+  },
+  "author/46_n_w_30_1579_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "17ba3cd4abf5f7bbaaa31f237ac340b58f732aee89680b4454596a6cce28e8a4"
+  },
+  "author/46_n_w_30_1605_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "264641dd8ef77e98ad931b1ea85def1640521973c3c6f3c44f2dc6e169f01fae"
+  },
+  "corrected/46_n_w_30_1605_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1462150918863c0afa562b816c26325ade282ba57ba7a450962464c88ad55a20"
+  },
+  "author/46_n_w_30_1605_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6cb0ceeb54b932c5ee5a99d14b0fcada308390c23d34b2d6172a0d1417153231"
+  },
+  "author/46_n_w_30_1605_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "65125a4555359fa5e98831331cc83ede53410c2c24e0dd3fca04178a4fbe216c"
+  },
+  "corrected/46_n_w_30_1605_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d8d6ea66fc911a88b73ec697f0e053b31e8c24f0cbb61c87ba59d2d92116e58c"
+  },
+  "corrected/46_n_w_30_1605_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0857f71209d1ba1a7b238a3e296e58c1a518a9b6d0c3c6aa8d51d69bd3775be2"
+  },
+  "author/46_n_w_30_1605_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f00ad2bdadeaace93970c1731261e5d14a9153491e6e0e597194c1d4a23c946d"
+  },
+  "author/46_n_w_30_1605_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e7b216ac881399b23a20b51b029d3cb8771e927722426a9618269b8e9517891c"
+  },
+  "corrected/46_n_w_30_1605_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "bf1a8f99a49941632969700a22a9333e5482844c7f6d80ef77d227a2a717f94d"
+  },
+  "corrected/46_n_w_30_1605_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4d21bbf93bbeb2f6404033beeaa499a6c8f1e6967271929b4fb49bd78bbbb5ea"
+  },
+  "corrected/47_n_w_32_47_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "65dabf585eee7cfe11cc4d5eb967504dca5ff436b56eebed724dc6361f9693f3"
+  },
+  "author/47_n_w_32_47_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cf737821a5dabf2e99a52e7aadf43f1d2a7d1b9d905ff667f3b8277cc07a732c"
+  },
+  "corrected/46_n_w_30_1605_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "30a28691d6edf22cd35de218797f7b415008c712de34262552d0c5c5193ac923"
+  },
+  "author/46_n_w_30_1605_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "7e06fd2b618fee104820a2b8b3439aa690facddf4b96542ec4c7a79a35c0cf54"
+  },
+  "corrected/47_n_w_32_47_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b989b156e16f7876a5ba220ac200ef2fcecbe992584f07a9b6a0bb6924e7cc7b"
+  },
+  "author/47_n_w_32_47_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d148f334c9000422bb033411a51a58c741f3c1b20cec5e26cef5c71f7adb23d2"
+  },
+  "author/47_n_w_32_47_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f6e61625da05cc420fcea3e0b117b0afb1065b903f42ceb1f2475044ef153ab2"
+  },
+  "corrected/46_n_w_30_1605_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "825d32a981cbd9daac93bc22c4b7f5f2f26266aee9458086ba646e5d7cc7005c"
+  },
+  "author/47_n_w_32_47_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4bff3286f7163228a54bd3f7cd095f118081cb94f2be7b68a8b6bbe06fc3837c"
+  },
+  "author/46_n_w_30_1605_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b02b88f5d3e4a40d8407167623e32150cf312b174614eb0d63a055df04d14315"
+  },
+  "author/47_n_w_32_47_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "15afdb7f0dd1aba5848cd4b1e105103596167c74700af26182fb6a818e0e945f"
+  },
+  "corrected/47_n_w_32_47_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d73951d0eac33861c3546ae96b00de1aa4bc23103cc6ead133ee7449d1c6242c"
+  },
+  "author/47_n_w_32_47_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "94d1894403952ce42edbb031f7e5d942471c2a7cb9dea555d494bcff2f88919e"
+  },
+  "corrected/47_n_w_32_47_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "52f34b8a3172a8f507153ba696bfb3c3cda73db47bf8d9db0da42b6807539b5e"
+  },
+  "corrected/47_n_w_32_47_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c4a75ae039f5fdd5e67884a1fb0f07e1ebe6ebc88c285e9cb84d069bfeaadda4"
+  },
+  "corrected/47_n_w_32_47_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d2812145ec61c45e6707ddbeba492e0eefdab6a4456781e3e7d67c14a92ab03a"
+  },
+  "corrected/47_n_w_32_47_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "41dc7f4f8259ccd99679d690d6e8ccf3769cf7468294af3008affb8d862e175e"
+  },
+  "corrected/47_n_w_32_47_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e9d9edf2fdf71664a86b9b112657ac1d7c959d14c8f8887951967c0e9e1daed7"
+  },
+  "author/47_n_w_32_47_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "54e2e185e6f510e5544c4ffc180068d5965893aca04cdc99a807c20f1d92d240"
+  },
+  "author/47_n_w_32_47_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4d2892d7e6f7a6de4a8737e950c121dce528319aaa481a67ba6839994639816a"
+  },
+  "author/48_n_w_19_48_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "57d879a43ae9b984a9924287445c46eee87b9459875f1a50ded48a5b95857601"
+  },
+  "author/47_n_w_32_47_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "2ce79e15f64ebdb3ca12503ef7efd3408d7414d4176c2932da16e45eca95f3ed"
+  },
+  "author/48_n_w_19_48_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "66a9c3baf78d2fec35bae2033f75133525408bf246cbf422305ab3685414abd5"
+  },
+  "corrected/47_n_w_32_47_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "08f49d6a99d882be7d2a4f928eebc7c8d2ca6e7e70e9d80baf8c3baaa8070493"
+  },
+  "corrected/48_n_w_19_48_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "76325d6a72c99249492db2cad90b13e5aecaf40df417f2c2775f9b8af7960f41"
+  },
+  "corrected/48_n_w_19_48_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e7613ef21cccca6ef8690a264875ddca443594fc3476467acbbb16f77c613971"
+  },
+  "corrected/48_n_w_19_48_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b6fdd8c7a7718621cd8d3cd25d3cdb7452d16f02f8e8830af292e15beb2bcc60"
+  },
+  "author/48_n_w_19_48_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ac56c168f6b0a9bafc340edf23aebcd072626c0e9e28d37da3754e63a20dfaab"
+  },
+  "author/48_n_w_19_48_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "26b06ca06caf6c5639936d6c0bdd7025317e3c0f0ce3c261b49607d99762ea8c"
+  },
+  "corrected/48_n_w_19_48_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7c261544470c49dec281a8adb8ed5bf72031fd835db82235b2de59e8e0ab371a"
+  },
+  "author/48_n_w_19_48_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "45e226acb5b959362619f0baf9c92923de4c8ae2c2e5f7a3452194574c9cb5b2"
+  },
+  "corrected/48_n_w_19_48_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "28d44e64d3bc2a57136f405b51c2cda41b8674bbcd9ad9fea4e1c89cf2c39c31"
+  },
+  "author/48_n_w_19_48_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bca8ff4add0949bbf4ac7404fdccd3d8661fdb0f726a0971645947278996cad3"
+  },
+  "author/48_n_w_19_48_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e03ac85c2706bb536d3f84c65f3011fd48776061938452304add693e38c6fa3c"
+  },
+  "author/49_n_w_20_49_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b2d2c4fa51e19566436e53a85ff0cdce10be7acb37ac601b1eeae73397c1f1bc"
+  },
+  "corrected/48_n_w_19_48_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "66065e108e513f95e662832acc9ce1210898ca95b3cf9ef4d8d70ce4f16b72ac"
+  },
+  "author/48_n_w_19_48_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "44c8e53068a84ea06c0b1b7e6c820bc0b32633752cfa3ec3bdb040433b03d37d"
+  },
+  "corrected/48_n_w_19_48_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1cf1b5e9d6f41c1d482486dafd9bd690508f63ddbfc62d9febb9a8bdf6775293"
+  },
+  "corrected/48_n_w_19_48_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c1c34854a986edd41774fdf0349f2e1a6f1a56f4dcc6b673e7c210a472f0056d"
+  },
+  "corrected/49_n_w_20_49_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8c25f5e45f78d7f595499a83987d966bd4710817a429164eca26369ebbbf36bd"
+  },
+  "author/49_n_w_20_49_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "59657474373454bca79dcc6f38d058f25ab272f3c16e5c3de83a776ee1d5c125"
+  },
+  "corrected/49_n_w_20_49_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fecf4ed0403955d1ed15fc136ba1b0b61b5f1b6975afc560ac39c6ce03a2ac60"
+  },
+  "author/49_n_w_20_49_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "15b2108c94d877f3a6c5eab9f7937f9c2b36701dc9a0b5b0ca721779e96532e2"
+  },
+  "corrected/49_n_w_20_49_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c49543786baf80bf255ef848820294036cb62ce8f11d37215b8c9fe8e8e5b1d9"
+  },
+  "corrected/49_n_w_20_49_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9b8a257bd42fc70b715b952a53670e2930074f3a602e4c4465e3c00a6236d5a9"
+  },
+  "corrected/49_n_w_20_49_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cdb2df145e54637d023706b5645f295d33859a99fccf0ef704287a4306d40237"
+  },
+  "author/49_n_w_20_49_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "78b63c47aadf13e14026df79f6cccd011ef3d7f0a97d224aafa4aa86698bb662"
+  },
+  "author/49_n_w_20_49_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c196469a3c9eccfea29cefdde81c442751a542253788d6acce2a817961bffe13"
+  },
+  "author/49_n_w_20_49_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "eaf9bd369dd5627314081fac652d179ad3c7a37b52ab8f84e6c8a6bf662fd109"
+  },
+  "author/49_n_w_20_49_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cbafd2799eac3ecee957404a184e75642a1c90aba647d944c53115fdc5a2ceaf"
+  },
+  "corrected/49_n_w_20_49_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "94a9240e4c12ae9d3f0319d5d799493b9f8e8a7fe694a2d42d9d7967fa1ae648"
+  },
+  "corrected/49_n_w_20_49_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0067686363fe40349985d36f4a8d3402635820ccd1c4e747d01e9532b86ea87c"
+  },
+  "author/49_n_w_20_49_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "53f0511463bed75a49f5c6e9588f276b182420fd568065156fbe7dc867a5db1d"
+  },
+  "author/4_n_m_22_4_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9c2a8282ac2782692fecd85c8c9caca670ba5ec8c597f07860239f0283fb201a"
+  },
+  "author/49_n_w_20_49_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "23ec028bf2f2ccba15e5aed92e98d407c404a4f9bcc4bf0cdc4441afab8f0774"
+  },
+  "corrected/4_n_m_22_4_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a40a0825db29200260170fd20dd586cc3306163b299363bf4f966c8ad601bdf8"
+  },
+  "author/4_n_m_22_4_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d27248ee930222f2aef2fae4b8c35d9c91a4a19764415cf4c67b0f1073a0acf5"
+  },
+  "corrected/49_n_w_20_49_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "63e9886b471b5d19fc548e9b81747298ac8d33afa6fc338ac907b07dd4653340"
+  },
+  "author/4_n_m_22_4_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a8104119cf53531b70b3927d62efe9756e7f3e32040a379c3e71eeb625fe4f2a"
+  },
+  "corrected/49_n_w_20_49_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9a049f851f1fee03fc72aafb2367aed6687907a8234dabc83c84705db2bda1d5"
+  },
+  "corrected/4_n_m_22_4_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ec31d2be5c8dd7b92eca0537144fff5dbcf1bd08d3f274a28c52fb1ded1962de"
+  },
+  "author/4_n_m_22_4_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ac761afe2ba50e72fed24819d49b809223ef51cea4bdec8b4b840defd472f50b"
+  },
+  "author/4_n_m_22_4_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "038a20d2aeede94eff40a8583d858de50579962133b7eecc1e07dd7165ae5b6d"
+  },
+  "corrected/4_n_m_22_4_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "23e2f0a79aaa7b2f45845c4f56c2efa8cf9a00b6ec223c938f52897e489e834c"
+  },
+  "author/4_n_m_22_4_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "f3ad4e5d632c769d64c93f771396947b5c7bae5f6a6a6481dfc02b9e2f9cf2e7"
+  },
+  "corrected/4_n_m_22_4_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0e2e8874dc79ba82cd7ef8650c17111af5a9d56e67e11e52db11dc43e9f650bd"
+  },
+  "corrected/4_n_m_22_4_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d76b2a2e585f34cc55e8ca0173d2577475af97e3a61109baaa3eb475747c86d9"
+  },
+  "author/4_n_m_22_4_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "91bef577f13a5d812cd940c14d2151755e29cfeefe83378f5496e2d1674c928c"
+  },
+  "corrected/4_n_m_22_4_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8c1ee20ea0c793143d2a91c35ade1cc442d847682592dce4dee8293f86ef43e1"
+  },
+  "corrected/4_n_m_22_4_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cb0d4a472f1311b203b26d7d202cb5455bbfb9435db82c92597162f0750d3d6b"
+  },
+  "corrected/4_n_m_22_4_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4aeb455ec6ac15f74526e2bff527b6dbd6e0695906c33f4f81084c69b8165dcd"
+  },
+  "author/50_n_w_20_50_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b8bfea072dd25173aa226f1d70b846eef09c423f28f119e8b53850f5fb94f4d7"
+  },
+  "corrected/50_n_w_20_50_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "9da0d8fe211e4bb3a322e2630c40f6b83c048e3baf6e140415c52e05647db927"
+  },
+  "author/4_n_m_22_4_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "81331de9cdd48dc16194e43976912552d9447460634f0c9c8ba8e876fda4cab0"
+  },
+  "author/50_n_w_20_50_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "645db33faa261bf65336e775aea01954463bc243b13da918115a92b1ea58cb0d"
+  },
+  "corrected/50_n_w_20_50_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d52c7145eeae830c4c8b10b0c5c6b5b8dc5cdf6e3df41cf048584cf89eddba17"
+  },
+  "author/50_n_w_20_50_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8a4cf1bb7bc1d7ee83454b21dc6545ec9335517940d50f8e9fff0e8b9f0639e2"
+  },
+  "author/50_n_w_20_50_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "c745100e062153912c2d33bb8a876d87108e55cfc951b534be77e9e090f8762f"
+  },
+  "corrected/50_n_w_20_50_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "08e8e913e1115d89d5894d92045b3d1df1cadc26220e870ff485330b452e6117"
+  },
+  "corrected/50_n_w_20_50_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "07d04b35364ad9a84b7201e06b7803246b2a03f7ffea0d9aaca4f7b62738dd8a"
+  },
+  "corrected/50_n_w_20_50_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e19566085fd74a2f917e49d4e39d55bf780b3dce58d9f23bf4d52e91ce6b7abc"
+  },
+  "author/50_n_w_20_50_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "dc7b01ce461c171ee370a8e9a0cc7b875ac09069c2a0a273b523350f77b0b0c0"
+  },
+  "author/50_n_w_20_50_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "20ed55635f2a5503028b78a7702fe15447ded879fa1b129549b34c8e00312065"
+  },
+  "author/50_n_w_20_50_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "92538c9726fd84a1efa2d752bc355df8290671a3d47eb05e38781b0a2ce6b350"
+  },
+  "author/50_n_w_20_50_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e584451504ba985993ff8d7aa400a0e8bfc1d00e96b83ac704843a27720f5f54"
+  },
+  "corrected/50_n_w_20_50_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "dfa8246777a95e8b6d2bfefd8f7f4737a303179b0a1cb3ec4fc110ef62a63afc"
+  },
+  "corrected/50_n_w_20_50_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a346964f303b54557a4a9af6d3c8b0e123083dfb9ab26d67552e7b6c8955246e"
+  },
+  "author/52_n_w_24_52_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1801e39ec93023a1e3c757fa68d8e5dfd8a7d5c82a255ab431fabc4b0542ad8b"
+  },
+  "corrected/52_n_w_24_52_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "d28bc6433fbb9c502256328feb311f579f923b98d7aaec8e48bb745e11117868"
+  },
+  "author/50_n_w_20_50_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "28a1253237aa2770c033fb0b7e52c1529726414e05e9bb808b6057b4ca984d4f"
+  },
+  "corrected/50_n_w_20_50_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1fc836c8d9a6700fc7d626ec6fa5ccd9a95cdf6529cec51dff6cfb39ff2b9adb"
+  },
+  "corrected/52_n_w_24_52_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "084b220aae05b834e4f3ac12cee95564d767322a3e2e99391911cfbc9134e707"
+  },
+  "corrected/50_n_w_20_50_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f304f49f3ad0350ad7d3497c02594d11f2d8460566a306c63f2f4a67ef18cd8f"
+  },
+  "author/52_n_w_24_52_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "626ed39c5149bf9b2180cef449847b7c38a47900d37b93124b5669221c0af8a3"
+  },
+  "corrected/52_n_w_24_52_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "21e82778fcc8a634c06818527998382ca1a5323863a429e3c46273b1f3945516"
+  },
+  "corrected/52_n_w_24_52_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ec4442946924541344e10a3709d255e905b136e0f93e692c9533f48d7ec38b18"
+  },
+  "author/52_n_w_24_52_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "92973d47fb0c54a72d5058050ac30b566fbb00ac7040a9f82f7f409c9ffa24ea"
+  },
+  "author/52_n_w_24_52_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6f37eb7c7b139a52beb31f09176f131a7992e94f24832b1fc481e0e47bd31efd"
+  },
+  "author/52_n_w_24_52_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "75a5ffb6b1f3cd30e33b5c6cd6a799c6614e80a0ce251ec75cea8da37f7167be"
+  },
+  "author/5_n_m_22_5_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "035637b9f1d1d85a073886e9084869c8b41b16b17fa2b52cfff7008d51cfe92b"
+  },
+  "corrected/5_n_m_22_5_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f06ab4cfe6457bdccb87a56fdad9d12bc4157118af953f8735a3dece4caf21ce"
+  },
+  "corrected/5_n_m_22_5_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7a790883732c6cc795819db795360dba1ddec872913d58f2d335c4b7a59aabab"
+  },
+  "corrected/52_n_w_24_52_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a4452ea0aa6984c3622967f4f5d26a5eff8341edad0501c00ddded1cf0e42a5e"
+  },
+  "author/5_n_m_22_5_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ed5565d1970ddabce502002f20b3511abc6bf2c7d20ee97f21d5312a7d724a5e"
+  },
+  "author/5_n_m_22_5_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "25e1120715802b200f4ee287312808442651a7531b2d34f9a65e64ec7e6d2d9a"
+  },
+  "author/5_n_m_22_5_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "4a9eeda4c91ad68f77aaaa44d8426c55db1cdb98505c2402c8802bdea1c12fe0"
+  },
+  "corrected/5_n_m_22_5_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "df2182f23c24d935fe22650990f5513db0b646aa2637288f2e1885e936b3f6de"
+  },
+  "corrected/5_n_m_22_5_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "cebfd83920ae16f99bd18cb8df6f2a457cfab7b13c6e222431cc2d6ecd1b90b9"
+  },
+  "author/5_n_m_22_5_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1c9d8a540a9c30831d686ccb0f2a6ec7494ff3090c4ea9be5cff62ecdde63520"
+  },
+  "corrected/5_n_m_22_5_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "8c34d5ec5e5d14f47717c0523b2ce77460db4fcd81289dda74b42253c9b0a7c8"
+  },
+  "corrected/5_n_m_22_5_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "de6b32c7bfdfac6411614b494b88cbe938406ace24ceb6d0c1448d198a6ba934"
+  },
+  "corrected/5_n_m_22_5_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "83ca619a317eeff5c73e5f6795195d82bcbf716fdb2f59721a76b0bdb20aa7ee"
+  },
+  "author/5_n_m_22_5_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0f6f79b781d8a97da38a92af4d5693b484b3a3ec906b9444cba84b934f76d9d0"
+  },
+  "author/5_n_m_22_5_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "249730fa198466c07de019952c261f26c6b9dc19150871271cfa54806a3f23aa"
+  },
+  "author/6_n_w_20_6_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "106e296b96da906efca7f6e33ce4e4c961cf78233e75169e05d731693062bfae"
+  },
+  "author/5_n_m_22_5_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "a2ee9c9eaacc35d0edc056cbc316d02ca50579eda73cb1c9143db67f2a4994de"
+  },
+  "corrected/6_n_w_20_6_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c1feede9d6de322e40c9f96478ad3ea7ef21e285ce23e25a667f1651e1d1abb6"
+  },
+  "author/6_n_w_20_6_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "34d0f1f86e907725e2e1c7c090b073e9f1a4c251349d2e03f828f862b9b42c55"
+  },
+  "corrected/5_n_m_22_5_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0b350a2e8ac34d31123a291495accc3068d7589633291b3fc19c6a413486b5ae"
+  },
+  "corrected/6_n_w_20_6_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e79f402bd496caa8b18752dc8e5accec5115158c3bcd462ddfc37d4c77102857"
+  },
+  "author/5_n_m_22_5_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "929b034d2a5eb1633eeada59bf86984f69070e000d4fc014e8693574a744e91a"
+  },
+  "corrected/5_n_m_22_5_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b61486914ddcf6876a3a9ba22b627161dbf4676366d6b3c1c35b77813eef1b19"
+  },
+  "author/6_n_w_20_6_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "53f3038c96de715a31b90026f591f64ff2b9fa7a28ce8591cca989e8f50f170c"
+  },
+  "author/6_n_w_20_6_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "ab120dc0addfac8afbeeb57c00e70e3cd726ff8db2c7964be7e52f42ff3d1202"
+  },
+  "author/6_n_w_20_6_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "32685fcd5b062a7763cc813da9180b8a613bbf8213ade9445ca73b1338fcf6f9"
+  },
+  "corrected/6_n_w_20_6_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "00669e08b6ace80f05e7a017a325a5ba4938ff8a42acef33822b929fd328e23f"
+  },
+  "corrected/6_n_w_20_6_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "59e133b1b4ccd9dd9bec62ff41a970760ce8aa716701a961a57285dfb24ffd0c"
+  },
+  "corrected/6_n_w_20_6_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "0803362ac8e64b9dd73d19ee0554b8549609ccc64941d4cf9232706730c62994"
+  },
+  "author/6_n_w_20_6_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "024ef10f5d5b62e6b73b71034ae8f20b91b1abe6130752120c4be1d098d109a3"
+  },
+  "corrected/6_n_w_20_6_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c604f0100d67f0484cc77fe37c83d82193be4ca7b819e22f45ccf49638980f55"
+  },
+  "corrected/6_n_w_20_6_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a36795eeee6237fb351e6a0b5e1995c8344839f13df48b63360f9b4399aea741"
+  },
+  "corrected/6_n_w_20_6_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c45b15f60c0912370af2d27bf38e63b853ac0836cd3bb1178f079c497d13af7c"
+  },
+  "author/6_n_w_20_6_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "fef97db50516d3a2e5b4f6373ccb75ee98f49c1fe967b6241dd9a0c58c4137e3"
+  },
+  "author/6_n_w_20_6_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "805414a340afd67b33b4d65e65ff76c87ddeeaa306e46f96c4bed645b70863f3"
+  },
+  "author/7_n_w_19_7_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1b597edd038fcb1ae3b18a4befcae0de6fb0ca3698cc98eead689675d6eef308"
+  },
+  "corrected/6_n_w_20_6_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c5446eefb207d15b5fae250f319e95df476b89f7a0d1ab1c0a1f1a8057650086"
+  },
+  "author/7_n_w_19_7_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "3b06d0120967a41e9c194362a246c5bb24f7be068e05774e54f23baa2ac3e6b2"
+  },
+  "corrected/7_n_w_19_7_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7a4e906fbbbcb9375a08905f33457615292ebaf2a73a89a126229dbb66017c7e"
+  },
+  "author/6_n_w_20_6_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "34feb49aa8ed794de8c342f83043ed05b32c1df0cc634d221af6b6ed9162ea99"
+  },
+  "corrected/7_n_w_19_7_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "e02d2be0233c0231781e61ef2ea8cc085f7a4a39dfe6e8f793aecff47924d880"
+  },
+  "corrected/7_n_w_19_7_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1c20817607e2652d9ba24824a8c3e57712126689e307e32926e0d5fc298e3075"
+  },
+  "author/7_n_w_19_7_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d0c570334a66845ecbb5cf40edcd616678fea944761abd452796f04ccd16ac60"
+  },
+  "author/7_n_w_19_7_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "60831f413519042ee830c9e4e2e31fdb56cdc69b23785323d6f94fc447181bdd"
+  },
+  "author/7_n_w_19_7_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1723531f263e4b958c380efbc64cfd572f6a4d829fb578a6fe739f8ce523c5be"
+  },
+  "corrected/7_n_w_19_7_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "b0b099d33388939dc3fa58348d39f84cc0fe6c32bd4af933a766f75a9a89f985"
+  },
+  "corrected/7_n_w_19_7_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "753c2105d43c49796a26428398fc52bf96c7b8c59fbcf0035778be68ceaf2fd6"
+  },
+  "corrected/7_n_w_19_7_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f239744f491778bd676f41239bda060f70846654425286a57f3425777bb3772f"
+  },
+  "author/7_n_w_19_7_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9a920ea86363da60efc9f8023d3de70f37138ee15163b2039fcdd4caa2f681e6"
+  },
+  "author/7_n_w_19_7_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "1723531f263e4b958c380efbc64cfd572f6a4d829fb578a6fe739f8ce523c5be"
+  },
+  "corrected/7_n_w_19_7_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "2b8561eff1a14fd115f4f2c4b11bb344ac176b761866e326430d0b33c79a40c8"
+  },
+  "author/7_n_w_19_7_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9a920ea86363da60efc9f8023d3de70f37138ee15163b2039fcdd4caa2f681e6"
+  },
+  "corrected/8_n_w_20_27_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ab39480c83110d411abecd24ad1b3c5eab78a6bae0a21434670e97bc2b33ae28"
+  },
+  "author/8_n_w_20_27_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e63dec04f50a9616c1906c236600918f104099dccbfb14bc02a15f0294046ce4"
+  },
+  "corrected/7_n_w_19_7_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a85caa18181a3975967696a73ea2496f8288b6ee6258b6c4d82a4efcbc7d5d1b"
+  },
+  "corrected/7_n_w_19_7_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "577bcbd75dea74dc4ccb6d5537fa4d7fcfb0338a34b3f3ea6624e8d392ca5b4d"
+  },
+  "author/7_n_w_19_7_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9a920ea86363da60efc9f8023d3de70f37138ee15163b2039fcdd4caa2f681e6"
+  },
+  "author/8_n_w_20_27_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "9d7e590a57bc2f334c8de62816c1a398e53d63379b2bdc6b91b05d9845df8ebf"
+  },
+  "corrected/8_n_w_20_27_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4fcab8007a6c08c88de44d9cdca81132ffabfc7c73359c14037ccee576cc8d49"
+  },
+  "author/8_n_w_20_27_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "710d2d5394e68cfdc9ed11deff21e1aff65f4b72c4fdfd3405b3d3d956fb6d54"
+  },
+  "author/8_n_w_20_27_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "67869a9763d06331cf2457f36b40304b37d7692b503158ecc0ee147f923d8d35"
+  },
+  "author/8_n_w_20_27_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "96cbbc50401714c7f2992d66363981775132575ac24f9259dcb1831ea62a8895"
+  },
+  "corrected/8_n_w_20_27_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "eb71d2ced0761ae6009264d81e39c8d10512d36eb33ad69125e22b879a7f0f3a"
+  },
+  "corrected/8_n_w_20_27_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a26b0bf13c46a74228c90815132337bc66282a88703ae973aeef0dac107d1f39"
+  },
+  "author/8_n_w_20_27_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "0eb991038ce82a9a153af1a722864382cada62e97855079db9bbc532e0897459"
+  },
+  "corrected/8_n_w_20_27_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "f53ed7a955e2e3f43b6402084b0367d34f025fd99b14680d496b0098571f7ec0"
+  },
+  "author/8_n_w_20_27_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "e737a597d0ef2042c9332e9f7bc323e251c08f894d9faca3b61efcffe86c65b5"
+  },
+  "corrected/8_n_w_20_27_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "c447a1be8a97165f09afa38077396032ce7a78b58c2d38516c17f5bedc8e5536"
+  },
+  "author/9_n_w_19_17_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "d9f64d50282a5022b1a26ef0736350397dca1824ca8addf904976dda8f3c746e"
+  },
+  "author/8_n_w_20_27_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "da59df550d449fcfb0763f2ed6b75ea2351d155489cebc0bdff61c337759c4d4"
+  },
+  "corrected/8_n_w_20_27_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "1599c393efbe32db693eb0ccfe62d55f1165f1fcf2cf58721a716b4c71cfcd8c"
+  },
+  "corrected/9_n_w_19_17_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "fbeb49d1db55907f084d1130973872768f3252dc3f2a438216903eb96437b3b9"
+  },
+  "author/8_n_w_20_27_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "bfd1d4d3478b5cac2a76ae1834c870ab0df23e5353cdcbdb17e2c8e49b074652"
+  },
+  "corrected/8_n_w_20_27_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "a89502cbcf93985df7442671f5beda77236d5c864eb1390a28fcecc65e5d3531"
+  },
+  "corrected/8_n_w_20_27_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4898770aafc34815a6bf95235686cadeb7e84b0a9ce6c8dd84ce071acb415d16"
+  },
+  "corrected/9_n_w_19_17_a_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "3bc7430dbb050ede7fb2640c9ac246206270fa443a2be506ab9c81273da7bded"
+  },
+  "author/9_n_w_19_17_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "98c8a5477db94546aa03f56c622dbc4ce9bf06dcfb23d382b07b939fa5592993"
+  },
+  "corrected/9_n_w_19_17_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ce5eec7a042a0c9336745940a9266cb8db729e2a1fdeca05ae983cce6142a891"
+  },
+  "author/9_n_w_19_17_a_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "eda56c69ccb8c78c7d8f60f6327cf7b4b8062090c556ff76afa9b8ba8669d1d5"
+  },
+  "corrected/9_n_w_19_17_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "5e83ab30f023377e8a3e5fa0e31405104294ee436aae42fe5ec3dcb0650f775e"
+  },
+  "author/9_n_w_19_17_i_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "b857de4f0c089544f4d52f98c9403230f10bb1f5144b768278662832571f7f43"
+  },
+  "corrected/9_n_w_19_17_a_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "7246e5f63e19c5eb7f3177764ab7ca276c65715b1cb7fade34f70122b024402a"
+  },
+  "corrected/9_n_w_19_17_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "4b6932af712d91cec874c06e11d7f6a689566d282fc5cb79994741c66e89c9e8"
+  },
+  "author/9_n_w_19_17_i_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "01b9e431cab8027e46cb24fc4ede08704f8473f9b89358290d10ba02915b8260"
+  },
+  "corrected/9_n_w_19_17_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "067c9462537087927f35407cf749919df61bc74cdfd88765f705132ac88a9f8a"
+  },
+  "author/9_n_w_19_17_i_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6f20d5ff2be96910b03dd7b97d3a7a2e2e96e0cf24d3d646d211cbe2f0f2af44"
+  },
+  "corrected/9_n_w_19_17_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "ef294dce6905e498271cf7a7331e92beafbe05a3155803340fa39216db2046d1"
+  },
+  "author/9_n_w_19_17_u_l.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "8925941895e33fe8f65c04866b1ab0bd454d720ec452d43f55ca51bafa180b80"
+  },
+  "author/9_n_w_19_17_u_h.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "19701b9e0f8f3f67ace8c9307b0b3af24b16ef01db9d3713ee9c12b59cd0622b"
+  },
+  "author/9_n_w_19_17_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "cb47e6f863aef5bc8eacddf4fe9f318a8f1ce4938b639ec01aadd3f65d24edb6"
+  },
+  "corrected/9_n_w_19_17_u_n.wav": {
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "991d69e53b8e7cae5199153a71ab044d60c8d4ff4dda66dc05c8e5782efea863"
+  }
+}

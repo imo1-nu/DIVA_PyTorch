@@ -1,0 +1,4 @@
+{
+  "recorder_sha256": "56e9fcf2df3add3907dadc3c4ebb3dcfe16c4be3d86da490b8edc266a6fec472",
+  "note": "Recorder records actual FF gain; this only affects logging, not motor computation."
+}

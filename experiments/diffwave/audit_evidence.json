@@ -1,0 +1,272 @@
+{
+  "refs": {
+    "upstream-original": "9170932e9d77a6bcfb2c00e05df362660d11b3e0",
+    "main": "2920c35503711a9faa4780e3a34ed6d74adcd65b",
+    "area-synthesis-comparison": "9ae1165231f72881fd5146063f854d8a0fb9e79f",
+    "experiment/torchdiva-diffwave": "2920c35503711a9faa4780e3a34ed6d74adcd65b"
+  },
+  "tracked_python_differences_author_to_main": [
+    "M\tsrc/diva_vocaltract.py",
+    "A\tsrc/test_diva_synth_sound.py"
+  ],
+  "f0_feedback_cases": [
+    {
+      "pitch_control": -0.5,
+      "pressure_control": 0.6,
+      "author_f0_hz": 130.0,
+      "main_f0_hz": 75.0,
+      "other_formants_max_abs_difference": 0.0,
+      "somatosensory_max_abs_difference": 0.0
+    },
+    {
+      "pitch_control": 0.5,
+      "pressure_control": 0.6,
+      "author_f0_hz": 130.0,
+      "main_f0_hz": 125.0,
+      "other_formants_max_abs_difference": 0.0,
+      "somatosensory_max_abs_difference": 0.0
+    },
+    {
+      "pitch_control": 0.0,
+      "pressure_control": 0.0,
+      "author_f0_hz": 100.0,
+      "main_f0_hz": 100.0,
+      "other_formants_max_abs_difference": 0.0,
+      "somatosensory_max_abs_difference": 0.0
+    },
+    {
+      "pitch_control": 0.0,
+      "pressure_control": 1.0,
+      "author_f0_hz": 150.0,
+      "main_f0_hz": 100.0,
+      "other_formants_max_abs_difference": 0.0,
+      "somatosensory_max_abs_difference": 0.0
+    }
+  ],
+  "weight_differences": [
+    {
+      "file": "src/diva_weights_SSM.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            1,
+            101
+          ],
+          "main_shape": [
+            1,
+            61
+          ],
+          "author_nonzero": 101,
+          "main_nonzero": 61
+        }
+      }
+    },
+    {
+      "file": "src/diva_weights_SSM2FF.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            101,
+            13
+          ],
+          "main_shape": [
+            61,
+            13
+          ],
+          "author_nonzero": 1188,
+          "main_nonzero": 0
+        }
+      }
+    },
+    {
+      "file": "src/diva_weights_SSM2amax.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            101,
+            4
+          ],
+          "main_shape": [
+            61,
+            4
+          ],
+          "author_nonzero": 404,
+          "main_nonzero": 244
+        },
+        "W0": {
+          "author_shape": [
+            4,
+            1
+          ],
+          "main_shape": [
+            4,
+            1
+          ],
+          "author_nonzero": 4,
+          "main_nonzero": 4
+        }
+      }
+    },
+    {
+      "file": "src/diva_weights_SSM2amin.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            101,
+            4
+          ],
+          "main_shape": [
+            61,
+            4
+          ],
+          "author_nonzero": 243,
+          "main_nonzero": 183
+        },
+        "W0": {
+          "author_shape": [
+            4,
+            1
+          ],
+          "main_shape": [
+            4,
+            1
+          ],
+          "author_nonzero": 0,
+          "main_nonzero": 0
+        }
+      }
+    },
+    {
+      "file": "src/diva_weights_SSM2smax.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            101,
+            8
+          ],
+          "main_shape": [
+            61,
+            8
+          ],
+          "author_nonzero": 808,
+          "main_nonzero": 488
+        },
+        "W0": {
+          "author_shape": [
+            8,
+            1
+          ],
+          "main_shape": [
+            8,
+            1
+          ],
+          "author_nonzero": 8,
+          "main_nonzero": 8
+        }
+      }
+    },
+    {
+      "file": "src/diva_weights_SSM2smin.mat",
+      "arrays": {
+        "W": {
+          "author_shape": [
+            101,
+            8
+          ],
+          "main_shape": [
+            61,
+            8
+          ],
+          "author_nonzero": 808,
+          "main_nonzero": 488
+        },
+        "W0": {
+          "author_shape": [
+            8,
+            1
+          ],
+          "main_shape": [
+            8,
+            1
+          ],
+          "author_nonzero": 8,
+          "main_nonzero": 8
+        }
+      }
+    }
+  ],
+  "data": {
+    "train_count": 482,
+    "test_count": 10,
+    "train_unique_filenames": 482,
+    "test_unique_filenames": 10,
+    "file_overlap": [],
+    "unique_first_filename_ids": 52,
+    "first_filename_id_overlap": [
+      "1",
+      "2"
+    ],
+    "shortest_duration": 0.50586,
+    "longest_duration": 4.52472,
+    "lossless_nsp_to_wav_verified": 492
+  },
+  "draft_training_split": {
+    "train": 438,
+    "validation": 44,
+    "validation_first_ids": [
+      "21",
+      "25",
+      "30",
+      "41",
+      "9"
+    ]
+  },
+  "draft_cnn": {
+    "convolutions": 15,
+    "encoder_convolutions_before_first_upsample": 7,
+    "parameters": 473814
+  },
+  "checkpoint": {
+    "strict_loaded_tensor_count": 254,
+    "sha256": "b434ac56f45486ec899e4ef50fb1bab09443bbe4ccc844acae35486e89541fc2",
+    "numerical_equivalence_to_original_checkpoint": "not established"
+  },
+  "original_uncommitted_files_unchanged": 17,
+  "experiment_status": {
+    "valid_generated_pairs": 2,
+    "training_executed": false,
+    "evaluation_executed": false
+  },
+  "author_workbook": {
+    "file": "test/figure_data/figs_1000.xlsx",
+    "epochs_label": 1000,
+    "baseline_raw_mean": {
+      "PESQ": 1.0606789112091028,
+      "CSIG": -5.543770566397747,
+      "CBAK": -0.3725497344550754,
+      "COVL": -2.974668305720208,
+      "segSNR": -4.3476345500167675
+    },
+    "enhanced_raw_mean": {
+      "PESQ": 1.063572144508357,
+      "CSIG": -1.2855999446434945,
+      "CBAK": -0.7927724134553132,
+      "COVL": -1.0342173944795445,
+      "segSNR": -3.120167824579367
+    },
+    "enhanced_summary_cached_mean": {
+      "PESQ": 1.6223320245742752,
+      "CSIG": 2.84138935440382,
+      "CBAK": 1.5669847810576505,
+      "COVL": 2.111010837225235,
+      "segSNR": -5.573690108625011
+    },
+    "note": "Two different result sets coexist in the published workbook; do not treat as one run."
+  },
+  "later_branch_observed": {
+    "branch": "fix/long-target-initial-buffer",
+    "commit": "225bd84",
+    "merged_into_main": false,
+    "difference_from_experiment_draft": "Uses max(101,num_steps), preserving short-target initial buffer length."
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "main_regression": [
+    {
+      "trial": 1,
+      "main_regression_max_abs": {
+        "raw": 0.0,
+        "returned": 0.0,
+        "somatic": 0.0,
+        "ff": 0.0,
+        "fb": 0.0,
+        "auditory_error": 0.0,
+        "somatic_error": 0.0,
+        "weight": 0.0,
+        "learning_signal": 0.0,
+        "eligibility": 0.0,
+        "perceived": 0.0
+      }
+    },
+    {
+      "trial": 2,
+      "main_regression_max_abs": {
+        "raw": 0.0,
+        "returned": 0.0,
+        "somatic": 0.0,
+        "ff": 0.0,
+        "fb": 0.0,
+        "auditory_error": 0.0,
+        "somatic_error": 0.0,
+        "weight": 0.0,
+        "learning_signal": 0.0,
+        "eligibility": 0.0,
+        "perceived": 0.0
+      }
+    },
+    {
+      "trial": 3,
+      "main_regression_max_abs": {
+        "raw": 0.0,
+        "returned": 0.0,
+        "somatic": 0.0,
+        "ff": 0.0,
+        "fb": 0.0,
+        "auditory_error": 0.0,
+        "somatic_error": 0.0,
+        "weight": 0.0,
+        "learning_signal": 0.0,
+        "eligibility": 0.0,
+        "perceived": 0.0
+      }
+    },
+    {
+      "trial": 4,
+      "main_regression_max_abs": {
+        "raw": 0.0,
+        "returned": 0.0,
+        "somatic": 0.0,
+        "ff": 0.0,
+        "fb": 0.0,
+        "auditory_error": 0.0,
+        "somatic_error": 0.0,
+        "weight": 0.0,
+        "learning_signal": 0.0,
+        "eligibility": 0.0,
+        "perceived": 0.0
+      }
+    }
+  ],
+  "signal_checks": [
+    {
+      "file": "fmfit/frozen_04_ff_fb.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/frozen_04_ff_only.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/frozen_20_ff_fb.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/frozen_20_ff_only.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_01.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_02.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_03.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_04.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_05.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_06.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_07.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_08.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_09.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_10.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_11.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_12.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_13.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_14.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_15.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_16.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_17.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_18.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_19.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "fmfit/learning_20.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/frozen_04_ff_fb.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/frozen_04_ff_only.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/frozen_20_ff_fb.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/frozen_20_ff_only.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_01.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_02.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_03.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_04.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_05.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_06.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_07.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_08.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_09.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_10.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_11.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_12.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_13.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_14.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_15.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_16.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_17.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_18.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_19.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    },
+    {
+      "file": "transfer_peaks/learning_20.npz",
+      "frames": 411,
+      "observation_mask_delay_exact": true,
+      "masked_errors_zero": true
+    }
+  ]
+}
