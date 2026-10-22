@@ -122,8 +122,9 @@ def collect(directory):
         observations.append(f'- `{condition}`: DIVA単体との平均比較で、上昇は{", ".join(up) or "なし"}、低下は{", ".join(down) or "なし"}。')
     observations.append('- CNN追加後と標準DiffWaveのPESQ平均は、'+
         '、'.join(f'{c}: {summary["groups"][c+"/enhanced"]["pesq"]["mean"]:.4f} / {summary["groups"][c+"/vanilla"]["pesq"]["mean"]:.4f}' for c in ('author','corrected'))+'。')
-    observations.append('これらは1seed・評価10ファイルの結果であり、全指標での改善や話者全般への有効性を一括して主張しない。')
-    observations.append('raw複合指標の上昇と1–5制限のスコアを区別する。人による聴取評価は行っていない。')
+    observations.extend(['',
+        'これらは1seed・評価10ファイルの結果であり、全指標での改善や話者全般への有効性を一括して主張しない。','',
+        'raw複合指標の上昇と1–5制限のスコアを区別する。人による聴取評価は行っていない。'])
     lines=['# TorchDIVA + DiffWave 実験結果','',
         f'集計: {provenance["collected_utc"]}。ブランチ `experiment/torchdiva-diffwave`。',
         '[実行条件](README.md)と[実行記録](RUN_LOG.md)を併せて参照。',
