@@ -1,0 +1,50 @@
+[
+  {
+    "after_trial": 4,
+    "generation": "ff_only",
+    "change_mean_outside_hz": [
+      -19.850921630859382,
+      -25.95003318786621,
+      0.0
+    ],
+    "change_overall_mean_hz": -15.266984939575195,
+    "change_joint_valid_rate": 0.0,
+    "change_somatic_sse": 0.0027036632823121756
+  },
+  {
+    "after_trial": 4,
+    "generation": "ff_fb",
+    "change_mean_outside_hz": [
+      -20.642435073852546,
+      -36.19765090942383,
+      0.0
+    ],
+    "change_overall_mean_hz": -18.94669532775879,
+    "change_joint_valid_rate": 0.0,
+    "change_somatic_sse": 0.0027213766370634135
+  },
+  {
+    "after_trial": 20,
+    "generation": "ff_only",
+    "change_mean_outside_hz": [
+      -38.03554344177247,
+      -118.66981887817383,
+      0.0
+    ],
+    "change_overall_mean_hz": -52.23512077331544,
+    "change_joint_valid_rate": 0.0,
+    "change_somatic_sse": -0.0005953908531199613
+  },
+  {
+    "after_trial": 20,
+    "generation": "ff_fb",
+    "change_mean_outside_hz": [
+      -38.09105873107911,
+      -118.86075782775879,
+      0.0
+    ],
+    "change_overall_mean_hz": -52.317272186279304,
+    "change_joint_valid_rate": 0.0,
+    "change_somatic_sse": -0.0006149518004666668
+  }
+]

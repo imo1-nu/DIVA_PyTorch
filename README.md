@@ -85,6 +85,10 @@ List/select speech targets, run speech simulations, etc.
 
 4. Enter 'q' at the main menu to quit the main program loop.
 
+An opt-in `transfer_peaks` auditory feedback experiment is available. The default
+remains `fmfit`; see [configuration and validation](docs/research/TRANSFER_PEAK_USAGE.md)
+and the [fixed comparison protocol](docs/research/TRANSFER_PEAK_PROTOCOL.md).
+
 # Contributing to TorchDIVA
 
 1. Follow the steps above to set up the TorchDIVA repository locally for development.

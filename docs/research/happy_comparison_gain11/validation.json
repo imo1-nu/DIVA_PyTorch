@@ -1,0 +1,92 @@
+{
+  "ff_gain": 1,
+  "fb_gain": 1,
+  "fixed_fb_gain": 0.5,
+  "diffwave": false,
+  "audio_sources": 12,
+  "pairs_pcm_exact": 4,
+  "learning_updates_reconstructed": 40,
+  "fixed_checks": [
+    {
+      "file": "outputs/happy_transfer_peak_gain11/fmfit/frozen_04_ff_fb.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 300,
+        "closure": 33
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/fmfit/frozen_04_ff_only.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 291,
+        "closure": 42
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/fmfit/frozen_20_ff_fb.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/fmfit/frozen_20_ff_only.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_04_ff_fb.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 285,
+        "closure": 48
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_04_ff_only.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 285,
+        "closure": 48
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_20_ff_fb.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    },
+    {
+      "file": "outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_20_ff_only.npz",
+      "weight_frozen": true,
+      "ff_plus_fb_equals_raw": true,
+      "delay_exact": true,
+      "reasons": {
+        "ok": 273,
+        "closure": 60
+      }
+    }
+  ],
+  "fresh_synth_seed0_replay_byte_exact": true
+}

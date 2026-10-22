@@ -18,7 +18,7 @@ import diva_sem as som_em
 
 class DIVA:
 
-    def __init__(self):
+    def __init__(self, observation_mode="fmfit"):
         self.simCtr = 0
         self.targetCSV = "diva.csv"
         self.targetIndex = 0
@@ -35,6 +35,7 @@ class DIVA:
         self.filetype = "mat"
         self.ssm = None
         self.cerebellum = None
+        self.observation_mode = observation_mode
         self.motor_cortex = None
         self.vocal_tract = None
         self.aud_state_map = None
@@ -229,7 +230,7 @@ class DIVA:
         cerebellum = self.cerebellum
 
         if self.vocal_tract is None:
-            self.vocal_tract = dvt.VocalTract()
+            self.vocal_tract = dvt.VocalTract(observation_mode=self.observation_mode)
         vocal_tract = self.vocal_tract
 
         if self.motor_cortex is None:
@@ -237,7 +238,7 @@ class DIVA:
         motor_cortex = self.motor_cortex
 
         if self.aud_state_map is None:
-            self.aud_state_map = aud_sm.AuditoryStateMap()
+            self.aud_state_map = aud_sm.AuditoryStateMap(masked=self.observation_mode == 'transfer_peaks')
         aud_state_map = self.aud_state_map
         aud_state_map.setinputdims(4)
 
@@ -299,6 +300,8 @@ class DIVA:
             aud_err_map.InputPorts[1] = aud_state
             som_err_map.InputPorts[1] = som_state
 
+            if self.observation_mode == 'transfer_peaks':
+                aud_err_map.validity = aud_state_map.validity
             aud_err_map.output()
             som_err_map.output()
 
@@ -326,7 +329,7 @@ class DIVA:
             vt_aud_out = vocal_tract.OutputPorts[0]
             vt_som_out = vocal_tract.OutputPorts[1]
 
-            aud_state_map.input(vt_aud_out)
+            aud_state_map.input(vt_aud_out, vocal_tract.last_observation)
             som_state_map.input(vt_som_out)
 
             # Track the sequence of articulatory movements

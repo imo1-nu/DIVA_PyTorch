@@ -1,0 +1,22 @@
+{
+  "analysis_kind": "post-hoc, no learning or regeneration",
+  "selection": "all nonzero saved motor FF SSM activations; 99 frames, program index1..99",
+  "source_files": {
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/fmfit/frozen_04_ff_fb.npz": "26a5fc23c6983b7d098bc2076bb96f8cf9e9ab0e316ebc372dc5213a8fe590c9",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/fmfit/frozen_04_ff_only.npz": "854ae4c29bac030b4d22e5b06e85aae2d60f0ef808b18088fdf9024a74d9de3c",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/fmfit/frozen_20_ff_fb.npz": "c12a6f271f9cf78ca40a1d19779cbecd181a74c6bd4209a21c9cd442d0ae192c",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/fmfit/frozen_20_ff_only.npz": "8d52fd82451857ddfcab9d04d9342f5a132a39c6bd4fd155fcd9d50c1357d22a",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_04_ff_fb.npz": "767e2a417718d4f7ed78b4a785a6136909ce6db6d9b7b0f40918286ef316b8f0",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_04_ff_only.npz": "7bd55396e0b55c2edaf11a03279d7c1c3775b5501929833e9d1d3b232591eee2",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_20_ff_fb.npz": "cb82ec64e1e4a058740c68ba2b468beb3c1dd6ba5cc34ce7866c5811a43a091f",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/transfer_peaks/frozen_20_ff_only.npz": "ea913550a05d83c40c8f1b5a51d02ae73fbe5349c4b631f5537184dad7834a0d",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/inputs/diva_000001.mat": "55700b2db2465e3f9c3721fe72731ea59f3ee80f2cacbd54acbe972c9dede6e6",
+    "/home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peak-feedback/outputs/happy_transfer_peak_gain11/inputs/diva_synth.mat": "cbdb6eab4ba727fa6aa9b4cff3aeb364eab662800c92e6f8b07bfe7104485980"
+  },
+  "inputs_unchanged": true,
+  "script_sha256": "261f5c3da5cba917bd8f2fa6c05229c391e6592b96981dd762b75b23334dcee2",
+  "reference_sha256": "cb1eee5e65cf6eafe80f2e2d67452274ea1ed30a60174fcba957bcc03e917cc8",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.4.6",
+  "seconds": 17.57986420765519
+}
