@@ -84,3 +84,5 @@ Full input copies and source/asset/config/environment hashes accompany results.
 Do not compare an online learning trajectory with a frozen generation.
 
 [4回・20回後の固定比較結果](results/transfer_peak01/RESULT.md)と全指標・検証来歴を保存している。
+
+[happyのFF=1 / FB=1音声比較](happy_comparison_gain11/README.md)を追加。DIVA内蔵の音源・声道合成器を使用し、DiffWaveは使用しない。

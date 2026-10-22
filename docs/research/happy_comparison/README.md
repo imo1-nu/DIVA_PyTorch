@@ -1,5 +1,7 @@
 # happyの聴き比べ
 
+[ユーザー指定のゲインFF=1 / FB=1版](../happy_comparison_gain11/index.html)を追加した。以下は旧ゲインFF=.85 / FB=.30の保存結果。
+
 [比較ページを開く](index.html)。ローカルのHTMLで同じ行の2方式を比較できる。
 
 既存happy目標（500 ms、101点）を変更せず、両モードをゼロFFからseed0・FF=.85/FB=.30（内部.5）・EPS=.5で20回学習した。保存済みArtの学習値を初期FFには使わず、メモリ上でゼロへそろえた。4回／20回後に重みを固定し、同一初期内部状態からFF-only/FF+FBを別生成した。音声は毎回freshなnative合成器とseed0で生成した。
@@ -39,5 +41,5 @@ happyの閉鎖時にはHピークが無効となる。欠測をfmfitへ戻した
 ```sh
 PYTHONDONTWRITEBYTECODE=1 MPLCONFIGDIR=/tmp/diva-mpl-cache \
   /tmp/stutter_diva_audit_venv/bin/python experiments/generate_happy_transfer_comparison.py \
-  --output /tmp/happy-transfer-peak-repeat
+  --ff-gain 0.85 --fb-gain 0.30 --output /tmp/happy-transfer-peak-repeat
 ```

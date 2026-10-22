@@ -95,7 +95,7 @@ class Recorder:
 
         def motor():
             motor_output()
-            self.record(raw=m.OutputPorts[0], ff=.85 * m.LMC.OutputPorts[0],
+            self.record(raw=m.OutputPorts[0], ff=m.feedforward_gain * m.ff_gain_fixed * m.LMC.OutputPorts[0],
                         fb=m.feedback_gain * m.fb_gain_fixed * m.vel2pos.OutputPorts[0],
                         auditory_error=diva.aud_err_map.OutputPorts[0],
                         somatic_error=diva.som_err_map.OutputPorts[0],
