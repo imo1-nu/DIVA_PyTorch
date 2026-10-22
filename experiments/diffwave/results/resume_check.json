@@ -1,0 +1,7 @@
+{
+  "resumed_vs_uninterrupted_exact_equal": true,
+  "unequal_tensors": [],
+  "tensors": 112,
+  "epochs": 3,
+  "training_files": 16
+}
