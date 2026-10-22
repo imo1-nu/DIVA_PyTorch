@@ -60,7 +60,7 @@ def main():
     dump(args.output / 'learning.json', learning)
     dump(args.output / 'provenance.json', provenance)
     with (args.output / 'evaluations.csv').open('w') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['mode', 'after_trial', 'generation', 'outside1_hz', 'outside2_hz', 'outside3_hz',
                          'mean_hz', 'valid_rate', 'joint_inside_strict', 'somatic_sse'])
         for r in evaluations:
