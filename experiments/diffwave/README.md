@@ -110,3 +110,27 @@ DIVAのターゲット抽出・音声生成はこの修正の影響を受けな�
 一次ソースは [公開モデルカード](https://huggingface.co/speechbrain/tts-diffwave-ljspeech/blob/3a0cbf1/README.md) と
 [公式学習設定](https://github.com/speechbrain/speechbrain/blob/develop/recipes/LJSpeech/TTS/vocoder/diffwave/hparams/train.yaml)。
 ソース内容とSHAは実験記録に保存する。
+
+### 依存環境
+
+実際に使った版は [requirements.txt](requirements.txt) と
+[environment.json](results/environment.json) を参照。PyTorchは `2.13.0+cu130`。
+このPCでは既存のPyTorch環境を専用venvの `.pth` から参照し、
+Parselmouth、PESQ、pystoi、pysepmを専用venvへ追加した。
+新規環境ではGPUに対応したPyTorchを先に用意し、そのPythonで次を実行する。
+
+```sh
+python -m pip install -r experiments/diffwave/requirements.txt
+python -m pip install --no-deps https://github.com/schmiph2/pysepm/archive/7ef88aff2c56201a2d0470aaeb58e77e47a914d2.zip
+python -m pytest -q experiments/diffwave/test_pipeline.py
+```
+
+PESQがソースビルドになる場合はCコンパイラと対応Pythonの開発ヘッダが必要。
+TorchDIVAがimportするsounddeviceにはPortAudioの共有ライブラリも必要だが、音声再生は行わない。
+このPCではシステムライブラリは既存のものを使い、PESQ用ヘッダだけ `/tmp` に展開した。
+SRMRは今回の指標に含めず、pysepmの未使用のオプション依存は導入していない。
+
+生成FLOAT WAVはPEAKチャンクに作成時刻を含むため、再実行でWAV全体のSHAが変わる場合がある。
+そのSHAは個々の保存物の同定用で、数値的再現性の判定には音声サンプルのSHAを使う。
+`results/audio_pcm_sha256.json` にfloat32サンプル列のSHAを保存する。
+別作業領域での再生成では両DIVA条件のサンプルが完全一致した。

@@ -7,11 +7,48 @@ from pathlib import Path
 import shutil
 import subprocess
 
+import soundfile as sf
+
 HERE=Path(__file__).resolve().parent
 
 
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def write_plots(output,directory):
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    import librosa.display
+    import numpy as np
+    import torch
+    from data import load_pair
+    from model import MelSpectrogram,SR,HOP
+    figure,axis=plt.subplots(figsize=(7,4))
+    for condition in ('author','corrected'):
+        history=json.loads((output/condition/'training.json').read_text())['history']
+        axis.semilogy([r['epoch'] for r in history],[r['training_l1'] for r in history],label=condition)
+    axis.set(xlabel='Epoch',ylabel='Training conditioner L1',title='All 482 training files, fixed final epoch')
+    axis.legend();axis.grid(alpha=.2);figure.tight_layout()
+    for extension in ('png','svg'):figure.savefig(output/('training_curves.'+extension),dpi=160)
+    plt.close(figure)
+    sample=next(s for s in json.loads((directory/'manifest.json').read_text())['samples'] if s['split']=='test')
+    mel=MelSpectrogram()
+    figure,axes=plt.subplots(2,3,figsize=(12,6),sharex=True,sharey=True)
+    for row,condition in enumerate(('author','corrected')):
+        clean,degraded=load_pair(directory,sample,condition)
+        enhanced,rate=sf.read(directory/'evaluation/audio'/condition/'enhanced'/sample['name'],dtype='float32')
+        for column,(label,audio) in enumerate(zip(('Human reference','DIVA','Learned CNN + DiffWave'),(clean,degraded,enhanced))):
+            with torch.no_grad(): spectrum=mel(torch.from_numpy(audio)).numpy()*20/np.log(10)
+            im=librosa.display.specshow(spectrum,sr=SR,hop_length=HOP,x_axis='time',y_axis='mel',
+                fmin=0,fmax=8000,vmin=-100,vmax=0,ax=axes[row,column],cmap='magma')
+            axes[row,column].set_title(condition+': '+label)
+    figure.suptitle('First published test file: '+sample['name'])
+    figure.colorbar(im,ax=axes.ravel().tolist(),label='Mel magnitude (dB)',shrink=.75)
+    figure.subplots_adjust(top=.87,hspace=.38,wspace=.16,right=.83)
+    for extension in ('png','svg'):figure.savefig(output/('test_spectrograms.'+extension),dpi=160)
+    plt.close(figure)
 
 
 def collect(directory):
@@ -20,6 +57,14 @@ def collect(directory):
     generation=json.loads((directory/'paired-generation.json').read_text())
     if len(generation['samples'])!=984 or generation['failures']:
         raise ValueError('Complete generation with no excluded file is required')
+    pcm_hashes={}
+    for row in generation['samples']:
+        path=directory/'conditions'/row['condition']/'pairs'/row['name']
+        audio,rate=sf.read(path,dtype='float32')
+        pcm_hashes[row['condition']+'/'+row['name']]=dict(
+            sample_rate=rate,frames=len(audio),
+            pcm_float32_sha256=hashlib.sha256(audio.tobytes()).hexdigest())
+    (output/'audio_pcm_sha256.json').write_text(json.dumps(pcm_hashes,indent=2)+'\n')
     summary=json.loads((directory/'evaluation/summary.json').read_text())
     rows=json.loads((directory/'evaluation/individual.json').read_text())
     if len(rows)!=80:
@@ -36,6 +81,7 @@ def collect(directory):
             raise ValueError('Primary run must use 1000 epochs x 31 steps')
     for name in ('summary.json','individual.json','individual.csv'):
         shutil.copy2(directory/'evaluation'/name,output/name)
+    write_plots(output,directory)
     snapshots=output/'reference-configs';snapshots.mkdir(exist_ok=True)
     sources={}
     for name in ('hyperparams.yaml','speechbrain-train.yaml','model-card.md'):
@@ -122,6 +168,7 @@ def collect(directory):
         '- [使用データ・SHA](results/manifest.json)、[生成ペア・SHA](results/paired-generation.json)',
         '- [著者版の設定・学習履歴](results/author/training.json)、[修正版の設定・学習履歴](results/corrected/training.json)',
         '- [環境](results/environment.json)、[ソースと最終重みのSHA](results/source_provenance.json)',
+        '- [学習曲線](results/training_curves.png)、[評価音声のmel比較](results/test_spectrograms.png)（SVGも保存）',
         '- 元音声・生成音声・最終重みは `artifacts/` にも保存（Git対象外）。`/tmp` の消去後もこの作業ツリーに残る。',
         '- 最終CNNは `artifacts/runs/author/final.pt` と `artifacts/runs/corrected/final.pt`、試聴音声は `artifacts/evaluation/audio/`。',
         '', '取得手順、依存関係、コマンドは [README.md](README.md) に記載。'])

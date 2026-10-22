@@ -13,7 +13,11 @@
     "pystoi": "0.4.1",
     "pysepm": "0.1",
     "numba": "0.66.0",
-    "pytest": "9.1.1"
+    "pytest": "9.1.1",
+    "scikit-learn": "1.9.0",
+    "ipython": "9.15.0",
+    "matplotlib": "3.11.0",
+    "sounddevice": "0.5.5"
   },
   "hardware": {
     "cpu": "Intel Core Ultra 7 265K (20 CPUs)",

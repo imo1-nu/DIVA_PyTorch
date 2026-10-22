@@ -43,3 +43,8 @@ tail -n 5 /tmp/torchdiva-diffwave/logs/train-corrected.log
 
 - 再開検証: 16件・3epochにおいて、中断再開と連続実行の全112保存テンソルが完全一致。
   証拠は `results/resume_check.json`。元の未コミット17ファイルもSHA256全件一致。
+- 音声再生成の検証: 同じ1ファイルを両条件で別作業領域から再生成し、音声サンプルが両方とも完全一致（最大差0）。
+  FLOAT WAVのPEAKチャンクには作成時刻が入るため、コンテナ全体のSHAは再実行時に異なる。
+  `repeat_generation_check.json` に音声サンプルのSHAと両WAVのSHAを保存する。
+- 追加の速度試測としてtorch.compileも試したが、TritonのビルドでPython.hが見つからず失敗。
+  正式学習には採用せず、検証済みの通常実行とchannels_lastを使用する。

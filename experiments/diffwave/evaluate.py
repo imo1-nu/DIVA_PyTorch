@@ -152,6 +152,7 @@ def evaluate(args):
                       f'raw CSIG={item["csig_raw"]:.3f}, segSNR={item["segsnr"]:.3f}, '
                       f'{item["total_seconds"]:.2f}s',flush=True)
     result = dict(seed=args.seed, diffusion_steps=50, metric_sr=16000,
+        inference_precision='fp32', deterministic_algorithms=True,
         boundary='Center crop independently to the shorter signal, without gain or delay matching',
         evaluation_seconds=time.perf_counter()-started, **aggregate(rows))
     (output/'summary.json').write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')

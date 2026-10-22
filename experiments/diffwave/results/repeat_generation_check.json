@@ -1,0 +1,22 @@
+{
+  "author": {
+    "audio_samples_exact_equal": true,
+    "max_abs_difference": 0.0,
+    "sample_rate": 11025,
+    "frames": 22712,
+    "pcm_float32_sha256": "6e84ff40f2b4936d13dced3abe15a77c526d940dee95afbcdf3e767f6267ed52",
+    "original_wav_sha256": "49490093ecbc5970b547eecd33b9ca827dd0c4bc43ff9643b7136f26900daae4",
+    "repeated_wav_sha256": "e19116fff75529944398b85e59e26761869791ce817d95ae284597af367dd1f1",
+    "note": "WAV FLOAT PEAK chunk stores a creation timestamp; compare audio samples, not cross-run container bytes."
+  },
+  "corrected": {
+    "audio_samples_exact_equal": true,
+    "max_abs_difference": 0.0,
+    "sample_rate": 11025,
+    "frames": 22657,
+    "pcm_float32_sha256": "029f432bd9f92e2486f88e211600e49f845fd11164ca672c29cd307c1d38712a",
+    "original_wav_sha256": "9df9002d6510a11150014134d52b6037571cd5b6d3c488142fd67985832dc045",
+    "repeated_wav_sha256": "5f99722a94e2b99958b0836d31965a447073ea4d0e9f0b048a835d612676aded",
+    "note": "WAV FLOAT PEAK chunk stores a creation timestamp; compare audio samples, not cross-run container bytes."
+  }
+}

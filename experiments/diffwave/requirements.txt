@@ -10,3 +10,9 @@ numba==0.66.0
 pytest==9.1.1
 # Only qualityMeasures/util are used; install without optional SRMR dependencies:
 # pip install --no-deps https://github.com/schmiph2/pysepm/archive/7ef88aff2c56201a2d0470aaeb58e77e47a914d2.zip
+
+# Imported by the pinned TorchDIVA source:
+scikit-learn==1.9.0
+ipython==9.15.0
+matplotlib==3.11.0
+sounddevice==0.5.5
