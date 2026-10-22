@@ -1,0 +1,144 @@
+.............                    [100%]
+=============================== warnings summary ===============================
+../../../../../../../tmp/stutter_diva_audit_venv/lib/python3.12/site-packages/torch/jit/_script.py:1488
+  /tmp/stutter_diva_audit_venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+: 187 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:1128: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    x = np.multiply(x, in_scale)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:507: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    x = np.multiply(x.cpu(), [const_arg])
+
+: 46 warnings
+  /tmp/stutter_diva_audit_venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:45: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    return conv.wrap(result, to_scalar=False)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:671: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    af_bet = np.minimum(af, [0])
+
+: 92 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:673: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    prod_arg_2 = np.power(np.maximum([0], af), ab_beta_us)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:675: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    af = np.multiply(ab_alpha_us, prod_arg_2)
+
+: 138 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:766: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    som[0:6] = np.maximum([-1], np.minimum([1], -1 * np.tanh(sc)))
+
+: 92 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:43: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    f = np.divide(np.multiply([fs], t_cn2), n)
+
+: 92 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:47: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    neg_abs_f = np.multiply([-1], np.abs(f))
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:48: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    abs_f_div = np.divide(neg_abs_f, [4e3])
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:49: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    f_pow_2 = np.power(abs_f_div, 2)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:50: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    f_pow_2 = np.multiply([-1], f_pow_2)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:51: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    f_exp = np.exp(f_pow_2)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:52: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    Rrad = np.multiply([0.9], f_exp)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:62: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    pi_f_t = np.multiply([math.pi], f)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:63: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    pi_f_t = np.multiply([t], pi_f_t)
+
+: 92 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:64: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    coswt = np.cos(np.multiply([2], pi_f_t))
+
+: 92 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:65: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    sinwt = np.sin(np.multiply([2], pi_f_t))
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:66: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    sinwt = np.multiply([complex('1j')], sinwt)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:70: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    sub_arg = np.subtract(a2_m, a1_m)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:71: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    add_arg = np.add(a2_m, a1_m)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:73: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    max_res = np.maximum([eps], add_arg)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:74: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    r_rest = np.divide(sub_arg, max_res)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:77: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    U = np.add(coswt, sinwt)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:78: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    V = np.subtract(coswt, sinwt)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:88: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    sub_res = np.subtract(u, v)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:89: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    Hc = np.subtract(u, v)
+
+: 7727 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:91: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    h1 = np.multiply(U, u)
+
+: 7727 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:92: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    h2 = np.multiply(V, v)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:108: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    mult_arg_1 = np.add([1], Rrad)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:110: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    div_arg_1 = np.multiply(mult_arg_1, mult_arg_2)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:112: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    H = np.divide(div_arg_1, div_arg_2)
+
+: 46 warnings
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:146: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    f_sel = np.multiply([-1], f_sel)
+
+::TransferPeakTests::test_forty_fixed_independent_references
+  /home/futagami26/mrnas06home/research/DIVA_PyTorch/.worktrees/transfer-peaks-diffwave/src/diva_vocaltract.py:606: RuntimeWarning: All-NaN axis encountered
+    mind = np.nanmin(rshp_out, axis=0)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+13 passed, 17345 warnings, 40 subtests passed in 4.17s

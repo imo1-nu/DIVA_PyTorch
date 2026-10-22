@@ -1,0 +1,20 @@
+{
+  "name": "1_n_w_20_1_a_h.wav",
+  "baseline_audio_samples_exact_equal": true,
+  "frames": 22657,
+  "sample_rate": 11025,
+  "baseline_pcm_float32_sha256": "029f432bd9f92e2486f88e211600e49f845fd11164ca672c29cd307c1d38712a",
+  "targets_identical": true,
+  "initial_ff_all_zero": true,
+  "f0_unchanged": true,
+  "h_return_values_match_peaks": true,
+  "invalid_delayed_auditory_errors_zero": true,
+  "trial_joint_valid_counts": [
+    411,
+    411,
+    411,
+    411,
+    411
+  ],
+  "standard_model_and_mask_tests": "13 passed, 40 reference subtests; /tmp/transfer-diffwave-tests.log"
+}

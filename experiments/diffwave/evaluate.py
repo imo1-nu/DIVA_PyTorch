@@ -182,7 +182,7 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-dir',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
-    parser.add_argument('--conditions',nargs='+',choices=['author','corrected'],default=['author','corrected'])
+    parser.add_argument('--conditions',nargs='+',choices=['author','corrected','transfer_peaks'],default=['author','corrected'])
     parser.add_argument('--methods',nargs='+',choices=['diva','vanilla','oracle','enhanced'],default=['diva','vanilla','oracle','enhanced'])
     parser.add_argument('--seed',type=int,default=20261023)
     parser.add_argument('--device',default='cuda')

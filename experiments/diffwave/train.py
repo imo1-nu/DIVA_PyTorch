@@ -182,7 +182,7 @@ def train(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-dir', type=Path, required=True)
-    parser.add_argument('--condition', choices=['author','corrected'], required=True)
+    parser.add_argument('--condition', choices=['author','corrected','transfer_peaks'], required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--epochs', type=int, default=1000)
     parser.add_argument('--learning-rate', type=float, default=0.001)
