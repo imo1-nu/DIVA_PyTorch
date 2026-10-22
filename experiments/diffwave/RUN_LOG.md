@@ -48,3 +48,8 @@ tail -n 5 /tmp/torchdiva-diffwave/logs/train-corrected.log
   `repeat_generation_check.json` に音声サンプルのSHAと両WAVのSHAを保存する。
 - 追加の速度試測としてtorch.compileも試したが、TritonのビルドでPython.hが見つからず失敗。
   正式学習には採用せず、検証済みの通常実行とchannels_lastを使用する。
+- 実際のSpeechBrain重みを使ったRTX5090検証: 整数・小数の拡散stepで、キャッシュ化ノイズ予測と
+  元forwardの最大差はいずれも0。50段推論を同じseedで2回実行したサンプルも完全一致。
+  `results/gpu_inference_check.json` に保存。
+- 評価指標の自己比較検査: 同一人音声の比較でPESQ 4.643888、segSNR 35 dB、LLR/WSS 0。
+  `results/metric_identity_check.json` に保存。

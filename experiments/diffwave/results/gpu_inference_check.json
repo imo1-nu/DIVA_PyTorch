@@ -1,0 +1,9 @@
+{
+  "noise_prediction_max_abs_differences": [
+    0.0,
+    0.0
+  ],
+  "pretrained_sampler_exact_repeat": true,
+  "frames": 2048,
+  "device": "NVIDIA GeForce RTX 5090"
+}
