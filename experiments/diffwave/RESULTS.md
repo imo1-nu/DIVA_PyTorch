@@ -1,6 +1,6 @@
 # TorchDIVA + DiffWave 実験結果
 
-集計: 2026-10-22T18:09:06.364594+00:00。ブランチ `experiment/torchdiva-diffwave`。
+集計: 2026-10-22T18:11:44.291732+00:00。ブランチ `experiment/torchdiva-diffwave`。
 [実行条件](README.md)と[実行記録](RUN_LOG.md)を併せて参照。
 著者の公開DIVA実装を基準にした条件と修正版を比較した。DiffWaveは代替のSpeechBrain重みであり、原著との完全同一条件ではない。
 
@@ -9,7 +9,9 @@
 - `author`: DIVA単体との平均比較で、上昇はCSIG raw, CBAK raw, COVL raw, segSNR、低下はPESQ。
 - `corrected`: DIVA単体との平均比較で、上昇はPESQ, CSIG raw, CBAK raw, COVL raw, segSNR、低下はなし。
 - CNN追加後と標準DiffWaveのPESQ平均は、author: 1.1405 / 1.1870、corrected: 1.1464 / 1.2344。
+
 これらは1seed・評価10ファイルの結果であり、全指標での改善や話者全般への有効性を一括して主張しない。
+
 raw複合指標の上昇と1–5制限のスコアを区別する。人による聴取評価は行っていない。
 
 ## 完了した処理
