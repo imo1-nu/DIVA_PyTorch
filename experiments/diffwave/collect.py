@@ -48,6 +48,9 @@ def write_plots(output,directory):
     figure.colorbar(im,ax=axes.ravel().tolist(),label='Mel magnitude (dB)',shrink=.75)
     for extension in ('png','svg'):figure.savefig(output/('test_spectrograms.'+extension),dpi=160)
     plt.close(figure)
+    for name in ('training_curves.svg','test_spectrograms.svg'):
+        path=output/name
+        path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
 
 
 def collect(directory):
