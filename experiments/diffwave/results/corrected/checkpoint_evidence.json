@@ -1,0 +1,25 @@
+{
+  "epoch": 1000,
+  "optimizer_steps": 31000,
+  "batchnorm_updates": [
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000,
+    31000
+  ],
+  "state_tensors": 112,
+  "all_tensors_finite": true,
+  "final_checkpoint_sha256": "058bde5523d434f96bb2ba5c7da78c7fd3f7605aa19591dc6fc069de9342f9da"
+}

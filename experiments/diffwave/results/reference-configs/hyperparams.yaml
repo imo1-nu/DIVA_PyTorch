@@ -1,0 +1,44 @@
+# ################################################
+# Basic parameters for a diffwave vocoder
+#
+# Author:
+#  * Yingzhi Wang 2022
+# ################################################
+
+train_timesteps: 50
+beta_start: 0.0001
+beta_end: 0.05
+
+residual_layers: 30
+residual_channels: 64
+dilation_cycle_length: 10
+
+unconditional: False
+
+spec_n_mels: 80
+spec_hop_length: 256
+
+diffwave: !new:speechbrain.lobes.models.DiffWave.DiffWave
+    input_channels: !ref <spec_n_mels>
+    residual_layers: !ref <residual_layers>
+    residual_channels: !ref <residual_channels>
+    dilation_cycle_length: !ref <dilation_cycle_length>
+    total_steps: !ref <train_timesteps>
+    unconditional: !ref <unconditional>
+
+noise: !new:speechbrain.nnet.diffusion.GaussianNoise
+
+diffusion: !new:speechbrain.lobes.models.DiffWave.DiffWaveDiffusion
+    model: !ref <diffwave>
+    beta_start: !ref <beta_start>
+    beta_end: !ref <beta_end>
+    timesteps: !ref <train_timesteps>
+    noise: !ref <noise>
+
+modules:
+    diffwave: !ref <diffwave>
+    diffusion: !ref <diffusion>
+
+pretrainer: !new:speechbrain.utils.parameter_transfer.Pretrainer
+    loadables:
+        diffwave: !ref <diffwave>

@@ -1,0 +1,13 @@
+{
+  "valid_generation_pairs": 984,
+  "verified_generation_file_hashes": 984,
+  "verified_evaluation_files": 80,
+  "unique_evaluation_rows": 80,
+  "all_primary_metrics_finite": true,
+  "completed_checkpoints": [
+    "author",
+    "corrected"
+  ],
+  "original_working_files_unchanged": 17,
+  "study_status": "completed"
+}
