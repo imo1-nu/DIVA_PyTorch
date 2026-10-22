@@ -82,3 +82,5 @@ weight equality. Independently transcribed outline→area→H equations recomput
 all frozen H peaks; the observation function is never used for primary metrics.
 Full input copies and source/asset/config/environment hashes accompany results.
 Do not compare an online learning trajectory with a frozen generation.
+
+[4回・20回後の固定比較結果](results/transfer_peak01/RESULT.md)と全指標・検証来歴を保存している。

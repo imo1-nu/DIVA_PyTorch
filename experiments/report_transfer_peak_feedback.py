@@ -70,11 +70,12 @@ def main():
     fig, axes = plt.subplots(2, 2, figsize=(10, 6), constrained_layout=True)
     for ax, contrast in zip(axes.flat, contrasts):
         trial, generation = contrast['after_trial'], contrast['generation']
+        label = {'ff_only': 'FF only', 'ff_fb': 'FF + FB'}[generation]
         for offset, mode, color in ((-.18, 'fmfit', '#6d819c'), (.18, 'transfer_peaks', '#dc8b28')):
             r = next(r for r in evaluations if r['mode'] == mode and r['after_trial'] == trial and r['generation'] == generation)
             bars = ax.bar(np.arange(3) + offset, r['mean_outside_hz'], .36, label=mode, color=color)
             ax.bar_label(bars, fmt='%.1f', padding=2, fontsize=8)
-        ax.set(title=f'After {trial} trials, {generation.replace("_", "+")}', xticks=np.arange(3), xticklabels=['Peak 1', 'Peak 2', 'Peak 3'],
+        ax.set(title=f'After {trial} trials, {label}', xticks=np.arange(3), xticklabels=['Peak 1', 'Peak 2', 'Peak 3'],
                ylabel='Mean outside-band distance (Hz)')
         ax.margins(y=.22)
         ax.spines[['top', 'right']].set_visible(False)
@@ -134,7 +135,7 @@ def main():
               '- 既存xy2abのcenter02ではAll-NaN axis警告が残る。40状態の採用面積・H・ピークは有限で、警告を成功の代わりに扱っていない。', '',
               '## 解釈と限界', '',
               '以下の差は固定した観測経路の効果であり、制御へ返した同じ値を再表示しただけの判定ではない。'
-              '独立式による全保存raw状態の再評価と、別に生成したFF-only結果を含めて比較した。'
+              '独立式による固定評価8系列の全raw状態の再評価と、別に生成したFF-only結果を含めて比較した。'
               '成分間の悪化、体性誤差、有効率を併記し、学習中の信号を固定評価へ混在させない。'
               '単一/u/・seed0・既存目標・既存inverseに限定する。競合説明の個別アブレーションは行っておらず、原因を一つに確定しない。'
               '波形推定・極周波数・知覚品質を評価していないため、波形一致、自然性、日本語母音の達成へ拡張しない。', '',
