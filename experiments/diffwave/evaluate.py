@@ -85,6 +85,20 @@ def aggregate(rows):
                     t=float(test.statistic) if np.isfinite(test.statistic) else None,
                     p_two_sided=float(test.pvalue) if np.isfinite(test.pvalue) else None)
             comparisons[f'{condition}/{method}-diva'] = item
+    for method in ('diva','vanilla','enhanced'):
+        author={r['name']:r for r in rows if r['condition']=='author' and r['method']==method}
+        corrected={r['name']:r for r in rows if r['condition']=='corrected' and r['method']==method}
+        if not author or not corrected: continue
+        if set(author)!=set(corrected): raise ValueError('Cross-condition file mismatch')
+        item={}
+        for key in METRICS:
+            before=np.array([author[n][key] for n in sorted(author)])
+            after=np.array([corrected[n][key] for n in sorted(author)])
+            test=ttest_rel(after,before)
+            item[key]=dict(mean_change=float((after-before).mean()),
+                t=float(test.statistic) if np.isfinite(test.statistic) else None,
+                p_two_sided=float(test.pvalue) if np.isfinite(test.pvalue) else None)
+        comparisons['corrected-author/'+method]=item
     return dict(groups=result, paired_tests=comparisons,
                 multiplicity='Exploratory unadjusted paired two-sided t tests; n=10 files, not independent speakers')
 

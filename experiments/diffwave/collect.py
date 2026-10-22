@@ -35,7 +35,7 @@ def write_plots(output,directory):
     plt.close(figure)
     sample=next(s for s in json.loads((directory/'manifest.json').read_text())['samples'] if s['split']=='test')
     mel=MelSpectrogram()
-    figure,axes=plt.subplots(2,3,figsize=(12,6),sharex=True,sharey=True)
+    figure,axes=plt.subplots(2,3,figsize=(12,6),sharex=True,sharey=True,layout='constrained')
     for row,condition in enumerate(('author','corrected')):
         clean,degraded=load_pair(directory,sample,condition)
         enhanced,rate=sf.read(directory/'evaluation/audio'/condition/'enhanced'/sample['name'],dtype='float32')
@@ -46,7 +46,6 @@ def write_plots(output,directory):
             axes[row,column].set_title(condition+': '+label)
     figure.suptitle('First published test file: '+sample['name'])
     figure.colorbar(im,ax=axes.ravel().tolist(),label='Mel magnitude (dB)',shrink=.75)
-    figure.subplots_adjust(top=.87,hspace=.38,wspace=.16,right=.83)
     for extension in ('png','svg'):figure.savefig(output/('test_spectrograms.'+extension),dpi=160)
     plt.close(figure)
 
@@ -156,6 +155,14 @@ def collect(directory):
             t=summary['paired_tests'][c+'/enhanced-diva'][key]
             p='未定義' if t['p_two_sided'] is None else f'{t["p_two_sided"]:.6g}'
             lines.append(f'| {c} | {key} | {t["mean_change"]:+.4f} | {p} |')
+    lines.extend(['','## 修正版と著者版の直接比較','',
+        '同じファイルに対する `corrected - author`。修正一式と、それに由来するCNN学習の違いを含む。','',
+        '| 方法 | 指標 | 平均差 | p値 |','| --- | --- | ---: | ---: |'])
+    for method in ('diva','vanilla','enhanced'):
+        for key in ('pesq','csig_raw','cbak_raw','covl_raw','segsnr'):
+            t=summary['paired_tests']['corrected-author/'+method][key]
+            p='未定義' if t['p_two_sided'] is None else f'{t["p_two_sided"]:.6g}'
+            lines.append(f'| {method} | {key} | {t["mean_change"]:+.4f} | {p} |')
     lines.extend(['','## 解釈の制限','',
         '両条件はF0だけの比較ではなく、周期・雑音・補間・返却長の修正をまとめて比較している。',
         'CNNは参照図の解釈による16層、DiffWave重みはSpeechBrain版。著者独自の学習コード・重みと同一とは確認できない。',

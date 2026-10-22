@@ -66,3 +66,6 @@ tail -n 5 /tmp/torchdiva-diffwave/logs/train-corrected.log
   残り50件は取得し直す。生成済み音声は再利用しない。
 - 公式メタデータの検証を取得スクリプトに必須化し、録音IDと話者IDが異なる例の回帰テストを追加。
 - 生成をworkers18でやり直す。他の学習・評価条件は固定したまま。
+- 修正後の全492件はZIP内の492個の異なる録音メンバーへ対応し、ファイル重複0。
+  正しいNSPの合計61,354,012 bytes、WAVの合計61,346,140 bytes。
+  学習/評価で話者ID・録音ID 1と2を共有する。根拠は `results/data_mapping_check.json`。
