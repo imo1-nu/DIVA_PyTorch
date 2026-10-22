@@ -3,6 +3,7 @@
 Only the observation boundary uses this module. Model Jacobians remain fmfit.
 """
 from dataclasses import dataclass
+from typing import Optional
 import time
 
 import numpy as np
@@ -26,7 +27,7 @@ class AuditoryObservation:
     reasons: tuple
     step: int
     fmfit: torch.Tensor
-    peaks: PeakMeasurement | None
+    peaks: Optional[PeakMeasurement]
 
 
 def invalid_peaks(reason):
