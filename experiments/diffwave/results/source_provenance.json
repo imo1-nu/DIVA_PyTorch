@@ -1,6 +1,6 @@
 {
-  "collected_utc": "2026-10-22T18:11:44.291732+00:00",
-  "git_commit": "ee3c7e4048b7a6b66ff5af033aca698b25bcaa89",
+  "collected_utc": "2026-10-22T18:14:01.400117+00:00",
+  "git_commit": "b5b3f4eb304d58e07b531163b21c34ac8678504f",
   "sources_sha256": {
     "hyperparams.yaml": "8c71371e4e513e8f81b9d896d6c3c0b04170d0547373abb65cf0c6e9c891f084",
     "speechbrain-train.yaml": "473195ba6f562014b8cb77202c9d3097057700d314680ca4215f9c936e1d7793",
@@ -14,7 +14,7 @@
     "train.py": "da284e2852960f26598eda7d3b93d1bb3ab9658b7d14be9f91e2fff69b7547b4",
     "evaluate.py": "bb06f40b507f06682cb676abd1e592c4beb03f40071eb0f6f7fa510c47b1e58a",
     "run_study.py": "6459ae1944bf8c885e49c538e7bbb4270591ffc58cb42be1d287bc1ad8a9a697",
-    "collect.py": "b7785f5a3cda26f8328d095cabaa5613b884a3563b6c3e4e8a0dce4a9ab0dadb",
+    "collect.py": "ac3eec886d7b03d90b39d7d9a6efb9ee0f332f27c9ea4706ae4c82b313434bb8",
     "../diva_setup.py": "640a8febbd9ad16cd743414b816a0e4de766ea08ef3be709585d2c0be19750de"
   },
   "final_checkpoints_sha256": {

@@ -1,6 +1,6 @@
 # TorchDIVA + DiffWave 実験結果
 
-集計: 2026-10-22T18:11:44.291732+00:00。ブランチ `experiment/torchdiva-diffwave`。
+集計: 2026-10-22T18:14:01.400117+00:00。ブランチ `experiment/torchdiva-diffwave`。
 [実行条件](README.md)と[実行記録](RUN_LOG.md)を併せて参照。
 著者の公開DIVA実装を基準にした条件と修正版を比較した。DiffWaveは代替のSpeechBrain重みであり、原著との完全同一条件ではない。
 
