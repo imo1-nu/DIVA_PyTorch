@@ -92,12 +92,21 @@ class TransferPeakTests(unittest.TestCase):
         error.InputPorts[0] = torch.zeros((101, 1), dtype=torch.float64)
         error.InputPorts[1] = state.OutputPorts[0]
         error.validity = state.validity
-        # Target weights with no activity yield their existing bias range.
+        lower = torch.tensor([[.8, .85, .91, .9]], dtype=torch.float64)
+        upper = torch.tensor([[1.2, .88, .93, .92]], dtype=torch.float64)
+        error.weight_min.output = lambda: lower
+        error.weight_max.output = lambda: upper
         error.output()
-        expected = obs.values - torch.clamp(obs.values,
-            error.weight_min.bias.reshape(-1, 1), error.weight_max.bias.reshape(-1, 1))
+        expected = obs.values - torch.clamp(obs.values, lower.T, upper.T)
         torch.testing.assert_close(error.OutputPorts[0], expected)
-        self.assertFalse(torch.equal(obs.values, obs.fmfit))
+        fitted_error = obs.fmfit - torch.clamp(obs.fmfit, lower.T, upper.T)
+        self.assertGreater(float(torch.linalg.vector_norm(error.OutputPorts[0] - fitted_error)), .1)
+        inverse = ExplicitWeightBlock('Auditory', .05, .05, vt)
+        inverse.InputPorts[0], inverse.InputPorts[1] = error.OutputPorts[0], vt.InputPorts[0]
+        with patch.object(vt, 'observe', side_effect=AssertionError('inverse used observer')):
+            inverse.output()
+        self.assertTrue(torch.isfinite(inverse.OutputPorts[0]).all())
+        self.assertGreater(float(torch.linalg.vector_norm(inverse.OutputPorts[0])), 0.)
 
     def test_closure_empty_nonfinite_and_partial_peaks(self):
         np.testing.assert_array_equal(acoustic_area([-1, 0, .001, .025, 2]), [0, 0, .025, .025, 2])
@@ -114,6 +123,9 @@ class TransferPeakTests(unittest.TestCase):
         np.testing.assert_array_equal(result.valid, [True, False, False])
         self.assertEqual(result.peak_count, 1)
         self.assertEqual(result.reasons, ('ok', 'insufficient_peaks', 'insufficient_peaks'))
+        with patch('diva_vocaltract.a2h', return_value=(h * np.nan, f, None)):
+            invalid = measure_area([1, 1], .075)
+        self.assertEqual(invalid.reasons, ('nonfinite_transfer',) * 3)
         vt = VocalTract('transfer_peaks')
         vt.peak_observer = type('Failed', (), {'measure': lambda *args: result})()
         obs, som = vt.observe(torch.zeros((13, 1), dtype=torch.float64))
