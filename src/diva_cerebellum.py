@@ -26,7 +26,9 @@ class Cerebellum(sb.SignalBlock):
         self.LDS = fb.FIRBlock(ss_N, ss_coeff, 104, num_steps)
 
         self.dataBuffer = []
-        initSig = torch.zeros(101).to(torch.float64)
+        # FIRBlock.output indexes through num_steps even on the first, zero
+        # input. Preserve the legacy short-target buffer and cover long ones.
+        initSig = torch.zeros(max(101, num_steps)).to(torch.float64)
         initSig = torch.unsqueeze(initSig, 1)
         self.dataBuffer.append(initSig)
         self.initialSig = True
