@@ -77,12 +77,13 @@ $PYTHON experiments/diffwave/collect.py --data-dir "$DATA"
 中断した学習は同じコマンドに `--resume` を追加する。
 生成から集計までまとめて実行する場合は
 `$PYTHON experiments/diffwave/run_study.py --data-dir "$DATA"` を使う。
-最終保存epochからモデル・Adam・乱数状態を復元する。設定や学習コードの変更時は再開を拒否する。
+最終保存epochからモデル・Adam・乱数状態を復元する。設定・学習コード・元重み・ファイル集合・前処理後の実際の音声サンプルの変更時は再開を拒否する。
 データ生成は入力音声・ソース・生成コード・seed・出力音声のSHAが一致したペアだけ再利用する。
 
 データ、生成音声、チェックポイントは `$DATA` に保存し、大容量ファイルはGitに含めない。
 Gitには取得/生成手順、入力と出力のSHA、設定、学習曲線、個票・集計結果、実験記録を保存する。
-集計時にはデータ・音声・重みを `experiments/diffwave/artifacts/` にもコピーする
+この実行では学習重み・ログは開始時から `artifacts/runs` / `artifacts/logs` に保存する
+（`/tmp` からのsymlink）。集計時にはデータ・音声・重みを `experiments/diffwave/artifacts/` にもコピーする
 （Git対象外）。`/tmp` の消去後にも、この作業ツリーで学習済み重みを利用できる。
 
 ## データの入手性と出典

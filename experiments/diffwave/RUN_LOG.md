@@ -72,3 +72,10 @@ tail -n 5 /tmp/torchdiva-diffwave/logs/train-corrected.log
 - 著者コードの声道幾何計算で `All-NaN axis encountered` のRuntimeWarningが一部の入力に発生した。
   警告だけでサンプルを除外せず、生成音声が有限かつ非無音であることを全件検査する。
   数式の追加修正や代替音声への置換は行わない。失敗時はマニフェストへ記録して全体を失敗扱いにする。
+
+- 正式学習の重みとログは開始時から作業ツリーのGit対象外 `artifacts/` へ保存するよう、
+  `/tmp` のruns/logsをsymlinkにした。再開時はファイル集合と実際の前処理済み音声のSHAも照合する。
+
+- 最終コード・正しい録音対応の16件でも再開検証を再実施。3epochの全112テンソルが
+  連続実行と完全一致し、完了済みepochへの再開は追加学習を行わず正常終了した。
+  `results/resume_check.json` をこの検証結果で更新した。

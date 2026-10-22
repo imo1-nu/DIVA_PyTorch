@@ -1,5 +1,6 @@
 """Train on all 482 published training files; evaluate the fixed final epoch."""
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -73,10 +74,15 @@ def train(args):
     teacher = vocoder.spectrogram_upsampler
     mel = MelSpectrogram()
     features = []
+    input_hash=hashlib.sha256()
     preprocessing = time.perf_counter()
     with torch.no_grad():
         for index, sample in enumerate(samples):
             clean, degraded = load_pair(directory, sample, args.condition)
+            input_hash.update(sample['name'].encode()+b'\0')
+            input_hash.update(len(clean).to_bytes(8,'little'))
+            input_hash.update(clean.astype('<f4',copy=False).tobytes())
+            input_hash.update(degraded.astype('<f4',copy=False).tobytes())
             features.append((mel(torch.from_numpy(clean)), mel(torch.from_numpy(degraded))))
             if (index+1) % 100 == 0:
                 print(f'Mel preprocessing {index+1}/{len(samples)}.', flush=True)
@@ -93,6 +99,7 @@ def train(args):
         test_files=[s['name'] for s in manifest['samples'] if s['split']=='test'],
         pretrained_sha256=sha256(directory/'assets/speechbrain-diffwave.ckpt'),
         pairs_manifest_sha256=sha256(directory/'conditions'/args.condition/'pairs-manifest.json'),
+        training_input_sha256=input_hash.hexdigest(),
         source_fingerprint=pairs['provenance']['source_fingerprint'],
         code_sha256={name:sha256(Path(__file__).parent/name) for name in ('train.py','model.py','data.py')},
         architecture='8 encoder + 8 decoder learned convolutions, 256x upsampling',
@@ -102,7 +109,8 @@ def train(args):
     history, first_epoch, steps, previous_seconds = [], 1, 0, 0.0
     if args.resume:
         checkpoint = torch.load(output/'last.pt', map_location=device, weights_only=False)
-        for key in ('condition','seed','learning_rate','batch_size','crop_frames','precision','code_sha256','source_fingerprint'):
+        for key in ('condition','seed','learning_rate','batch_size','crop_frames','precision','code_sha256',
+                    'source_fingerprint','training_input_sha256','pretrained_sha256','train_files','test_files'):
             if checkpoint['configuration'][key] != configuration[key]:
                 raise ValueError(f'Resume configuration differs: {key}')
         model.load_state_dict(checkpoint['upsampler'])
@@ -114,6 +122,14 @@ def train(args):
         first_epoch, steps = checkpoint['epoch']+1, checkpoint['steps']
         old = json.loads((output/'training.json').read_text())
         history, previous_seconds = old['history'], old['seconds']
+        if checkpoint['epoch']>args.epochs:
+            raise ValueError('Requested final epoch precedes the saved checkpoint')
+        if checkpoint['epoch']==args.epochs:
+            if not (output/'final.pt').exists():
+                torch.save(dict(upsampler=model.state_dict(),epoch=args.epochs,
+                                configuration=configuration),output/'final.pt')
+            print(f'{args.condition}: epoch {args.epochs} already completed.',flush=True)
+            return old
     elif (output/'last.pt').exists():
         raise FileExistsError('Use --resume or a new output directory')
     (output/'config.json').write_text(json.dumps(configuration, indent=2)+'\n')
