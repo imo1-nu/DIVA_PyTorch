@@ -1,0 +1,450 @@
+[
+  {
+    "mode": "fmfit",
+    "after_trial": 4,
+    "generation": "ff_fb",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        107.1564110842618,
+        0.0,
+        227.82661264592952
+      ],
+      "overall_mean_hz_valid_only": 111.66100791006377,
+      "component_valid_rate": [
+        0.8888888888888888,
+        0.8888888888888888,
+        0.8888888888888888
+      ],
+      "joint_valid_rate": 0.8888888888888888,
+      "strict_inside_rate": [
+        0.0,
+        0.8888888888888888,
+        0.494949494949495
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        45.35001423113169,
+        26.580967852807984,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 23.976994027979888,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.696969696969697,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      131.6488796633885,
+      220.1568936628293,
+      488.1538162639236
+    ],
+    "somatic_sse": 0.06797289216390885,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "fmfit",
+    "after_trial": 4,
+    "generation": "ff_only",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        90.64878127154182,
+        0.0,
+        213.42836716595818
+      ],
+      "overall_mean_hz_valid_only": 101.35904947916667,
+      "component_valid_rate": [
+        0.8585858585858586,
+        0.8585858585858586,
+        0.8585858585858586
+      ],
+      "joint_valid_rate": 0.8585858585858586,
+      "strict_inside_rate": [
+        0.0,
+        0.8585858585858586,
+        0.494949494949495
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        45.23236019371766,
+        22.039540280305303,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 22.423966824674316,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.696969696969697,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      97.33639087234066,
+      190.73706460691912,
+      439.4783303625219
+    ],
+    "somatic_sse": 0.0832143449969929,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "fmfit",
+    "after_trial": 20,
+    "generation": "ff_fb",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        35.10313879085493,
+        18.943057482755638,
+        200.04801206950899
+      ],
+      "overall_mean_hz_valid_only": 84.69806944770652,
+      "component_valid_rate": [
+        0.797979797979798,
+        0.797979797979798,
+        0.797979797979798
+      ],
+      "joint_valid_rate": 0.797979797979798,
+      "strict_inside_rate": [
+        0.0,
+        0.30303030303030304,
+        0.494949494949495
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        27.91064996263817,
+        31.63367465273087,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 19.848108205123015,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.20202020202020202,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      31.22339984637588,
+      125.91278900524951,
+      401.82272575394626
+    ],
+    "somatic_sse": 0.007474113400312547,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "fmfit",
+    "after_trial": 20,
+    "generation": "ff_only",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        33.97026062011719,
+        19.20924126347409,
+        198.70857528493374
+      ],
+      "overall_mean_hz_valid_only": 83.96269238950833,
+      "component_valid_rate": [
+        0.797979797979798,
+        0.797979797979798,
+        0.797979797979798
+      ],
+      "joint_valid_rate": 0.797979797979798,
+      "strict_inside_rate": [
+        0.0,
+        0.30303030303030304,
+        0.494949494949495
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        27.424471322253602,
+        31.39667319988862,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 19.607048174047407,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.20202020202020202,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      30.828538663317914,
+      124.75141132086492,
+      398.6738312509659
+    ],
+    "somatic_sse": 0.007723413327674933,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "transfer_peaks",
+    "after_trial": 4,
+    "generation": "ff_fb",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        90.1087933276073,
+        11.810220006000565,
+        120.74219117681665
+      ],
+      "overall_mean_hz_valid_only": 74.22040150347483,
+      "component_valid_rate": [
+        0.8383838383838383,
+        0.8383838383838383,
+        0.8383838383838383
+      ],
+      "joint_valid_rate": 0.8383838383838383,
+      "strict_inside_rate": [
+        0.0,
+        0.5858585858585859,
+        0.6464646464646465
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        51.481956396921724,
+        59.541417690838905,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 37.00779136258688,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.696969696969697,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      72.60830917714358,
+      230.5027555400807,
+      320.3451876001394
+    ],
+    "somatic_sse": 0.06695008952099342,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "transfer_peaks",
+    "after_trial": 4,
+    "generation": "ff_only",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        97.23315411303417,
+        6.160510878965079,
+        115.30635328177947
+      ],
+      "overall_mean_hz_valid_only": 72.90000609125957,
+      "component_valid_rate": [
+        0.8383838383838383,
+        0.8383838383838383,
+        0.8383838383838383
+      ],
+      "joint_valid_rate": 0.8383838383838383,
+      "strict_inside_rate": [
+        0.0,
+        0.494949494949495,
+        0.6565656565656566
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        57.555192297748384,
+        57.471033049085044,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 38.34207511561115,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.696969696969697,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      74.07039043988921,
+      222.89014457936312,
+      320.1444229498278
+    ],
+    "somatic_sse": 0.08164058356752346,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "transfer_peaks",
+    "after_trial": 20,
+    "generation": "ff_fb",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        34.634655336790445,
+        13.9962981018839,
+        19.245645064341872
+      ],
+      "overall_mean_hz_valid_only": 22.62553283433874,
+      "component_valid_rate": [
+        0.797979797979798,
+        0.797979797979798,
+        0.797979797979798
+      ],
+      "joint_valid_rate": 0.797979797979798,
+      "strict_inside_rate": [
+        0.0,
+        0.30303030303030304,
+        0.7676767676767676
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        27.84871663032634,
+        64.23543116791019,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 30.69471593274551,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.20202020202020202,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      27.751479925806283,
+      89.79675939728864,
+      93.86334445855002
+    ],
+    "somatic_sse": 0.009681078151280347,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  },
+  {
+    "mode": "transfer_peaks",
+    "after_trial": 20,
+    "generation": "ff_only",
+    "selected_frames": 99,
+    "H": {
+      "mean_outside_hz": [
+        32.9246907294551,
+        14.149619959577729,
+        12.914899029309236
+      ],
+      "overall_mean_hz_valid_only": 19.996403239447357,
+      "component_valid_rate": [
+        0.797979797979798,
+        0.797979797979798,
+        0.797979797979798
+      ],
+      "joint_valid_rate": 0.797979797979798,
+      "strict_inside_rate": [
+        0.0,
+        0.30303030303030304,
+        0.7777777777777778
+      ],
+      "strict_joint_inside_rate": 0.0,
+      "tolerance_joint_inside_rate": 0.0
+    },
+    "M": {
+      "mean_outside_hz": [
+        26.77060028152394,
+        65.65557747325184,
+        0.0
+      ],
+      "overall_mean_hz_valid_only": 30.80872591825859,
+      "component_valid_rate": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "joint_valid_rate": 1.0,
+      "strict_inside_rate": [
+        0.20202020202020202,
+        0.20202020202020202,
+        1.0
+      ],
+      "strict_joint_inside_rate": 0.20202020202020202,
+      "tolerance_joint_inside_rate": 0.20202020202020202
+    },
+    "H_minus_M_mae_hz": [
+      27.50630236101243,
+      91.04619832165221,
+      82.99260159483605
+    ],
+    "somatic_sse": 0.010093000580694898,
+    "native_reference_max_abs_hz": 0.0,
+    "native_reference_validity_disagreements": 0
+  }
+]
