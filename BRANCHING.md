@@ -11,12 +11,14 @@
 | `fix/<内容>` | 修正 | `main` から作成 |
 | `chore/<内容>` | 運用や設定の変更 | `main` から作成 |
 | `area-synthesis-comparison` | 整理前から継続している音声合成比較の作業 | 既存のコミット・未コミット変更を維持 |
-| `archive/previous-f0-fix` | 旧ローカルブランチ `origin` の履歴保存 | 通常の開発には使わない |
 
 リモート `origin` は自分のフォーク
 (`https://github.com/imo1-nu/DIVA_PyTorch`) 、`upstream` は著者の公開リポジトリ
 (`https://github.com/skinahan/DIVA_PyTorch`) です。
 ブランチ名 `main` は著者版ではなく、自分用の統合先を指します。
+
+旧 `archive/previous-f0-fix` と同じ F0・音声合成周期の修正は、テスト後に
+`main` へ統合済みです。重複していたアーカイブブランチは削除しました。
 
 ## 作業を始める
 
