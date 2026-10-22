@@ -27,5 +27,8 @@
   "bootstrap_note": "Dedicated /tmp/torchdiva-diffwave/venv imports shared audit environment through a .pth; no system packages were changed.",
   "pysepm_source": "https://github.com/schmiph2/pysepm/archive/7ef88aff2c56201a2d0470aaeb58e77e47a914d2.zip",
   "torch_version": "2.13.0+cu130",
-  "cuda_runtime": "13.0"
+  "cuda_runtime": "13.0",
+  "gpu_driver": "595.71.05",
+  "cudnn_version": 92000,
+  "gpu_reported_memory": "32607 MiB"
 }
