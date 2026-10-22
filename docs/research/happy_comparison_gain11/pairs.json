@@ -1,0 +1,222 @@
+[
+  {
+    "trial": 4,
+    "generation": "ff_only",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 4,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8738738738738738,
+        0.8738738738738738,
+        0.8738738738738738
+      ],
+      "h_joint_valid_rate": 0.8738738738738738,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 0.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_fmfit_04_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7119130255304389,
+      "rms": 0.15530649282827236,
+      "sha256": "8978ed4b32059cf7ff10d9fbcee9ddfc10903ae07b78a9e71b055773443fe331"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 4,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8558558558558559,
+        0.8558558558558559,
+        0.8558558558558559
+      ],
+      "h_joint_valid_rate": 0.8558558558558559,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 0.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_transfer_peaks_04_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.704075022745194,
+      "rms": 0.14807030096125928,
+      "sha256": "02cdd8753aff244aea2e6488e695ca03f43af585a8666fbac01a5da6c6148d28"
+    },
+    "pair": "happy_ff1_fb1_AB_04_ff_only.wav"
+  },
+  {
+    "trial": 4,
+    "generation": "ff_fb",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 4,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.9009009009009009,
+        0.9009009009009009,
+        0.9009009009009009
+      ],
+      "h_joint_valid_rate": 0.9009009009009009,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 1.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_fmfit_04_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7248545640934101,
+      "rms": 0.16875219851882542,
+      "sha256": "38ad6a5a6d7185136974b7e6af52d9b449557770d3f59f8348048bf6332969a5"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 4,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8558558558558559,
+        0.8558558558558559,
+        0.8558558558558559
+      ],
+      "h_joint_valid_rate": 0.8558558558558559,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 1.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_transfer_peaks_04_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7195045116451755,
+      "rms": 0.15901082560023477,
+      "sha256": "22d4b731ca3a7db1e78c1b26fd8370e28c152cf7cada5a043299a40aa68c273d"
+    },
+    "pair": "happy_ff1_fb1_AB_04_ff_fb.wav"
+  },
+  {
+    "trial": 20,
+    "generation": "ff_only",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 20,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 0.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_fmfit_20_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7755462230049527,
+      "rms": 0.1752827316541606,
+      "sha256": "e37366ad490eda55ba3f17a395eaeaba65a6ecb4c081be8034f6d3208ce3e4a2"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 20,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 0.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_transfer_peaks_20_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7727636764222526,
+      "rms": 0.18067293291500694,
+      "sha256": "d6602a28ba91de327ca949cbcd87bf1c6b2d332c92aa6d3e8a21dde0fead373b"
+    },
+    "pair": "happy_ff1_fb1_AB_20_ff_only.wav"
+  },
+  {
+    "trial": 20,
+    "generation": "ff_fb",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 20,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 1.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_fmfit_20_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7759816584302571,
+      "rms": 0.17513407617657073,
+      "sha256": "a46a4bb4a086ae3137d1a82189febd99d7c9e02e529422566f1d1eb51a34714d"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 20,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "learning_ff_gain": 1.0,
+      "learning_fb_gain": 1.0,
+      "generation_ff_gain": 1.0,
+      "generation_fb_gain": 1.0,
+      "waveform_synthesizer": "DIVA native, corrected main c01cee5",
+      "diffwave": false,
+      "weight_unchanged": true,
+      "file": "happy_ff1_fb1_transfer_peaks_20_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7731080111973666,
+      "rms": 0.18081207830670848,
+      "sha256": "87a5a1296b0488a6c5b64521f8a24a33c6faf87fe885b66ed12afe1493c78694"
+    },
+    "pair": "happy_ff1_fb1_AB_20_ff_fb.wav"
+  }
+]

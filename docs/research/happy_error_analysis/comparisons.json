@@ -1,0 +1,54 @@
+[
+  {
+    "after_trial": 4,
+    "generation": "ff_fb",
+    "own_valid_mean_hz_fmfit": 111.66100791006377,
+    "own_valid_mean_hz_transfer": 74.22040150347483,
+    "joint_valid_rate_fmfit": 0.8888888888888888,
+    "joint_valid_rate_transfer": 0.8383838383838383,
+    "common_valid_frames": 83,
+    "common_mean_hz_fmfit": 97.81754888205164,
+    "common_mean_hz_transfer": 74.22040150347483,
+    "common_change_hz": -23.597147378576807,
+    "common_reduction_percent": 24.123633896234956
+  },
+  {
+    "after_trial": 4,
+    "generation": "ff_only",
+    "own_valid_mean_hz_fmfit": 101.35904947916667,
+    "own_valid_mean_hz_transfer": 72.90000609125957,
+    "joint_valid_rate_fmfit": 0.8585858585858586,
+    "joint_valid_rate_transfer": 0.8383838383838383,
+    "common_valid_frames": 83,
+    "common_mean_hz_fmfit": 95.665714922679,
+    "common_mean_hz_transfer": 72.90000609125957,
+    "common_change_hz": -22.76570883141943,
+    "common_reduction_percent": 23.79714493308248
+  },
+  {
+    "after_trial": 20,
+    "generation": "ff_fb",
+    "own_valid_mean_hz_fmfit": 84.69806944770652,
+    "own_valid_mean_hz_transfer": 22.62553283433874,
+    "joint_valid_rate_fmfit": 0.797979797979798,
+    "joint_valid_rate_transfer": 0.797979797979798,
+    "common_valid_frames": 79,
+    "common_mean_hz_fmfit": 84.69806944770652,
+    "common_mean_hz_transfer": 22.62553283433874,
+    "common_change_hz": -62.072536613367774,
+    "common_reduction_percent": 73.286837608137
+  },
+  {
+    "after_trial": 20,
+    "generation": "ff_only",
+    "own_valid_mean_hz_fmfit": 83.96269238950833,
+    "own_valid_mean_hz_transfer": 19.996403239447357,
+    "joint_valid_rate_fmfit": 0.797979797979798,
+    "joint_valid_rate_transfer": 0.797979797979798,
+    "common_valid_frames": 79,
+    "common_mean_hz_fmfit": 83.96269238950833,
+    "common_mean_hz_transfer": 19.996403239447357,
+    "common_change_hz": -63.96628915006097,
+    "common_reduction_percent": 76.18418053260756
+  }
+]

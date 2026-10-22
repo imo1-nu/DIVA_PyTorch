@@ -1,0 +1,209 @@
+{
+  "all_40_pass": true,
+  "checks": [
+    {
+      "state": "witness_07",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "witness_22",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "witness_34",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "learned_current_04",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "learned_current_20",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "learned_public_04",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "learned_public_20",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "zero_shape",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_00",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_01",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_02",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_03",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_04",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_05",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_06",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_07",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_08",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_09",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_10",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_11",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_12",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_13",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_14",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_15",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_16",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_17",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_18",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_19",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_20",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_21",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_22",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_23",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_24",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_25",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_26",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_27",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_28",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_29",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_30",
+      "max_abs_hz": 0.0
+    },
+    {
+      "state": "center_31",
+      "max_abs_hz": 0.0
+    }
+  ],
+  "input_unchanged": true,
+  "input_sha256": {
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/results.json": "a7ee4cd125f053363fb5e9bb7764e741e491139934ec59b9c6f692c602e990a9",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_00.npz": "7f0e5049da617c22430cbec6cdacd39ad73426f34c1b993393a98345fdfa56a4",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_01.npz": "711f86b94e524d28cc51c2385d1a230d766996d95798df91e89e6d5d4cd9fb95",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_02.npz": "c90c8b4de31b03d00afb39f0ea2dbcfca7f2c3ae46b9bdc5de8f51f7d3163ea5",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_03.npz": "977e273d54ea0b8db63914224d0d145a138794000105556c554b169a785af946",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_04.npz": "c754a53c9fd0f0bc3f4874fa21470cdb03a2a22c3d3c78abff23fb0d741632ed",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_05.npz": "3a413d19f34aa80255e5a513ad1060b179be2f425f8a616119d1c8e0c957110e",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_06.npz": "591c26a6b8d1f46546611436bf5950a1c9f5f83236df80f28dc782d2243238ab",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_07.npz": "cebcc06fce6ee328d6a342da8036535b35756e87686b26c52ea40420e0263a18",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_08.npz": "fb597c6b961c4dafe367e55c5c659a60e9cbc888146485d7e44d060ea3e0732f",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_09.npz": "f52dcb9472b2765e63eb224cf3d96255cc71e561e6bcc5800bd597e4539097e7",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_10.npz": "65d4b6f6dd9ac61d3c3a69416bd9c3e432b648742f7a6e3ff80646ff9f76c52b",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_11.npz": "8000c2205acf591705f8a675d510da5d0c98fed7d681ef271595a21e364a2e15",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_12.npz": "353e5d8137205804fcec16fdd34d20e5f207e6ab2122c01c078ce8dc8549a662",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_13.npz": "757c46796bed284e01f65dba3ea091e3b6e0f26cecd928ca91bc098b3633101c",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_14.npz": "fcc8033754a8997ae163accdd0fb2aebe38057ccb151c4480af42bc693cf532c",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_15.npz": "1f9a46965c438436495bc0ab4f01d169711144cf94cdbd782845c77c81562057",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_16.npz": "f632fedecd350ad92c545f0c3ebcf3da755e4b20ccb64e30ad49d30411fa5900",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_17.npz": "42151f57f1e495a608ab7be4b23fffb90a2aee441c896e20a6e86a4313fb6bec",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_18.npz": "3c3f7ffe068e2e5d8739b31bb04556e833cf4164fe4290041c57c2ef60c8f65b",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_19.npz": "1d678ac3a99fbcbf14135b469ae1b69e64e2d550d4c1039f8eb60e521e837e8c",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_20.npz": "d835329df56c74062be87ef49c33e6ec6db44693a6109072bcc67e7afdd58b74",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_21.npz": "adc4e7512af112c44709aab70b01b25dbed3984c0121929a29aefba8f19dc711",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_22.npz": "53a37aef10c447e6b392fecaec339b13d3d79f631ba929fb608ced662a0dfdbb",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_23.npz": "55a0b2d65b36fc902a7bdc2ab24dded625fca124934c68ef201ac6cc66326ecd",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_24.npz": "cd5dcf70063cb06212c935da91ba755d86a9c5ed15a5fa906964134ef1bde20f",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_25.npz": "a9f7397f8847e0948932637731a78e82063348d89b1c4f74b80eff8288642059",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_26.npz": "02b316410cc9a681b2d16b06efdf675d3b29435a6d3991fda30bcecaecb0975b",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_27.npz": "ef171d906c70f2b516309b40f3d354e42c95d38819d933d8046d387d60131b69",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_28.npz": "6ea603a6ef9eba55e6ada459bf795969b5264f1871dca044871c554c582efd97",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_29.npz": "2c3f7673a13d141167bba3d9366669b70d8e6cede1a40a63759da800adf30000",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_30.npz": "45f9eeac2e3827ba01e2eecc78f252bed206ab21079ec96b997776c6d320f299",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/center_31.npz": "77485fb1b7740d12fd19753a487755f6f3f8fa79d123922296986d0e7119ac92",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/learned_current_04.npz": "33bd27399c3c478a593e025c551f27c3d05d941cea0b5081896f87f712609b45",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/learned_current_20.npz": "6b3fb3183c3a89379e02c6d1dd5f3f9259cfe2336c418f3ae26edb62d916662f",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/learned_public_04.npz": "dafa9248c03635adafde42eac1446347c5f3969c2a024d757648fb2e73bab10f",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/learned_public_20.npz": "019fc3a12a0e5a9b0f78202df19e2771327d71045237fdf05013322a4b622309",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/witness_07.npz": "2313a8a5d7c3d6fb04ddb39bc6c574834edcfdbf0db13ed74fa7e7e775bd72e2",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/witness_22.npz": "09740c895b7499f441eb6984bafed461e3988f12e4fed36b1b64abff2a00fcc6",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/witness_34.npz": "f9e8d09071a5e5b2d2a148171eaf45ff96cff9a033c57ceb957053516207d612",
+    "/home/futagami26/mrnas06home/research/stutter_tts_jp/outputs/diva_forward01/states/zero_shape.npz": "705ce77a4e15dd48a71fa15b0bb7eb2c92d8ddde3d90df03e664d331b543a2d3"
+  }
+}

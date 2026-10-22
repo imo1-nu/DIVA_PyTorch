@@ -1,0 +1,246 @@
+{
+  "fmfit": [
+    {
+      "trial": 1,
+      "seconds": 17.877829348668456,
+      "weight_norm": 9.042922933692768,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 2,
+      "seconds": 17.24061463586986,
+      "weight_norm": 15.540129369298162,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 3,
+      "seconds": 16.80127828940749,
+      "weight_norm": 20.35950391827385,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 4,
+      "seconds": 17.282037302851677,
+      "weight_norm": 23.912402587348208,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 5,
+      "seconds": 17.004443684592843,
+      "weight_norm": 26.48940139590573,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 6,
+      "seconds": 16.800354566425085,
+      "weight_norm": 28.332568581571305,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 7,
+      "seconds": 16.973885929211974,
+      "weight_norm": 29.640246693763753,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 8,
+      "seconds": 17.744969177991152,
+      "weight_norm": 30.54991264202333,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 9,
+      "seconds": 16.823857175186276,
+      "weight_norm": 31.18471409721866,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 10,
+      "seconds": 17.41795896552503,
+      "weight_norm": 31.631824387312808,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 11,
+      "seconds": 17.242873050272465,
+      "weight_norm": 31.95120877455939,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 12,
+      "seconds": 16.844018371775746,
+      "weight_norm": 32.183579170369164,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 13,
+      "seconds": 17.304818959906697,
+      "weight_norm": 32.356290916179844,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 14,
+      "seconds": 17.202322898432612,
+      "weight_norm": 32.487686515709555,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 15,
+      "seconds": 17.96501798927784,
+      "weight_norm": 32.590084527590975,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 16,
+      "seconds": 17.494417754933238,
+      "weight_norm": 32.67179468384322,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 17,
+      "seconds": 16.625843996182084,
+      "weight_norm": 32.738462441343586,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 18,
+      "seconds": 17.5143866520375,
+      "weight_norm": 32.793960789160785,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 19,
+      "seconds": 17.88035066612065,
+      "weight_norm": 32.84097995392882,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 20,
+      "seconds": 17.404554354026914,
+      "weight_norm": 32.8814169443604,
+      "measurement_failure_rate": 0.0
+    }
+  ],
+  "transfer_peaks": [
+    {
+      "trial": 1,
+      "seconds": 17.058840641751885,
+      "weight_norm": 8.987760578383316,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 2,
+      "seconds": 17.066834304481745,
+      "weight_norm": 15.450757032759387,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 3,
+      "seconds": 16.924836641177535,
+      "weight_norm": 20.21726394354053,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 4,
+      "seconds": 17.438961068168283,
+      "weight_norm": 23.74576119504017,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 5,
+      "seconds": 17.727505795657635,
+      "weight_norm": 26.329821793535697,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 6,
+      "seconds": 17.578680139034986,
+      "weight_norm": 28.199377077988384,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 7,
+      "seconds": 17.43612702563405,
+      "weight_norm": 29.55845805556211,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 8,
+      "seconds": 17.75014133565128,
+      "weight_norm": 30.540156295513057,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 9,
+      "seconds": 17.35649835690856,
+      "weight_norm": 31.268842134878675,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 10,
+      "seconds": 17.356148725375533,
+      "weight_norm": 31.814685636240494,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 11,
+      "seconds": 16.974756015464664,
+      "weight_norm": 32.232940135682945,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 12,
+      "seconds": 17.717835882678628,
+      "weight_norm": 32.55003713162021,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 13,
+      "seconds": 17.59716972336173,
+      "weight_norm": 32.78758104636238,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 14,
+      "seconds": 16.87382852099836,
+      "weight_norm": 32.96851555804161,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 15,
+      "seconds": 17.5919847805053,
+      "weight_norm": 33.107291455554076,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 16,
+      "seconds": 17.531152417883277,
+      "weight_norm": 33.21563144496429,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 17,
+      "seconds": 17.397531842812896,
+      "weight_norm": 33.30119995454578,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 18,
+      "seconds": 17.45816583558917,
+      "weight_norm": 33.37004525374757,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 19,
+      "seconds": 17.987108159810305,
+      "weight_norm": 33.42636184730778,
+      "measurement_failure_rate": 0.0
+    },
+    {
+      "trial": 20,
+      "seconds": 17.14515375904739,
+      "weight_norm": 33.472775309223735,
+      "measurement_failure_rate": 0.0
+    }
+  ]
+}

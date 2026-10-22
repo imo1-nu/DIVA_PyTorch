@@ -1,0 +1,174 @@
+[
+  {
+    "trial": 4,
+    "generation": "ff_only",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 4,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.954954954954955,
+        0.954954954954955,
+        0.954954954954955
+      ],
+      "h_joint_valid_rate": 0.954954954954955,
+      "weight_unchanged": true,
+      "file": "happy_fmfit_04_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7036503384476813,
+      "rms": 0.16003433432114966,
+      "sha256": "ce7dc2fa813649ea80e0187c9715ecfb370e3ff4e97f3ebc296df5d8c8d93a96"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 4,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8468468468468469,
+        0.8468468468468469,
+        0.8468468468468469
+      ],
+      "h_joint_valid_rate": 0.8468468468468469,
+      "weight_unchanged": true,
+      "file": "happy_transfer_peaks_04_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.6952603131914434,
+      "rms": 0.14502800338299315,
+      "sha256": "0372053c76e0731fac66fcac5ac0267e0dca89dfb3ffaecd56c11d8143a19e6f"
+    },
+    "pair": "happy_AB_04_ff_only.wav"
+  },
+  {
+    "trial": 4,
+    "generation": "ff_fb",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 4,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.990990990990991,
+        0.990990990990991,
+        0.990990990990991
+      ],
+      "h_joint_valid_rate": 0.990990990990991,
+      "weight_unchanged": true,
+      "file": "happy_fmfit_04_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.709131614563315,
+      "rms": 0.16411227204504084,
+      "sha256": "e6a1558a6f0ed8424706ce8e664fb6c4c30b1285a3a5a2a9d861d43552868948"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 4,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8468468468468469,
+        0.8468468468468469,
+        0.8468468468468469
+      ],
+      "h_joint_valid_rate": 0.8468468468468469,
+      "weight_unchanged": true,
+      "file": "happy_transfer_peaks_04_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7015787337605615,
+      "rms": 0.15167458465511832,
+      "sha256": "7c284406127406a8030954029e5cd89be295daadbb171e6cf044ce11535cf1c6"
+    },
+    "pair": "happy_AB_04_ff_fb.wav"
+  },
+  {
+    "trial": 20,
+    "generation": "ff_only",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 20,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "weight_unchanged": true,
+      "file": "happy_fmfit_20_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7748166533906764,
+      "rms": 0.17501962325965023,
+      "sha256": "4207d98998eb07e8f9e7b65b6e3d43c492f8e041be37558e69397e66a86f6c4f"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 20,
+      "generation": "ff_only",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "weight_unchanged": true,
+      "file": "happy_transfer_peaks_20_ff_only.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7728548313463819,
+      "rms": 0.17852797953017574,
+      "sha256": "12eecdedb2aa1c8aafe1f6e1525504c6c6c41619e83e510f4434c8282075afd7"
+    },
+    "pair": "happy_AB_20_ff_only.wav"
+  },
+  {
+    "trial": 20,
+    "generation": "ff_fb",
+    "a": {
+      "observation_mode": "fmfit",
+      "after_trial": 20,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "weight_unchanged": true,
+      "file": "happy_fmfit_20_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7749537356986483,
+      "rms": 0.1749768756765163,
+      "sha256": "02d3fe2035f9539825c72f66f0741a7542690e1cecb0668ebab02e649e11ead8"
+    },
+    "b": {
+      "observation_mode": "transfer_peaks",
+      "after_trial": 20,
+      "generation": "ff_fb",
+      "h_component_valid_rate": [
+        0.8198198198198198,
+        0.8198198198198198,
+        0.8198198198198198
+      ],
+      "h_joint_valid_rate": 0.8198198198198198,
+      "weight_unchanged": true,
+      "file": "happy_transfer_peaks_20_ff_fb.wav",
+      "sample_rate": 11025,
+      "samples": 6119,
+      "duration_s": 0.5550113378684808,
+      "peak": 0.7729712174354164,
+      "rms": 0.17842982227110607,
+      "sha256": "580796beede54a05c9a9bea0b48ff6795382c21bd8f3206e5fd812785d8f2d2d"
+    },
+    "pair": "happy_AB_20_ff_fb.wav"
+  }
+]
