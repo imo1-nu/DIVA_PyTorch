@@ -146,6 +146,17 @@ def collect(directory):
     lines.extend(['',
         '`diva`: 合成音声のみ。`vanilla`: 追加学習なしの標準DiffWave。',
         '`enhanced`: DIVA音声を入力に学習したCNNへ置換。`oracle`: 人音声melを標準DiffWaveへ入力する対照。','',
+        '## 著者公開Excelとの比較','',
+        '著者の `figs_1000.xlsx` は個票とSummaryで値が異なる。両集合を別々に載せ、どちらか一方に合わせて成功を判定しない。','',
+        '| 著者資料 | PESQ | CSIG | CBAK | COVL | segSNR |',
+        '| --- | ---: | ---: | ---: | ---: | ---: |'])
+    workbook=json.loads((HERE/'audit_evidence.json').read_text())['author_workbook']
+    for label,key in (('TorchDIVA 個票平均','baseline_raw_mean'),
+                      ('DiffWave epoch1000 個票平均','enhanced_raw_mean'),
+                      ('DiffWave Summary保存値','enhanced_summary_cached_mean')):
+        values=[workbook[key][k] for k in ('PESQ','CSIG','CBAK','COVL','segSNR')]
+        lines.append('| '+label+' | '+' | '.join(f'{x:.4f}' for x in values)+' |')
+    lines.extend(['',
         '## 学習したCNNによる変化','',
         '以下は各DIVA条件の `enhanced - diva`。対応のある両側t検定、補正なしの探索的p値。',
         'n=10ファイルであり、独立した10話者の評価ではない。','',
