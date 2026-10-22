@@ -113,10 +113,22 @@ def collect(directory):
         log=directory/'logs'/('train-'+c+'.log')
         if log.exists():shutil.copy2(log,output/c/'training.log')
     environment=json.loads((output/'environment.json').read_text())
+    observations=[]
+    labels={'pesq':'PESQ','csig_raw':'CSIG raw','cbak_raw':'CBAK raw','covl_raw':'COVL raw','segsnr':'segSNR'}
+    for condition in ('author','corrected'):
+        change=summary['paired_tests'][condition+'/enhanced-diva']
+        up=[label for key,label in labels.items() if change[key]['mean_change']>0]
+        down=[label for key,label in labels.items() if change[key]['mean_change']<0]
+        observations.append(f'- `{condition}`: DIVA単体との平均比較で、上昇は{", ".join(up) or "なし"}、低下は{", ".join(down) or "なし"}。')
+    observations.append('- CNN追加後と標準DiffWaveのPESQ平均は、'+
+        '、'.join(f'{c}: {summary["groups"][c+"/enhanced"]["pesq"]["mean"]:.4f} / {summary["groups"][c+"/vanilla"]["pesq"]["mean"]:.4f}' for c in ('author','corrected'))+'。')
+    observations.append('これらは1seed・評価10ファイルの結果であり、全指標での改善や話者全般への有効性を一括して主張しない。')
+    observations.append('raw複合指標の上昇と1–5制限のスコアを区別する。人による聴取評価は行っていない。')
     lines=['# TorchDIVA + DiffWave 実験結果','',
         f'集計: {provenance["collected_utc"]}。ブランチ `experiment/torchdiva-diffwave`。',
         '[実行条件](README.md)と[実行記録](RUN_LOG.md)を併せて参照。',
         '著者の公開DIVA実装を基準にした条件と修正版を比較した。DiffWaveは代替のSpeechBrain重みであり、原著との完全同一条件ではない。','',
+        '## 今回の所見','',*observations,'',
         '## 完了した処理','',
         '- 公開SVDリスト492件、著者版・修正版の計984ペアを生成。失敗・除外0件。',
         '- 各条件で全482学習ファイルを1000エポック（31,000更新）、凍結DiffWaveのCNNだけ学習。',
@@ -143,6 +155,14 @@ def collect(directory):
             g=summary['groups'][c+'/'+method]
             values=[g[k]['mean'] for k in ('pesq','csig_raw','cbak_raw','covl_raw','segsnr')]
             lines.append('| '+c+' | '+method+' | '+' | '.join(f'{x:.4f}' for x in values)+' |')
+    lines.extend(['','## 1–5へ制限した複合指標の平均','',
+        'raw値に加え、標準範囲への制限後も示す。標本SDは集計JSONに保存。','',
+        '| DIVA条件 | 方法 | CSIG | CBAK | COVL |',
+        '| --- | --- | ---: | ---: | ---: |'])
+    for c in ('author','corrected'):
+        for method in ('diva','vanilla','enhanced','oracle'):
+            g=summary['groups'][c+'/'+method]
+            lines.append('| '+c+' | '+method+' | '+' | '.join(f'{g[k]["mean"]:.4f}' for k in ('csig','cbak','covl'))+' |')
     lines.extend(['',
         '`diva`: 合成音声のみ。`vanilla`: 追加学習なしの標準DiffWave。',
         '`enhanced`: DIVA音声を入力に学習したCNNへ置換。`oracle`: 人音声melを標準DiffWaveへ入力する対照。','',
