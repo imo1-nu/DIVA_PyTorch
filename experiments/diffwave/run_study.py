@@ -32,7 +32,7 @@ def run(args):
             print('Waiting for all 984 pairs; progress is in pairs-progress.json.',flush=True)
             time.sleep(30)
     else:
-        command=[sys.executable,str(HERE/'data.py'),'--data-dir',str(directory),'--workers','12']
+        command=[sys.executable,str(HERE/'data.py'),'--data-dir',str(directory),'--workers',str(args.workers)]
         subprocess.run(command,check=True)
     def phase(name,command):
         print('START '+name,flush=True)
@@ -63,4 +63,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-dir',type=Path,required=True)
     parser.add_argument('--wait-for-pairs',action='store_true')
+    parser.add_argument('--workers',type=int,default=18)
     run(parser.parse_args())

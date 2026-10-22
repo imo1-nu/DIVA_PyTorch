@@ -49,7 +49,8 @@ Zhang et al. の本文は15層・encoder8層だが図の文字通りの列は16�
 1000epochは著者の補助Excelの値を採用。batch、crop、BF16、padding等は追加の実装条件。
 
 公開リストの先頭ID 1と2は学習/評価の双方にあり、話者完全分離を主張しない。
-ファイル名由来の暫定 `speaker_id/session_id` は分割やモデル選択に使わない。
+公式CSVでファイル名の先頭=話者ID、5番目=録音IDを全件照合した。
+52話者・56録音セッションで、分割には公開ファイル一覧をそのまま使う。
 監査で指摘した438/44分割と早期終了の草稿は正式実験に採用しなかった。
 修正前の2件の動作確認キャッシュも正式条件とは別領域である。
 
@@ -66,7 +67,7 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 export MPLCONFIGDIR="$DATA/mpl"
 export PYTHONDONTWRITEBYTECODE=1
 $PYTHON experiments/diffwave/assets.py --data-dir "$DATA" --workers 4
-$PYTHON experiments/diffwave/data.py --data-dir "$DATA" --workers 12
+$PYTHON experiments/diffwave/data.py --data-dir "$DATA" --workers 18
 $PYTHON experiments/diffwave/train.py --data-dir "$DATA" --condition author --output "$DATA/runs/author"
 $PYTHON experiments/diffwave/train.py --data-dir "$DATA" --condition corrected --output "$DATA/runs/corrected"
 $PYTHON experiments/diffwave/evaluate.py --data-dir "$DATA" --output "$DATA/evaluation"
@@ -134,3 +135,22 @@ SRMRは今回の指標に含めず、pysepmの未使用のオプション依存�
 そのSHAは個々の保存物の同定用で、数値的再現性の判定には音声サンプルのSHAを使う。
 `results/audio_pcm_sha256.json` にfloat32サンプル列のSHAを保存する。
 別作業領域での再生成では両DIVA条件のサンプルが完全一致した。
+
+### 録音IDの対応誤りと修正
+
+最初の取得コードはファイル名の先頭をZIPのディレクトリに使っていたが、先頭は話者ID、
+5番目が録音IDだった。例えば `12_n_w_26_2200_a_h.wav` の正しい入力は
+`2200/vowels/2200-a_h.nsp`。`12/vowels/12-a_h.nsp` ではない。
+公式CSVの AufnahmeID / SprecherID / 性別 / 健康区分 / 年齢が全492件で一致することを
+確認し、取得時に照合を必須にした。
+
+誤った対応の生成は810ペア完了時点で停止し、関連する音声・マニフェスト・評価を
+`$DATA/diagnostics/wrong-recording-id/` へ隔離した。正式CNN学習は未開始だった。
+正しい元データを取得し直し、DIVA音声も両条件で再生成する。
+誤ったファイル名の下に保存されていたNSPは、ZIPの実際のメンバー名とSHAを
+照合できた442件だけ、正しいファイル名の取得キャッシュへ再配置した。
+生成済みDIVA音声や対照指標はこのキャッシュ移行の対象にしていない。
+
+公式の根拠: https://stimmdb.coli.uni-saarland.de/data/voice_data.csv 。
+この誤りを防ぐ回帰テストも追加した。過去の実装監査にある暫定IDの説明は、
+この公式メタデータ照合結果で置き換える。

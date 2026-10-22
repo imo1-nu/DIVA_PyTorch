@@ -54,13 +54,20 @@ def train(args):
     directory, output = args.data_dir.resolve(), args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     manifest = json.loads((directory/'manifest.json').read_text())
+    if (not manifest.get('official_metadata_sha256') or
+            any(s.get('recording_id')!=s['name'].split('_')[4] or
+                s.get('speaker_id')!=s['name'].split('_')[0] for s in manifest['samples'])):
+        raise ValueError('Acquire data with official recording/speaker metadata validation first')
     pairs = json.loads((directory/'conditions'/args.condition/'pairs-manifest.json').read_text())
     if pairs['failures']:
         raise RuntimeError('Pair generation has failures; inspect the manifest first')
     available = {sample['name'] for sample in pairs['samples']}
+    human_hashes={s['name']:s['human_sha256'] for s in pairs['samples']}
     samples = [row for row in manifest['samples'] if row['split']=='train']
     if any(sample['name'] not in available for sample in samples):
         raise RuntimeError('Generate all published training pairs first')
+    if any(human_hashes[s['name']]!=s['wav_sha256'] for s in samples):
+        raise ValueError('Generated pairs refer to different human recordings')
     print(f'{args.condition}: train {len(samples)}, published test 10 excluded.', flush=True)
     vocoder = load_vocoder(directory/'assets/speechbrain-diffwave.ckpt', device)
     teacher = vocoder.spectrogram_upsampler

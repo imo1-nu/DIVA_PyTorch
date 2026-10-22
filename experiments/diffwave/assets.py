@@ -5,6 +5,8 @@ https://doi.org/10.5281/zenodo.16874898 . ZIP members are CRC checked;
 each downloaded NSP and converted WAV is also recorded with SHA256.
 """
 import argparse
+import csv
+from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
 from http.client import IncompleteRead
@@ -20,6 +22,7 @@ import zlib
 
 ROOT = Path(__file__).resolve().parents[2]
 SVD_RECORD = 'https://zenodo.org/api/records/16874898'
+SVD_METADATA = 'https://stimmdb.coli.uni-saarland.de/data/voice_data.csv'
 CHECKPOINT_URL = ('https://huggingface.co/speechbrain/tts-diffwave-ljspeech/'
                   'resolve/3a0cbf1/diffwave.ckpt')
 CHECKPOINT_SHA = 'b434ac56f45486ec899e4ef50fb1bab09443bbe4ccc844acae35486e89541fc2'
@@ -81,10 +84,24 @@ class HTTPRangeFile(io.RawIOBase):
 
 def member_for_name(name):
     parts = Path(name).stem.split('_')
-    session, vowel, pitch = parts[0], parts[-2], parts[-1]
+    if len(parts) != 7:
+        raise ValueError(f'Unexpected published split filename: {name}')
+    recording, vowel, pitch = parts[4], parts[-2], parts[-1]
     if vowel not in ('a', 'i', 'u') or pitch not in ('h', 'l', 'n'):
         raise ValueError(f'Unexpected published split filename: {name}')
-    return f'{session}/vowels/{session}-{vowel}_{pitch}.nsp'
+    return f'{recording}/vowels/{recording}-{vowel}_{pitch}.nsp'
+
+
+def validate_metadata(name, row):
+    speaker, kind, gender, age, recording, *_ = Path(name).stem.split('_')
+    expected = {'AufnahmeID':recording, 'SprecherID':speaker,
+                'AufnahmeTyp':kind, 'Geschlecht':gender}
+    if any(row[key] != value for key,value in expected.items()):
+        raise ValueError(f'Published filename disagrees with official metadata: {name}')
+    recorded, born = date.fromisoformat(row['AufnahmeDatum']), date.fromisoformat(row['Geburtsdatum'])
+    actual_age = recorded.year-born.year-((recorded.month,recorded.day)<(born.month,born.day))
+    if int(age)!=actual_age:
+        raise ValueError(f'Age disagrees with official metadata: {name}')
 
 
 def fetch_member(url, size, info):
@@ -162,6 +179,11 @@ def prepare(directory, workers=4, limit=None):
     record = json.loads(record_path.read_text())
     archive = next(item for item in record['files'] if item['key'] == 'healthy.zip')
     url, size = archive['links']['self'], archive['size']
+    metadata_path=asset_dir/'svd-voice-data.csv'
+    if not metadata_path.exists(): metadata_path.write_bytes(get(SVD_METADATA))
+    metadata_rows=list(csv.DictReader(io.StringIO(metadata_path.read_text(encoding='utf-8-sig'))))
+    metadata={row['AufnahmeID']:row for row in metadata_rows}
+    if len(metadata)!=len(metadata_rows): raise ValueError('Duplicate official recording IDs')
     split = []
     for label, filename in [('train', 'dw_train_files.txt'), ('test', 'dw_test_files.txt')]:
         for name in (ROOT / 'test/figure_data' / filename).read_text().splitlines():
@@ -169,6 +191,8 @@ def prepare(directory, workers=4, limit=None):
                 split.append((label, name.strip()))
     if limit is not None:
         split = split[:limit]
+    for _,name in split:
+        validate_metadata(name,metadata[Path(name).stem.split('_')[4]])
     with zipfile.ZipFile(HTTPRangeFile(url, size)) as archive_file:
         infos = {name: archive_file.getinfo(member_for_name(name)) for _, name in split}
     print(f'Located {len(split)} published SVD files in the healthy archive.', flush=True)
@@ -191,8 +215,8 @@ def prepare(directory, workers=4, limit=None):
         if converted_rate != sample_rate or not np.array_equal(converted, pcm):
             raise ValueError(f'WAV does not preserve original NSP PCM: {name}')
         sound_info = sf.info(wav)
-        return dict(name=name, split=label, session_id=name.split('_')[0],
-                    speaker_id=name.split('_')[4], vowel=Path(name).stem.split('_')[-2],
+        return dict(name=name, split=label, speaker_id=name.split('_')[0],
+                    recording_id=name.split('_')[4], vowel=Path(name).stem.split('_')[-2],
                     pitch_condition=Path(name).stem.split('_')[-1],
                     archive_member=info.filename, archive_crc32=f'{info.CRC:08x}',
                     nsp_sha256=hashlib.sha256(data).hexdigest(), wav_sha256=digest(wav),
@@ -209,6 +233,8 @@ def prepare(directory, workers=4, limit=None):
     rows.sort(key=lambda item: (item['split'], item['name']))
     manifest = dict(dataset='Saarbruecken Voice Database',
                     dataset_doi='10.5281/zenodo.16874898', dataset_license='CC-BY-4.0',
+                    official_metadata_url=SVD_METADATA, official_metadata_sha256=digest(metadata_path),
+                    filename_metadata_validated='recording ID, speaker ID, sex, health type, age',
                     archive_url=url, checkpoint_url=CHECKPOINT_URL,
                     checkpoint_sha256=CHECKPOINT_SHA,
                     checkpoint_note='SpeechBrain LJSpeech weights; not the unavailable LMNT checkpoint',

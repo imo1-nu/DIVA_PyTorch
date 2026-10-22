@@ -11,6 +11,22 @@ from model import ConditionerUpsampler, MelSpectrogram, predict_noise, synthesiz
 from train import crop_batch, masked_l1
 from vendor.model import DiffWave
 from vendor.params import AttrDict, params
+from assets import member_for_name,validate_metadata
+
+
+def test_svd_mapping_uses_recording_id_and_checks_speaker_age():
+    # This speaker has distinct sessions at ages 22 and 26. Mapping by
+    # speaker ID would silently retrieve a different person's recording.
+    row=dict(AufnahmeID='2200',SprecherID='12',AufnahmeTyp='n',
+             Geschlecht='w',AufnahmeDatum='2001-12-13',Geburtsdatum='1975-07-07')
+    name='12_n_w_26_2200_a_h.wav'
+    assert member_for_name(name)=='2200/vowels/2200-a_h.nsp'
+    validate_metadata(name,row)
+    import pytest
+    with pytest.raises(ValueError):
+        validate_metadata('12_n_w_22_2200_a_h.wav',row)
+    with pytest.raises(ValueError):
+        validate_metadata(name,dict(row,SprecherID='13'))
 
 
 def tiny_vocoder():

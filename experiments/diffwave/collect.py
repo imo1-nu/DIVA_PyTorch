@@ -124,7 +124,7 @@ def collect(directory):
         '- 両条件について評価10件 × 4手法、全80個票を保存。評価によるモデル選択なし。','',
         '## 実測時間','',
         '| 処理 | 所要時間 |','| --- | ---: |',
-        f'| DIVA生成、984ペア、workers12 | {generation["seconds"]/60:.2f}分 |']
+        f'| DIVA生成、984ペア、workers{generation["workers"]} | {generation["seconds"]/60:.2f}分 |']
     for c in ('author','corrected'):
         t=json.loads((output/c/'training.json').read_text())
         lines.append(f'| CNN学習 `{c}`、1000epoch | {t["seconds"]/60:.2f}分 |')
@@ -133,7 +133,7 @@ def collect(directory):
         lines.append(f'| 学習済みモデルの50段推論 `{c}`、10件平均 | {sum(x["synthesis_seconds"] for x in r)/len(r):.3f}秒/件 |')
     lines.extend(['',
         f'環境: {environment["hardware"]["cpu"]}、{environment["hardware"]["gpu"]}、RAM {environment["hardware"]["ram"]}。',
-        '学習時間は学習ループの実測。mel前処理・環境構築・データ取得・事前検査は別。詳細な秒数はJSONに保存。','',
+        '学習時間は学習ループの実測。mel前処理・環境構築・データ取得・事前検査・誤ったID対応による破棄試行は別。詳細な秒数はJSONに保存。','',
         '## 評価10件の平均','',
         'PESQ、CSIG、CBAK、COVL、segSNRはいずれも高い値を良い方向とする。',
         '原著に負の複合指標があるため、ここでは切り詰め前を示す。標準の1–5制限版とSDもJSONに保存。','',

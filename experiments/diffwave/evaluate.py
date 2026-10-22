@@ -96,6 +96,8 @@ def evaluate(args):
     torch.use_deterministic_algorithms(True)
     device = torch.device(args.device)
     manifest = json.loads((directory/'manifest.json').read_text())
+    if not manifest.get('official_metadata_sha256'):
+        raise ValueError('Official data mapping validation is required')
     samples = [s for s in manifest['samples'] if s['split']=='test']
     if len(samples)!=10:
         raise ValueError('Expected all ten published test files')
